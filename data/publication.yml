@@ -9,22 +9,21 @@
 # Title & Description
 # ------------------------------------------------------------------------------
 
-title: New Deal Photography
-subtitle: The Works of Dorothea Lange and Walker Evans
+title: Cultural Cleansing and Mass Atrocities
+subtitle: Protecting Cultural Heritage in Armed Conflict Zones
 reading_line:
 short_title:
 
 description:
   one_line:
   full: >-
-    Quire is a digital publishing framework built on top of the Hugo static site
-    generator. Generate Web, PDF, and print books (with Epub coming soon) from a single set of text files.
+    *Cultural Cleansing and Mass Atrocities: Protecting Cultural Heritage in Armed Conflict Zones*, addresses the connection between cultural heritage and cultural cleansing, mass atrocities, and the destruction of cultural heritage. Pulling together various threads of discourse and research, Cultural Cleansing and Mass Atrocities outlines the issues, challenges, and options effecting change.
 
 # ------------------------------------------------------------------------------
 # Publication Details
 # ------------------------------------------------------------------------------
 
-pub_date:
+pub_date: 2017
 language: en
 pub_type: book # book | journal-periodical | other
 
@@ -44,23 +43,19 @@ publisher:
 contributor_as_it_appears:
 
 contributor:
-  - id: jkeller
+  - id: tgweiss
     type: primary
-    first_name: Judith
-    last_name: Keller
-    title: Senior Curator of Photographs
-    affiliation: J. Paul Getty Museum
-    bio: "Judith Keller joined the J. Paul Getty Museum in 1986 and since 2008 was an Associate Curator of Photographs. In 2010, she was named the Senior Curator of Photographs. Keller received her B.A. in Art History and a Masters in Museum Practice and Art History from the University of Michigan at Ann Arbor. She also completed course work for a Phd. in Art History at the University of Michigan. Prior to her tenure at the Getty, Keller worked at The University of Michigan Museum of Art (1979 – 1981) and at the Archer M. Huntington Art Gallery (now the Blanton Museum of Art) at The University of Texas, Austin, as Curator of Prints and Drawings."
-    url: http://news.getty.edu/judith-keller-named-senior-curator-photographs-at-j-paul-getty-museum.htm
-    pic: contributors/judith-keller.jpg
-  - type:
-    first_name:
-    last_name:
-    title:
-    affiliation:
-    bio:
-    url:
-    pic:
+    file_as: 1
+    first_name: Thomas G.
+    last_name: Weiss
+    bio: "Thomas G. Weiss is Presidential Professor of Political Science at the CUNY Graduate Center and Andrew Carnegie Fellow completing Would the World Be Better without the United Nations? (2018); he is also Director Emeritus (2001–14) of the Ralph Bunche Institute for International Studies. He is Past President of the International Studies Association (2009–10) and recipient of its IO Distinguished Scholar Award 2016. Earlier he directed the United Nations Intellectual History Project (1999–2010); he was Chair of the Academic Council on the UN System (2006–9), Editor of Global Governance, Research Director of the International Commission on Intervention and State Sovereignty, Research Professor at Brown University’s Watson Institute for International Studies, Executive Director of the Academic Council on the UN System and of the International Peace Academy, a member of the UN secretariat, and a consultant to public and private agencies. He has written extensively (some fifty-five books and two hundred fifty articles and book chapters) about multilateral approaches to international peace and security, humanitarian action, and sustainable development. His recent authored and coauthored volumes are Humanitarianism, War, and Politics: Solferino to Syria and Beyond (2018); The United Nations and Changing World Politics (2017); Humanitarianism Intervention: Ideas in Action (2016); What’s Wrong with the United Nations and How to Fix It (2016); Governing the World? Addressing “Problems without Passports” (2014); Global Governance: Why? What? Whither? (2013); Humanitarian Business (2013); Thinking about Global Governance: Why People and Ideas Matter (2011); Humanitarianism Contested: Where Angels Fear to Tread (2011); Global Governance and the UN: An Unfinished Journey (2010); and UN Ideas That Changed the World (2009)."
+  - id: nconnelly
+    type: primary
+    file_as: 2
+    first_name: Nina
+    last_name: Connelly
+    bio: "Nina Connelly is a research associate at the Ralph Bunche Institute of the CUNY Graduate Center, where she is researching international development and the United Nations. She is a PhD candidate in political science and teaches at Baruch College. Prior to graduate school, she worked with the International Rescue Committee."
+
 
 # ------------------------------------------------------------------------------
 # Copright & License
@@ -112,23 +107,10 @@ resource_link:
 # ------------------------------------------------------------------------------
 
 subject:
-  - type: bisac
-    name: PHOTOGRAPHY / Subjects & Themes / Historical
-    identifer: PHO023100
-  - type: getty
-    name: Dorothea Lange
-    identifier: "http://vocab.getty.edu/ulan/500007674"
-  - type: keyword
-    name: photography
-  - type: getty
-    name: Walker Evans
-    identifier: "http://vocab.getty.edu/ulan/500012076"
-  - type: getty
-    name: black-and-white photography
-    identifier: "http://vocab.getty.edu/aat/300162056"
-  - type: getty
-    name: despression (economic concept)
-    identifier: "http://vocab.getty.edu/aat/300410245"
+  - type:
+    name: 
+    identifer: 
+
 
 # ------------------------------------------------------------------------------
 # Revision History
