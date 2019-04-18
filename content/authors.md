@@ -1,6 +1,6 @@
 ---
 title: About the Authors
-weight: 102
+weight: 30
 type: page
 ---
 
