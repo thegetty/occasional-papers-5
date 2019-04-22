@@ -14,6 +14,9 @@ subtitle: Protecting Cultural Heritage in Armed Conflict Zones
 reading_line:
 short_title:
 
+series: J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy
+number_in_series: 1
+
 description:
   one_line:
   full: >-
@@ -23,7 +26,7 @@ description:
 # Publication Details
 # ------------------------------------------------------------------------------
 
-pub_date: 2017
+pub_date: 2017-12-19
 language: en
 pub_type: book # book | journal-periodical | other
 
@@ -40,7 +43,8 @@ publisher:
 # Contributors
 # ------------------------------------------------------------------------------
 
-contributor_as_it_appears:
+contributor_as_it_appears: Thomas G. Weiss <span class="small">and</span> Nina Connelly
+
 
 contributor:
   - id: tgweiss
