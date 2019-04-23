@@ -1,0 +1,93 @@
+/* Matching running heads from previous print editions */
+.quire-navbar-page-controls__item {
+  text-transform: uppercase;
+  letter-spacing: .75px;
+}
+
+/* Using Source Sans for better font-weight match */
+.quire-page__header .hero-body .label {
+  border-width: 0;
+  font-size: 4rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  margin-bottom: 0;  
+}
+
+/* Matching page headings */
+.quire-page h1, .quire-page__header__title {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.quire-page h2,
+.quire-page__content .content h2 {
+  font-family: 'Noto Serif', serif;
+  text-transform: inherit;
+  font-size: 1.25rem;
+  margin-bottom: 1.5em;
+}
+
+/* Updating cover for design match and to accomodate series info */
+.quire-cover__hero-body.hero-body {
+  flex-direction: column;
+}
+.hero-body .container.is-fluid.series-info {
+  color: #000;
+  text-transform: uppercase;
+  padding-top: 0;
+}
+.series-info .series-name {
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+.hero-body .container.is-fluid {
+  background: transparent;
+  position: relative;
+  width: 100%;
+  margin: 0;
+}
+.quire-cover__hero .subtitle {
+  font-size: calc(1.25rem * 2.25);
+}
+.quire-cover__hero .contributor {
+  font-size: calc(.75em * 2.25);
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  margin-top: 3em;
+}
+.quire-cover__hero .contributor .small {
+  font-size: .65em;
+}
+.quire-cover__hero .contributor em {
+  font-style: normal;
+}
+
+
+@media print {
+  .quire-page__header {
+    margin-bottom: 1.125in;
+  }
+  .hero-body {
+    padding: 0;
+  }
+  .quire-page__header .hero-body .label {
+    margin: 0;
+  }
+  .quire-page h1, .quire-page__header__title {
+    margin-top: 0;
+    text-align: left;
+    margin-left: .75in;
+    font-size: 20pt;
+  }
+  .quire-page h2,
+  .quire-page__content .content h2 {
+    font-size: 10.5pt;
+  }
+  .quire-page__content {
+    text-align: justify;
+  }
+  .quire-page__content .container .content p {
+    line-height: 1.7;
+  }
+}

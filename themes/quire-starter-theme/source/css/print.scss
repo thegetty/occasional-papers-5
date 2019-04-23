@@ -10,18 +10,20 @@
 // -----------------------------------------------------------------------------
 $print-base-text-column-width: 4.75in;
 
-$print-bottom-margin: 0.875in;
-$print-top-margin: 0.75in;
-$print-outer-margin: 0.75in;
-$print-inner-margin: 1in;
+$print-bottom-margin: 0.75in;
+$print-top-margin: 0.875in;
+$print-outer-margin: 1.125in;
+$print-inner-margin: .625in;
 
-@if $print-width <= 7 {
-  $print-inner-margin: $print-width - $print-base-text-column-width - $print-outer-margin;
-}
+$print-base-text-column-width: $print-width - $print-outer-margin - $print-inner-margin;
 
-@if $print-height <= 10 {
-  $print-top-margin: 0.5in;
-}
+// @if $print-width <= 7 {
+//   $print-inner-margin: $print-width - $print-base-text-column-width - $print-outer-margin;
+// }
+
+// @if $print-height <= 10 {
+//   $print-top-margin: 0.5in;
+// }
 
 $print-footer-font: $quire-headings-font;
 $print-footer-font-size: 8pt;
@@ -50,20 +52,27 @@ $print-trim: $print-bleed * 2;
     margin-left: $print-outer-margin;
     margin-right: $print-inner-margin;
 
-    @bottom-right {
-      content: string(sectiontitle);
+    @top-left {
+      content: string(pubseries);
       text-transform: uppercase;
-      letter-spacing: 1pt;
-      font-size: 7.5pt;
+      font-size: 7pt;
+      letter-spacing: .5pt;
+      margin-left: .75in;
     }
 
-    @bottom-left {
+    @top-left-corner {
       content: counter(page);
+      font-size: 12pt;
+      margin-left: $print-outer-margin;
+      margin-right: -.75in;
+      text-align: left;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 400;
     }
   }
 
   @page:left:first {
-    @bottom-right {
+    @top-right {
       content: none;
     }
   }
@@ -72,30 +81,40 @@ $print-trim: $print-bleed * 2;
     margin-left: $print-inner-margin;
     margin-right: $print-outer-margin;
 
-    @bottom-left {
-      content: string(pagetitle);
+    @top-right {
+      content: string(pubtitle);
+      text-transform: uppercase;
+      font-size: 7pt;
+      letter-spacing: .5pt;
+      text-align: right;
+      margin-right: .75in;
     }
 
-    @bottom-right {
-      text-align: right;
+    @top-right-corner {
       content: counter(page);
+      font-size: 12pt;
+      margin-right: $print-outer-margin;
+      margin-left: -.75in;
+      text-align: right;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-weight: 400;
     }
   }
 
   @page:right:first {
-    @bottom-left {
+    @top-left {
       content: none;
     }
   }
 
   @page frontmatter:left {
-    @bottom-left {
+    @top-left {
       content: counter(page, lower-roman);
     }
   }
   
   @page frontmatter:right {
-    @bottom-right {
+    @top-right {
       text-align: right;
       content: counter(page, lower-roman);
     }
@@ -103,14 +122,14 @@ $print-trim: $print-bleed * 2;
   
   @page frontmatter-splash:left {
     background-color: $print-splash-color;
-    @bottom-left {
+    @top-left {
       content: counter(page, lower-roman);
     }
   }
   
   @page frontmatter-splash:right {
     background-color: $print-splash-color;
-    @bottom-right {
+    @top-right {
       text-align: right;
       content: counter(page, lower-roman);
     }
@@ -132,26 +151,26 @@ $print-trim: $print-bleed * 2;
   }
 
   @page no-footer, entry-image, splash-image {
-    @bottom-right {
+    @top-right {
       content: none;
     }
   
-    @bottom-left {
+    @top-left {
       content: none;
     }
   }
   
   @page page-one:first {
-    @bottom-left {
+    @top-left {
       content: none;
     }
   }
   
   @page :blank {
-    @bottom-left {
+    @top-left {
       content: none;
     }
-    @bottom-right {
+    @top-right {
       content: none;
     }
   }
@@ -175,6 +194,14 @@ $print-trim: $print-bleed * 2;
   
   .pdf-page-label {
     string-set: pagelabel content();
+  }
+  
+  .pdf-publication-title {
+    string-set: pubtitle content();
+  }
+  
+  .pdf-publication-series {
+    string-set: pubseries content();
   }
 
   .quire-contents-list {
