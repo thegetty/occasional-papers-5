@@ -1,0 +1,11 @@
+---
+title: CONCLUSION
+weight: 12
+type: page
+---
+
+The primary conclusion of our argument is that the issues surrounding the forceful protection of heritage are far more morally complex than Weiss and Connelly, and those working on heritage more widely, acknowledge. In particular, one cannot simply apply a framework designed to prevent physical harms to people and their private property to the protection of heritage. The protection of heritage raises difficult philosophical questions about value, proportionality, individual liability to harm, and collateral damage with which any proposal for heritage protection must seriously engage.
+
+Part of our aim has been to disentangle two types of justification for heritage protection. Extrinsic justifications hold that protecting heritage is a means of achieving some other valuable goal, such as preventing genocide or terrorism. Intrinsic justifications focus instead on the value of heritage itself, citing the role of heritage in making people’s lives go well. We noted that Weiss and Connelly conflate these justifications. Their proposal is that one might intervene militarily to protect heritage for its own sake, even in the absence of threats of genocide, yet they offer no account of the permissibility of harming people for the sake of heritage.
+
+A further goal, then, has been to identify the kinds of moral claims such an account would need to defend. Foremost among these is the claim that a person can be liable to harm for the sake of heritage, the truth of which requires showing that one can meaningfully compare damage to heritage to harms to people. We noted that if one can indeed make such comparisons, they plausibly also permit the harming of innocent people for the sake of heritage—and, indeed, that Weiss and Connelly’s proposal requires that it is permissible to inflict such harms. One cannot wage military interventions without imposing substantial risks of serious harm on bystanders. But one must then show not that defense of heritage in general permits the imposing of substantial risks of serious harm. Rather, one must show that defending this site in particular justifies imposing such risks on those living in proximity to it. The degree of permissible collateral harms will not obviously correlate with the value attributed to a site by the international community. 
