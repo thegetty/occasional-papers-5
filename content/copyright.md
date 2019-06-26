@@ -1,4 +1,8 @@
 ---
+weight: 3
+type: page
+---
+
 [insert Getty logo] **Getty Publications**
 
 This publication has been funded by the President’s International Council, J. Paul Getty Trust.
@@ -29,4 +33,3 @@ __“Cultural Genocide and the Protection of Cultural Heritage”__
 Edward C. Luck
 
 Front cover: [TK caption + copyright notice]
----
