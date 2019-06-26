@@ -1,5 +1,10 @@
 ---
 title: Contents
+weight: 4
+type: contents
+class: list
+search: false
+---
 
 [Foreword](TK p.no.)
 [Introduction](TK)
@@ -11,9 +16,3 @@ title: Contents
 [Conclusions](TK)
 [Notes](TK)
 [About the Authors](TK)
-
-weight: 4
-type: contents
-class: list
-search: false
----
