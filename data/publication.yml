@@ -9,29 +9,33 @@
 # Title & Description
 # ------------------------------------------------------------------------------
 
-title: Cultural Cleansing and Mass Atrocities
-subtitle: Protecting Cultural Heritage in Armed Conflict Zones
+title: Conflict and Cultural Heritage
+subtitle: A Moral Analysis of the Challenges of Heritage Protection
 reading_line:
 short_title:
 
 series: J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy
-number_in_series: 1
+number_in_series: 3
 
 description:
   one_line:
   full: >-
-    *Cultural Cleansing and Mass Atrocities: Protecting Cultural Heritage in Armed Conflict Zones*, addresses the connection between cultural heritage and cultural cleansing, mass atrocities, and the destruction of cultural heritage. Pulling together various threads of discourse and research, Cultural Cleansing and Mass Atrocities outlines the issues, challenges, and options effecting change.
+    In the third issue of the J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy series, authors Helen Frowe and Derek Matravers pivot from the earlier tone of the series in discussing the appropriate response to attacks on cultural heritage with their paper, *“Conflict and Cultural Heritage: A Moral Analysis of the Challenges of Heritage Protection.”* While Frowe and Matravers acknowledge the importance of cultural heritage, they assert that we must more carefully consider the complex moral dimensions—the inevitable serious consequences to human beings—before formulating policy to forcefully protect it.
 
 # ------------------------------------------------------------------------------
 # Publication Details
 # ------------------------------------------------------------------------------
 
-pub_date: 2017-12-19
+pub_date: 2019-09-13
 language: en
-pub_type: book # book | journal-periodical | other
 
+pub_type: online # book | journal-periodical | other
 identifier:
-  isbn:
+  isbn: 978-1-60606-639-3
+
+pub_type: ebook # book | journal-periodical | other
+identifier:
+  isbn: 978-1-60606-640-9
 
 publisher:
   - name: J. Paul Getty Trust
@@ -112,8 +116,8 @@ resource_link:
 
 subject:
   - type:
-    name: 
-    identifer: 
+    name:
+    identifer:
 
 
 # ------------------------------------------------------------------------------
