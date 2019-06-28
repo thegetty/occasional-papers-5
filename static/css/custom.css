@@ -91,3 +91,17 @@
     line-height: 1.7;
   }
 }
+
+ /* Style footnotes using custom q-note shortcode */
+sup.quire-citation button {
+  border-bottom-width: 0;
+  font-weight: 600;
+  font-size: 1.125em;
+  margin-right: .125em;
+}
+sup.quire-citation button:hover {
+  border-bottom-width: 0;
+}
+sup.quire-citation .quire-citation__content {
+  font-size: 1.125em;
+}
