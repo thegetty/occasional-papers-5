@@ -1,87 +1,103 @@
 ---
 title: Notes
-weight: 20
+weight: 13
 type: page
 ---
 
-1. See ICISS, *The Responsibility to Protect* (Ottawa: International Development Research Centre, 2001); and Thomas G. Weiss and Don Hubert, eds., *The Responsibility to Protect: Research, Bibliography, Background* (Ottawa: International Development Research Centre, 2001).
+1. Thomas G. Weiss and Nina Connelly, “Cultural Cleansing and Mass Atrocities: Protecting Cultural Heritage in Armed Conflict Zones,” J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy, No. 1 (2017), 13, _www.getty.edu/publications/pdfs/CulturalCleansing_Weiss_Connelly.pdf_.
 
-2. Hugh Eakin, “Use Force to Stop ISIS’ Destruction of Art and History,” *New York Times*, 3 April 2015.
+2. Ibid., 16.
 
-3. Ban Ki-moon, *Implementing the Responsibility to Protect, Report of the Secretary-General*, UN document A/63/677, 12 January 2009.
+3. Ibid., 17, 42.
 
-4. She used the term in December 2014 in UNESCO, *Heritage and Cultural Diversity at Risk in Iraq and Syria*, 3 December 2014, available at www.unesco.org/new/fileadmin/MULTIMEDIA/HQ/CLT/CLT/pdf /IraqSyriaReport-en.pdf.
+4. Although see Hugh Eakin, “Use Force to Stop ISIS’ Destruction of Art and History,” *New York Times*, April 3, 2015. The UN did sanction the use of lethal force in defense of heritage in Mali, although such force was not used.
 
-5. Memo from James Cuno to the authors, 11 May 2017.
+5. Insofar as the archaeological community engages with ethical issues connected with war, its members seem largely preoccupied with the permissibility of their working with the military.
 
-6. UNESCO, “Reinforcement of UNESCO’s Action for the Protection of Culture and the Promotion of Cultural Pluralism in the Event of Armed Conflict,” document number C38/49, November 2015, paragraph 5, available at http://unesdoc.unesco.org/images/0023/002351/235186e.pdf.
+6. For example, Irina Bokova, “Culture on the Front Line of New Wars,” *Brown Journal of World Affairs* 22, no. 1 (2015): 289–96, at 292. For discussion, see Pierre Losson, “Does the International Trafficking of Cultural Heritage Really Fuel Military Conflicts?,” *Studies in Conflict and Terrorism* 40, no. 6 (2017): 484–95.
 
-7. For a theoretical discussion of why such destruction can be interpreted in strategic terms, see Matthew Clapperton, David Martin Jones, and M. L. R. Smith, “Iconoclasm and Strategic Thought: Islamic State and Cultural Heritage in Iraq and Syria,” *International Affairs* 93, no. 5 (2017): 1205–31.
+7. See, for example, Peter Stone (chair, UK Blue Shield), “The Blue Shield: Trying to Prevent Cultural Property Becoming a Victim of Armed Conflict,” Keynote Address, Conference on Digital Preservation of Cultural Heritage, November 19, 2013, available at www.youtube.com/watch?v=mOk25ZnzR-U.
 
-8. A. Dirk Moses, “Raphael Lemkin, Culture, and the Concept of Genocide,” in *The Oxford Handbook of Genocide Studies*, ed. Donald Bloxham and A. Dirk Moses (Oxford: Oxford University Press, 2010), 19–41. 
+8. See, for example, Laurie Rush, ed., *Archaeology, Cultural Property and the Military* (Woodbridge: Boydell Press, 2010); Joras D. Kila and Christopher V. Herndon, “Military Involvement in Cultural Property Protection: An Overview,” *Joint Forces Quarterly* 74, no. 3 (2016): 116–23, at 118.
 
-9. “Letter dated 31 March 2016 from the Permanent Representative of the Russian Federation to the United Nations addressed to the President of the Security Council,” UN document S/2016/296, available at https://www .un.org/ga/search/view_doc.asp?symbol=S/2016/298.
+9. Several such arguments are deployed in Yvette Foliant, “Cultural Property Protection Makes Sense: A Way to Improve Your Mission,” Civil-Military Cooperation Centre of Excellence, 2015, _https://www.cimic-coe.org/wp-content/uploads/2015/11/CPP-Makes-Sense-final-version-29-10-15.pdf_. Weiss and Connelly make the claims about economic costs and reconciliation; see “Cultural Cleansing and Mass Atrocities,” 13.
 
-10. A research project under the auspices of the University of Chicago’s Oriental Institute, titled “Modeling the Antiquities Trade in Iraq and Syria” (MANTIS), is working to accurately determine the value and purpose of the international trade in looted antiquities from Iraq and Syria. See https://oi.uchicago.edu/research/projects /mantis/our-work. 
+10. Raphael Lemkin, “Letter to James Rosenberg, 31 Sept 1948,” American Jewish Historical Society, Raphael Lemkin Collection, Call P154, box 1, folder 19, “Correspondence 1948.”
 
-11. Graciana del Castillo, *Obstacles to Peacebuilding* (London: Routledge, 2017).
+11. Weiss and Connelly, “Cultural Cleansing and Mass Atrocities,” 13.
 
-12. Commission on Global Governance, *Our Global Neighbourhood* (Oxford: Oxford University Press, 1995), 90.
+12. ICISS, “The Responsibility to Protect: Report of the International Committee on Intervention and State Sovereignty,” December 2001, 12; emphasis added; available at _http://responsibilitytoprotect.org/ICISS%20Report.pdf_.
 
-13. For ongoing legal debates about whether or not nonstate actors are bound to the terms of the 1954 Convention and its Second Protocol, see Zoë Howe, “Can the 1954 Hague Convention Apply to Non-State Actors? A Study of Iraq and Syria,” *Texas International Law Journal* 47, no. 2 (2012): 403–25; Kristin Hausler, “Culture under Attack: The Destruction of Cultural Heritage by Non-State Armed Groups,” *Santander Art and Culture Law Review* 2, no. 1 (2015): 117–45; and Patty Gerstenblith, “Beyond the 1954 Hague Convention,” in *Cultural Awareness in the Military: Developments and Implications for Future Humanitarian Cooperation*, ed. Robert Albro and Bill Ivey (New York: Palgrave Macmillan, 2014), 83–99.
+13. Edward C. Luck, “Cultural Genocide and the Protection of Cultural Heritage,” J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy, No. 2 (2018), 20, _www.getty.edu/publications/pdfs/CulturalGenocide_Luck.pdf_.
 
-14. UNESCO, “Expert Meeting on the ‘Responsibility to Protect’ as Applied to the Protection of Cultural Heritage in Armed Conflict, Final Report,” Paris, 26–27 November 2015, available at http://www.unesco.org/new /en/culture/themes/armed-conflict-and-heritage/governance-and-meetings/conferences/november-expert -meeting-responsiblity-to-protect. For a summary, see Sabine von Schorlemer, “The Usefulness of the ‘Respon-sibility to Protect’ as Applied to the Protection of Cultural Heritage in Armed Conflict,” in *Cultural Heritage Law and Ethics: Mapping the Recent Developments* (Geneva: Art-Law Centre, 2017), 71–93. For a recent overview of UNESCO’s work in this arena, see Mounir Bouchenaki, *Patrimoines mutilés: Ces trésors de l’humanité défigurés par la folie des hommes* (Paris: Erickbonnier, 2016).
+14. See, for example, T. Camber Warren, “Explosive Connections? Mass Media, Social Media, and the Geography of Collective Violence in African States,” *Journal of Peace Research* 52, no. 3 (2015): 297–311; T. Camber Warren, “Not By the Sword Alone: Soft Power, Mass Media and the Production of State Sovereignty,” *International Organization* 68, no. 1 (2014): 111–41; David Yanagizawa-Drott, “Propaganda and Conflict: Theory and Evidence from the Rwandan Genocide,” *Quarterly Journal of Economics* 129, no. 4 (2014): 1947–94.
 
-15. UNESCO, “Reinforcement of UNESCO’s Action for the Protection of Culture and the Promotion of Cultural Pluralism in the Event of Armed Conflict,” 2 November 2015, available at http://unesdoc.unesco.org/images /0023/002351/235186e.pdf.
+15. Warren, “Not By the Sword Alone,” 123.
 
-16. UNESCO, CLT/HER/EPR/16/7945, October 2016, available at http://en.unesco.org/system/files/consultation _docs_en.pdf.
+16. Weiss and Connelly, “Cultural Cleansing and Mass Atrocities,” 13.
 
-17. Available at http://www.diplomatie.gouv.fr/en/french-foreign-policy/cultural-diplomacy/events/article /conference-on-safeguarding-endangered-cultural-heritage-abu-dhabi-declaration.
+17. Some people claim that attacks on heritage are part of genocide. On this view, of course, to defend heritage is to prevent genocide. But this semantic move—broadening the definition of *genocide*—doesn’t show that one can use force to defend heritage. It simply makes it an open question whether one may use force to prevent genocide.
 
-18. UNESCO, “Decisions Adopted by the Executive Board at Its 201st Session,” 201 EX/Decisions, 5 June 2017, 42– 43, available at http://unesdoc.unesco.org/images/0024/002489/248900e.pdf.
+18. Bokova’s account of cultural genocide partly draws on this idea; see “Culture on the Front Line of New Wars,” 290.
 
-19. “Press Kit: Visit by the President of the French Republic to Abu Dhabi,” available at http://www.diplomatie.gouv .fr/IMG/pdf/16-3362-2_12_dossier_de_presse_abou_dabi_v5_2__ang_cle0954aa.pdf.
+19. The justificatory standard for detention is of course somewhat lower, but it would, we think, be naive to think that military interventions would involve merely detaining perpetrators rather than physically harming them.
 
-20. Security Council Report, “Briefing and Draft Resolution of Cultural Heritage in Armed Conflicts,” *What’s in Blue*, 23 March 2017, available at http://www.whatsinblue.org/2017/03/briefing-and-draft-resolution-on -protection-of-cultural-heritage-in-armed-conflicts.php. 
+20. Here we follow Joseph Raz’s influential taxonomy of value, as defended in *The Morality of Freedom* (Oxford: Oxford University Press, 1986), 178.
 
-21. See Rama Mani and Thomas G. Weiss, eds., *Responsibility to Protect: Cultural Perspectives in the Global South* (London: Routledge, 2011); and Mónica Serrano and Thomas G. Weiss, eds., *The International Politics of Human Rights: Rallying to the R2P Cause?* (London: Routledge, 2014).
+21. Janna Thompson, “War and the Protection of Property,” in *Civilian Immunity in War*, ed. Igor Primoratz (Oxford: Oxford University Press, 2007), 239–56, at 253. See also Janna Thompson, “Art, Property Rights and the Interests of Humanity,” *Journal of Value Inquiry* 38 (2004): 545–60.
 
-22. ICOMOS, *ICOMOS World Report 2006/2007 on Monuments and Sites in Danger* (Altenburg, Ger.: E. Reinhold- Verlag, 2008), 37–38, available at http://www.icomos.org/en/get-involved/inform-us/heritage-alert/heritage -at-risk-reports/116-english-categories/resources/publications/207-icomos-world-report-2006-2007-on -monuments-and-sites-in-danger.
+22. Weiss and Connelly, “Cultural Cleansing and Mass Atrocities,” 13. Bokova shares this view. See also James Henry Merryman, “Two Ways of Thinking about Cultural Property,” *American Journal of International Law* 80 (1986): 831–53; James Cuno, *Who Owns Antiquity?* (Princeton, NJ: Princeton University Press, 2008).
 
-23. Kofi Annan, “Two Concepts of Sovereignty,” *The Economist*, 16 September 1999.
+23. Thompson, “War and the Protection of Property,” 246.
 
-24. Larry Minear et al., *Humanitarianism under Siege: A Critical Review of Operation Lifeline Sudan* (Trenton, NJ: Red Sea Press, 1991).
+24. Weiss and Connelly, “Cultural Cleansing and Mass Atrocities,” 13.
 
-25. John Henry Merryman, “Two Ways of Thinking about Cultural Property,” *American Journal of International Law* 80, no. 4 (1986): 831–53. 
+25. Ibid., 6.
 
-26. Kwame Anthony Appiah, “Whose Culture Is It?,” in *Whose Culture? The Promise of Museums and the Debate over Antiquities*, ed. James Cuno (Princeton, NJ: Princeton University Press, 2009), 71.
+26. “Culture under Fire,” Forum for European Philosophy, London School of Economics, January 17, 2018, audio at _www.lse.ac.uk/website-archive/newsAndMedia/videoAndAudio/channels/publicLecturesAndEvents/player.aspx?id=3967_, at 38 minutes.
 
-27. See James Cuno, *Who Owns Antiquity? Museums and the Battle over Our Ancient Heritage* (Princeton, NJ: Princeton University Press, 2008), 50–51, 65, 68–71, 124–26; and James Cuno, *Museums Matter: In Praise of the Encyclopedic Museum* (Chicago: University of Chicago Press, 2011), 11–31. 
+27. Ibid., at 39 minutes.
 
-28. John Henry Merryman, “The Nation and the Object,” in Cuno, *Whose Culture?*, 183–203.
+28. http://ukblueshield.org.uk/, last accessed April 1, 2019.
 
-29. Neil MacGregor, “To Shape the Citizens of ‘That Great City, the World,’” in Cuno, *Whose Culture?*, 43.
+29. https://www.apollo-magazine.com/inside-the-unesco-conference-to-save-syrias-heritage/.
 
-30. Appiah, “Whose Culture Is It?,” 75.
+30. Bokova, “Culture on the Front Line of New Wars,” 294.
 
-31. See Thomas G. Weiss, “The Responsibility to Protect (R2P) and Modern Diplomacy,” in *The Oxford Handbook of Modern Diplomacy*, ed. Andrew Cooper, Jorge Heine, and Ramesh Thakur (Oxford: Oxford University Press, 2013), 763–78.
+31. “UNESCO reports on extensive damage in first emergency assessment mission to Aleppo,” available at http://whc.unesco.org/en/news/1619/.
 
-32. ICISS, *The Responsibility to Protect*; and Weiss and Hubert, eds., *The Responsibility to Protect: Research, Bibliography, Background*.
+32. Second Protocol (1999) to the 1954 Hague Convention for the Protection of Cultural Property in the Event of Armed Conflict, Art. 12.
 
-33. For interpretations by commissioners, see Gareth Evans, *The Responsibility to Protect: Ending Mass Atrocity Crimes Once and for All* (Washington, DC: Brookings Institution Press, 2008); and Ramesh Thakur, *The United Nations, Peace and Security: From Collective Security to the Responsibility to Protect*, 2nd ed. (Cambridge: Cambridge University Press, 2017). For commentaries, see Alex J. Bellamy, *Responsibility to Protect: The Global Effort to End Mass Atrocities* (Cambridge: Polity Press, 2009); Anne Orford, *International Authority and the Responsibility to Protect* (Cambridge: Cambridge University Press, 2011); and Aidan Hehir, *The Responsibility to Protect: Rhetoric, Reality, and the Future of Humanitarian Intervention* (Houndmills, Basingstoke, UK: Palgrave Macmillan, 2012). The interpretation of one of this paper’s authors can be found at Thomas G. Weiss, *Humanitarian Intervention: Ideas in Action*, 3rd ed. (Cambridge: Polity Press, 2016).
+33. ICISS, “The Responsibility to Protect,” 12.
 
-34. Francis M. Deng, “Frontiers of Sovereignty,” *Leiden Journal of International Law* 8, no. 2 (1995): 249–86; and Francis M. Deng, “Reconciling Sovereignty with Responsibility: A Basis for International Humanitarian Action,” in *Africa in World Politics: Post–Cold War Challenges*, ed. John W. Harbeson and Donald Rothschild (Boulder, CO: Westview, 1995), 295–310. For more details, see Thomas G. Weiss and David A. Korn, *Internal Displacement: Conceptualization and Its Consequences* (London: Routledge, 2006).
+34. Weiss and Connelly, “Cultural Cleansing and Mass Atrocities,” 38.
 
-35. *A More Secure World: Our Shared Responsibility* (New York: United Nations, 2004); and Kofi A. Annan, *In Larger Freedom: Towards Development, Security, and Human Rights for All* (New York: United Nations, 2005).
+35. Ibid., 34.
 
-36. UN, *2005 World Summit Outcome*, General Assembly resolution 60/1, 24 October 2005.
+36. Ibid., 38; emphasis added.
 
-37. Ban, *Implementing the Responsibility to Protect*.
+37. Ibid., 34.
 
-38. See Mohamed Sahnoun, “Foreword,” in Mani and Weiss, *Responsibility to Protect*, xx–xxii.
+38. Ibid., 45.
 
-39. Quoted by Robert Bevan, *The Destruction of Memory: Architecture at War*, 2nd ed. (London: Reaktion Books, 2016), 15.
+39. See, for example, Helen Frowe, *Defensive Killing* (Oxford: Oxford University Press, 2014); Massimo Renzo, “Political Self-Determination and Wars of National Defense,” *Journal of Moral Philosophy* 15, no. 6 (2018): 706–30; Helen Frowe, “Defending Defensive Killing,” *Journal of Moral Philosophy* 15, no. 6 (2018): 750–66.
 
-40. Thomas G. Weiss, Tatiana Carayannis, and Richard Jolly, “The ‘Third’ United Nations,” *Global Governance* 15, no. 1 (2009): 123–42.
+40. Weiss and Connelly, “Cultural Cleansing and Mass Atrocities,” 35.
 
-41. Middle East Institute, Asia Society, and the Antiquities Coalition, “Culture under Threat: Recommendations for the U.S. Government,” April 2016, available at http://www.academia.edu/30873427/Culture_Under_Threat _Recommendations_for_the_U.S_Government.
+41. See, for example, Helen Frowe, *The Ethics of War and Peace: An Introduction*, 2nd ed. (London: Routledge, 2015), 56–59.
+
+42. Proportionality is thought by some writers to subsume the requirement that force have a reasonable prospect of success. See, for example, Thomas Hurka, “Proportionality in the Morality of War,” *Philosophy and Public Affairs* 33, no. 1 (2005): 34–66; Jeff McMahan, “Just Cause for War,” *Ethics and International Affairs* 19, no. 3 (2005): 1–21, at 5. For criticism, see Frowe, *Defensive Killing*, 148–53. The relationship between proportionality and necessity is complex (see, for example, Seth Lazar, “Necessity in Self-Defense and War,” *Philosophy and Public Affairs* 40, no. 1 [2012]: 3–44), but our characterization here is that standardly employed by just war theorists.
+
+43. As evidenced by the Hague Convention, the lack of clarity concerning necessity and proportionality also plagues attempts to regulate the destruction and protection of heritage during war.
+
+44. Weiss and Connelly, “Cultural Cleansing and Mass Atrocities,” 45.
+
+45. See, for example, Jeff McMahan, *Killing in War* (Oxford: Oxford University Press, 2009); Adil Ahmad Haque, *Law and Morality at War* (New York: Oxford University Press, 2017).
+
+46. For discussion of defense against political threats (i.e., threats to sovereignty), see David Rodin, “The Myth of National Self-Defence,” in *The Morality of Defensive War*, ed. Cécile Fabre and Seth Lazar (Oxford: Oxford University Press, 2014), 69–89; Jeff McMahan, “What Rights May Be Defended by Means of War?,” in Fabre and Lazar, *The Morality of Defensive War*, 115–56; Helen Frowe, “Can Reductive Individualists Allow Defence against Political Aggression?,” in *Oxford Studies in Political Philosophy: Volume 1*, ed. David Sobel, Peter Vallentyne, and David Wall (Oxford: Oxford University Press, 2015), 173–93; Renzo, “Political Self-Determination and Wars of National Defence.”
+
+47. For discussion of defense against unjust occupation of one’s home (and comparisons with defensive war), see Rodin, “The Myth of National Self-Defence,” 84–85; Frowe, “Can Reductive Individualists Allow Defence against Political Aggression?,” 183–86.
+
+48. Philosophers disagree about whether (some) harms that do not themselves warrant lethal defense can warrant such defense when aggregated. See McMahan, “What Rights May Be Defended by Means of War?”; Rodin, “The Myth of National Self-Defence”; Frowe, *Defensive Killing*, 125–29.
+
+49. For discussion of the concern regarding children, see Jeff McMahan, “Humanitarian Intervention, Consent, and Proportionality,” in *Ethics and Humanity: Themes from the Philosophy of Jonathan Glover*, ed. N. Ann Davis, Richard Keshen, and Jeff McMahan (Oxford: Oxford University Press, 2010), 53; Helen Frowe, “Judging Armed Humanitarian Intervention,” in *The Ethics of Armed Humanitarian Intervention*, ed. Don E. Scheid (Cambridge: Cambridge University Press, 2014), 95–112, at 108–9.
