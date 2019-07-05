@@ -1,10 +1,5 @@
 ---
-title: J. PAUL GETTY TRUST OCCASIONAL PAPERS
-IN CULTURAL HERITAGE POLICY
-
-NUMBER 3
-2019
-
+title: Cover
 weight: 1
 menu: false
 type: cover

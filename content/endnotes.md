@@ -2,6 +2,7 @@
 title: Notes
 weight: 13
 type: page
+layout: notes
 ---
 
 1. Thomas G. Weiss and Nina Connelly, “Cultural Cleansing and Mass Atrocities: Protecting Cultural Heritage in Armed Conflict Zones,” J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy, No. 1 (2017), 13, _www.getty.edu/publications/pdfs/CulturalCleansing_Weiss_Connelly.pdf_.

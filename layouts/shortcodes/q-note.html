@@ -1,0 +1,43 @@
+{{/*
+
+  Adapted from the q-cite shortcode. This shortcode adds a pop-up footnote
+  reference to the text. The first positional parameter is an id that should 
+  correspond to one in the `notes.yml` file.
+
+  {{< q-note "1" >}}
+
+*/}}
+
+{{- $errorMissingValue := dict "shortcode" "q-cite" "message" "This shortcode needs at least one value, and should correspond to an `id` in the `notes.yml` file." "example" "{{< q-note &#34;1&#34; >}}" -}}
+
+{{- $errorMissingReference := dict "shortcode" "q-cite" "message" "The value supplied doesn’t match and `id` in the project’s `notes.yml` file" "example" "{{< q-note &#34;1&#34; >}}<br /><br />id: &#34;1&#34;" -}}
+
+{{- if lt (len .Params) 1 -}}
+
+  {{- partial "error-message.html" $errorMissingValue -}}
+
+{{- else -}}
+
+  {{- $noteNumber := .Get 0 -}}
+
+  {{- range $.Site.Data.notes.notes_list -}}
+      {{- if eq .id $noteNumber -}}
+          {{- $.Scratch.Add "noteText" .note -}}
+      {{- end -}}
+  {{- end -}}
+
+  {{- if eq ($.Scratch.Get "noteText") nil -}}
+
+    {{- partial "error-message.html" $errorMissingReference -}}
+
+  {{- else -}}
+
+    {{- $noteText := $.Scratch.Get "noteText" -}}  
+    <sup class="quire-citation expandable" id="fnref:{{ $noteNumber }}">
+      <button aria-expanded="false">{{ $noteNumber }}</button>
+      <span hidden class="quire-citation__content"><span class="visually-hidden">Citation: </span>{{- markdownify $noteText -}}</span>
+    </sup>
+
+  {{- end -}}
+
+{{- end -}}
