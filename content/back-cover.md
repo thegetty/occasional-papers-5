@@ -1,6 +1,6 @@
 ---
-type:
-weight:
+type: page
+weight: 15
 ---
 
 [insert Getty logo] **Getty Publications**
