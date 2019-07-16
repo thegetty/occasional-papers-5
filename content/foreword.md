@@ -1,5 +1,5 @@
 ---
-title: FOREWORD
+title: Foreword
 weight: 5
 type: page
 contributor_byline: false
