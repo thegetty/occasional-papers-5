@@ -51,8 +51,11 @@
   width: 100%;
   margin: 0;
 }
+.quire-cover__hero .title {
+  font-size: 3.75rem;
+}
 .quire-cover__hero .subtitle {
-  font-size: calc(1.25rem * 1.75);
+  font-size: calc(1.15rem * 1.75);
   line-height: 1.15;
 }
 .quire-cover__hero .contributor {
