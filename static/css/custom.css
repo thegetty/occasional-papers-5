@@ -31,11 +31,15 @@
 /* Updating cover for design match and to accomodate series info */
 .quire-cover__hero-body.hero-body {
   flex-direction: column;
+  margin-left: 50%;
+  margin-right: 5%;
 }
 .hero-body .container.is-fluid.series-info {
-  color: #000;
+  color: #fff;
   text-transform: uppercase;
-  padding-top: 0;
+  padding-top: 2.5rem;
+  font-size: .875rem;
+  padding-right: 25%;
 }
 .series-info .series-name {
   font-weight: 700;
@@ -48,13 +52,14 @@
   margin: 0;
 }
 .quire-cover__hero .subtitle {
-  font-size: calc(1.25rem * 2.25);
+  font-size: calc(1.25rem * 1.75);
+  line-height: 1.15;
 }
 .quire-cover__hero .contributor {
-  font-size: calc(.75em * 2.25);
+  font-size: calc(.75em * 1.75);
   text-transform: uppercase;
   letter-spacing: .5px;
-  margin-top: 3em;
+  margin-top: 7em;
 }
 .quire-cover__hero .contributor .small {
   font-size: .65em;
@@ -104,4 +109,9 @@ sup.quire-citation button:hover {
 }
 sup.quire-citation .quire-citation__content {
   font-size: 1.125em;
+}
+
+#copyright .backmatter p {
+  text-indent: 0;
+  margin-bottom: 1em;
 }
