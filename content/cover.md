@@ -5,10 +5,5 @@ menu: false
 type: cover
 slug: .
 toc: false
-image: cover-background.jpg
+image: cover-a.jpg
 ---
-
-## Conflict and Cultural Heritage
-## A Moral Analysis of the Challenges of Heritage Protection
-
-Helen Frowe and Derek Matravers
