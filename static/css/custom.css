@@ -2,6 +2,17 @@
 .quire-navbar-page-controls__item {
   text-transform: uppercase;
   letter-spacing: .75px;
+  font-weight: 600;
+}
+  
+/* Adjusting navbar display */
+.quire-progress-bar {
+  background-color: #544842;
+  height: 3px;
+}
+.quire-menu__formats h6 {
+  color: #a19b97;
+  border-color: #a19b97;
 }
 
 /* Using Source Sans for better font-weight match */
@@ -11,6 +22,8 @@
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 300;
   margin-bottom: 0;  
+  background-color: inherit;
+  color: #2f2019;
 }
 
 /* Matching page headings */
@@ -25,7 +38,7 @@
   font-family: 'Noto Serif', serif;
   text-transform: inherit;
   font-size: 1.25rem;
-  margin-bottom: 1.5em;
+  margin-top: 1.5em;
 }
 
 /* Updating cover for design match and to accomodate series info */
@@ -70,6 +83,9 @@
 .quire-cover__hero .contributor em {
   font-style: normal;
 }
+.quire-cover__more .hero-more {
+  background-color: #9f9d00;
+}
 
 
 @media print {
@@ -100,10 +116,15 @@
   }
 }
 
+/* Making button text read better */
+.quire-contents-buttons li.quire-nav-button a {
+  font-size: 18px;
+  letter-spacing: .5px;
+}
+
  /* Style footnotes using custom q-note shortcode */
 sup.quire-citation button {
   border-bottom-width: 0;
-  font-weight: 600;
   font-size: 1.125em;
   margin-right: .125em;
 }
@@ -114,7 +135,16 @@ sup.quire-citation .quire-citation__content {
   font-size: 1.125em;
 }
 
-#copyright .backmatter p {
+/* Overriding default color */
+strong {
+  color: #2f2019;
+}
+.backmatter .quire-copyright__icon * {
+  fill: #2f2019;
+}
+
+/* Styling copyright and about pages */
+.quire-page__content .content .backmatter p {
   text-indent: 0;
-  margin-bottom: 1em;
+  margin-bottom: 1rem;
 }
