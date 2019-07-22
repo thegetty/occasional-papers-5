@@ -45,8 +45,8 @@
     font-size: .65rem;
   }
 
-  @include foreground-color($quire-navbar-color,$quire-navbar-text-color);
-  background-color: $quire-navbar-color;
+  @include foreground-color($off-black,$quire-navbar-text-color);
+  background-color: $off-black;
   min-height: $navbar-height;
   top: 0 !important;
   width: 100%;

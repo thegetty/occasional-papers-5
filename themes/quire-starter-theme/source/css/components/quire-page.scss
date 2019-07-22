@@ -140,6 +140,7 @@ html {
     position: relative;
     animation: .5s ease 0s 1 slideFromRight;
     color: background-color-text-classic($content-background-color);
+    color: $off-black;
     @media print {
       color: $print-text-color;
     }
@@ -322,6 +323,7 @@ html {
               letter-spacing: .25px;
             }
             color: background-color-text-classic($content-background-color);
+            color: $off-black;
             @media print {
               color: $print-text-color;
             }
@@ -331,6 +333,7 @@ html {
             margin-top: 20px;
             padding-bottom: 6px;
             border-bottom: 1px solid background-color-text-classic($content-background-color);
+            border-bottom-color: $off-black;
             @media print {
               border-color: $print-text-color;
             }
@@ -686,7 +689,9 @@ html {
       line-height: 1.6;
       @if $theme == classic {
         color: background-color-text-classic($content-background-color);
+        color: $off-black;
         border-bottom: 1px dotted background-color-text-classic($content-background-color);
+        border-bottom-color: $off-black; 
       } @else {
         color: $accent-color;
         border-bottom: 1px dotted $accent-color;

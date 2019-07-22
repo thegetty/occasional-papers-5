@@ -6,15 +6,15 @@
 // To avoid errors, variables names should not be changed or deleted, and be
 // sure to leave the colons (:) and semi-colons (;) in place.
 
-$accent-color: #0076D1;
+$accent-color: #9f9d00;
 $content-background-color: null; // main text area background color
 $secondary-background-color: #fff; // only for modern theme
 
 // Declare the theme: modern/classic
-$theme: modern;
+$theme: classic;
 
 // Declare the navbar color style: normal/accent
-$navbar: normal;
+$navbar: accent;
 
 
 // Pre-defined fonts
@@ -106,7 +106,7 @@ $quire-navbar-text-color: null;
   $quire-navbar-text-color: $white !default;
 } @else {
   // Normal Navbar (default)
-  $quire-navbar-color: $white !default;
+  $quire-navbar-color: $off-white !default;
   $quire-navbar-hover-color: darken($quire-navbar-color, 5%) !default;
   @if $theme == classic {
     $quire-navbar-text-color: lighten($off-black, 20%) !default;
