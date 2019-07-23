@@ -46,12 +46,16 @@ Any revisions or corrections made to this publication after the first edition da
 
 © 2019 J. Paul Getty Trust
 
-
-
 {{< q-class "cc-icon" >}}
 <svg class="quire-copyright__icon">
 <switch>
   <use xlink:href="#cc"></use>
+</switch>
+<switch>
+  <use xlink:href="#cc-by"></use>
+  <foreignObject width="135" height="30">
+      <img src="/icons/cc-by.png" alt="CC-BY-NC" />
+  </foreignObject>
 </switch>
 <switch>
   <use xlink:href="#cc-by-nc"></use>

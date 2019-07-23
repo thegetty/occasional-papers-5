@@ -15,7 +15,7 @@ This publication has been funded by the President’s International Council, J. 
 
 © 2019 J. Paul Getty Trust
 
-![cc-by-nc](/img/cc-by-nc--black.png)
+![cc-by-nc](/img/cc-by-nc.png)
 
 The text of this work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licensed/by-nc/4.0/. The cover image is reproduced with the permission of the rights holder acknowledged in the caption and is expressly excluded from the CC BY-NC license covering the rest of this publication. The image may not be reproduced, copied, transmitted, or manipulated without consent from the owner, who reserves all rights.
 
