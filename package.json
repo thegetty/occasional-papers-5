@@ -1,5 +1,5 @@
 {
-  "name": "cva10-deploy",
+  "name": "quire-deploy",
   "version": "1.0.0",
   "description": "scripts to run webpack to build js & css",
   "private": true,
