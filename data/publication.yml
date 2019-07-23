@@ -1,3 +1,5 @@
+--- # ------------------------------------------------------------------------------
+
 # ==============================================================================
 # Publication.yml
 # ------------------------------------------------------------------------------
@@ -7,8 +9,6 @@
 
 # ------------------------------------------------------------------------------
 # Title & Description
-# ------------------------------------------------------------------------------
-
 title: Conflict and Cultural Heritage
 subtitle: A Moral Analysis of the Challenges of Heritage Protection
 reading_line:
@@ -59,7 +59,6 @@ contributor:
     last_name: Matravers
     bio: "**Derek Matravers** is Professor of Philosophy at the Open University and a senior member of Darwin College, Cambridge. He studied for his undergraduate degree at University College London before moving to Cambridge for his PhD. He has held visiting professorships at universities in Canada, New Zealand, and China. His recent work includes *Introducing Philosophy of Art: Eight Case Studies* (Routledge, 2013), *Fiction and Narrative* (Oxford, 2014), and *Empathy* (Polity, 2017). In addition, he is the author of *Art and Emotion* (Oxford, 1998), as well as numerous articles on aesthetics, ethics, and the philosophy of mind. He is the editor, with Paloma Atencia-Linares, of the *British Journal of Aesthetics*. Since 2017 he has, along with Helen Frowe, directed the AHRC-funded project “Heritage in War.”"
 
-
 # ------------------------------------------------------------------------------
 # Copright & License
 # ------------------------------------------------------------------------------
@@ -69,7 +68,7 @@ copyright: © 2017 J. Paul Getty Trust
 license:
   name: Creative Commons Attribution-NonCommercial 4.0 International Public License
   abbreviation: CC BY-NC
-  url: http://creativecommons.org/licenses/by-nc/4.0/
+  url: https://creativecommons.org/licenses/by-nc/4.0/
   scope: full # full | text-only | some-exceptions
 
 # ------------------------------------------------------------------------------
@@ -113,7 +112,6 @@ subject:
   - type:
     name:
     identifer:
-
 
 # ------------------------------------------------------------------------------
 # Revision History
