@@ -71,8 +71,8 @@ This text of this work is licensed under a [Creative Commons Attribution-NonComm
 This publication has been funded by the President’s International Council, J. Paul Getty Trust.
 
 **Published by Getty Publications**<br />
-1200 Getty Center Drive, Suite 500<br />
-Los Angeles, California 90040-1682<br />
+1200 Getty Center Drive<br />
+Los Angeles, California 90049<br />
 [www.getty.edu/publications](http://www.getty.edu/publications)
 
 Also in the series:
