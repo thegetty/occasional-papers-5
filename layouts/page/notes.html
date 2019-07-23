@@ -16,11 +16,13 @@
         {{ . }}
         <hr />
         {{ end }}
-        <ol>
-        {{- range $.Site.Data.notes.notes_list -}}
-          <li id="fnref:{{ .id | urlize }}">{{ .note | markdownify }}</li>
-        {{ end }}
-        </ol>
+        <div class="backmatter">
+          <ol>
+          {{- range $.Site.Data.notes.notes_list -}}
+            <li id="fnref:{{ .id | urlize }}">{{ .note | markdownify }}</li>
+          {{ end }}
+          </ol>
+        </div>
       </div>
     </div>
   </section>

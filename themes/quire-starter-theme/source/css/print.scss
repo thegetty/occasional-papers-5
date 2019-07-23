@@ -154,11 +154,16 @@ $print-trim: $print-bleed * 2;
     @top-right {
       content: none;
     }
-  
+    @top-right-corner {
+      content: none;
+    }
     @top-left {
       content: none;
     }
-  }
+    @top-left-corner {
+      content: none;
+    }
+  } 
   
   @page page-one:first {
     @top-left {

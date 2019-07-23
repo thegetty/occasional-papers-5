@@ -29,7 +29,7 @@
 /* Matching page headings */
 .quire-page h1, .quire-page__header__title {
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: .5px;
   font-size: 2.5rem;
   font-weight: 700;
 }
@@ -87,9 +87,17 @@
   background-color: #9f9d00;
 }
 
+/* Handle contributor bio/name a little differently */
+.quire-contributor__bio {
+  line-height: 1.7;
+}
+.quire-contributor .title {
+  display: none;
+}
 
 @media print {
   .quire-page__header {
+    margin-top: .5in;
     margin-bottom: 1.125in;
   }
   .hero-body {
@@ -108,11 +116,111 @@
   .quire-page__content .content h2 {
     font-size: 10.5pt;
   }
-  .quire-page__content {
+  .quire-page__content,
+  .quire-page__content .media-content {
     text-align: justify;
   }
   .quire-page__content .container .content p {
     line-height: 1.7;
+  }
+  .quire-cover__hero {
+    display: none;
+  }
+  .title-page {
+    text-align: left;
+    padding-left: 1.375in;
+    padding-right: 1.125in;  
+    padding-top: .875in;
+  }
+  .title-page .series-name,
+  .title-page .series-number,
+  .title-page .pub-date {
+    text-transform: uppercase;
+    letter-spacing: .5pt;
+    font-weight: 600;
+    font-size: .875em;
+  }
+  .title-page .series-name {
+    max-width: 3in;
+    margin-bottom: 1.5em;
+  }
+  .title-page .title-tp {
+    color: black;
+    font-size: 5.5em;
+    letter-spacing: -.5pt;
+    margin-top: 1.125in;
+  }
+  .title-page .contributor {
+    text-transform: uppercase;
+    margin-top: 1.25in;
+    font-size: 1.5em;
+  }
+  .title-page .contributor .small {
+    font-size: .625em;
+    display: inline;
+  }
+  .title-page .publisher {
+    text-transform: none;
+    letter-spacing: 0;
+    bottom: .875in;
+    right: inherit;
+    font-size: 1em;
+  }
+  #copyright .quire-page,
+  #contents .quire-page {
+    page: no-footer;
+  }
+  #copyright,
+  #contents {
+    margin-top: .5in;
+  }
+  #copyright .quire-page__content {
+    text-align: left; 
+    max-width: 4.25in;
+    margin-left: 0;
+  }
+  #copyright .quire-page__header.hero {
+    display: none;
+  }
+  #copyright img {
+    max-height: .25in;
+    margin-bottom: -4pt;
+  }
+  #copyright img[alt='getty logo'] {
+    margin-top: .5in;
+    margin-bottom: 1.375in;
+  }
+  #copyright .quire-page__content .container .content hr::after {
+    content: none;
+  }
+  #copyright .quire-page__content .container .content hr {
+    background-color: #000;
+    width: 3in;
+    height: .5pt;
+  }  
+  #contents .quire-contents-list,
+  #contents .quire-page__header__title {
+    margin-left: 1.75in;
+  }
+  #contents .quire-page__content .menu-list a {
+    font-weight: 600;
+    text-align: left;
+  }
+  #contents .quire-contents-list .contributor {
+    display: none;
+  }
+  .quire-contents-list .page-item a::after {
+    content: leader(' ') ' ' target-counter(attr(href, url), page);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.25em;
+    font-weight: 400;
+  }
+  p {
+    orphans: 2;
+    widows: 2;
+  }
+  .quire-page__content .container .content li {
+    margin-bottom: 0;
   }
 }
 
