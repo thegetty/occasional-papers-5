@@ -45,6 +45,7 @@
 }
 
 .quire:not(.no-js) .quire__primary #main,
+.quire #main,
 .quire-page__header,
 .quire-page__content .container .content {
   background-color: whitesmoke;
@@ -55,30 +56,28 @@
   background-color: #000;
   background-image: none;
 }
+.hero.is-fullheight .hero-body {
+  padding: 0;
+}
 .quire-cover__hero-body.hero-body {
   flex-direction: column;
   margin-left: 50%;
   margin-right: 5%;
+  margin-top: 1.5rem;
 }
-.hero-body .container.is-fluid.series-info {
+.quire-cover__hero .series-info {
   color: #fff;
   text-transform: uppercase;
-  padding-top: 2.5rem;
   font-size: .875rem;
   padding-right: 25%;
 }
-.series-info .series-name {
+.quire-cover__hero .series-info .series-name {
   font-weight: 700;
   margin-bottom: 1em;
 }
-.hero-body .container.is-fluid {
-  background: transparent;
-  position: relative;
-  width: 100%;
-  margin: 0;
-}
 .quire-cover__hero .title {
   font-size: 3.75rem;
+  margin-top: 10vh;
 }
 .quire-cover__hero .subtitle {
   font-size: calc(1.15rem * 1.75);
@@ -88,7 +87,7 @@
   font-size: calc(.75em * 1.75);
   text-transform: uppercase;
   letter-spacing: .5px;
-  margin-top: 7em;
+  margin-top: 15vh;
 }
 .quire-cover__hero .contributor .small {
   font-size: .65em;
