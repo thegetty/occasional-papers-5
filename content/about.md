@@ -6,11 +6,9 @@ epub: false
 search: false
 ---
 
-In the third issue of the J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy series, authors Helen Frowe and Derek Matravers pivot from the earlier tone of the series in discussing the appropriate response to attacks on cultural heritage with their paper, “Conflict and Cultural Heritage: A Moral Analysis of the Challenges of Heritage Protection.” While Frowe and Matravers acknowledge the importance of cultural heritage, they assert that we must more carefully consider the complex moral dimensions—the inevitable serious consequences to human beings—before formulating policy to forcefully protect it.
+In 2016, in response to recent attacks on cultural heritage sites in Syria, Iraq, and Timbuktu, the J. Paul Getty Trust convened a meeting at the British Academy in London to discuss the need for an international framework for the protection of cultural heritage in zones of armed conflict. To further explore these questions and stimulate debate, the Trust subsequently launched the series J. Paul Getty Trust Occasional Papers in Cultural Heritage policy.
  
-A number of writers and thinkers working on the problem of preserving the world’s most treasured monuments, sites, and objects today cite what Frowe and Matravers call extrinsic and intrinsic justifications for the protection of cultural heritage. These are arguments that maintain that protecting heritage will be a key means to achieve other important goals, like the prevention of genocide, or arguments that heritage deserves to be forcefully protected for its own sake. Frowe and Matravers deconstruct both types of justifications, demonstrating a lack of clear evidence for a causal relationship between the destruction of cultural heritage and atrocities like genocide and arguing that the defense of heritage must not be treated with the same weight or urgency, or according to the same international policies, as the defense of human lives.
- 
-By calling for expanded theory and empirical data and the consideration of morality in the crafting of international policy vis-à-vis cultural heritage protection, Frowe and Matravers present a thoughtful critique that enriches this important series and adds to the ongoing dialogue in the field. Their paper, along with the other Occasional Papers, is free and downloadable online.
+In this third issue of the series, authors Helen Frowe and Derek Matravers pose a key question: what is the appropriate response to attacks on cultural heritage? They assert that we must more carefully consider the morality of using deadly military force to protect cultural heritage. Frowe and Matravers question the leading argument that there is a causal relationship between the destruction of cultural heritage and genocide, and they further argue that the defense of heritage must not be treated with the same weight or urgency—and thus should not be formally protected according to the same international policies—as the defense of human lives. By calling for expanded theory, empirical data, and the consideration of morality in the crafting of international resolutions, Frowe and Matravers present a thoughtful critique that enriches the Getty’s series.
 
 {{< q-class "backmatter" >}}
 
@@ -80,6 +78,8 @@ Also in the series:
 [“Cultural Cleansing and Mass Atrocities: Protecting Cultural Heritage in Armed Conflict Zones”](http://getty.edu/publications/pdfs/CulturalCleansing_Weiss_Connelly.pdf) Thomas G. Weiss and Nina Connelly
 
 [“Cultural Genocide and the Protection of Cultural Heritage”](http://getty.edu/publications/pdfs/CulturalGenocide_Luck.pdf) Edward C. Luck 
+
+---
 
 Front cover: A boy stands at the entrance of a destroyed building in Mosul, Iraq, March 14, 2018. Photo: Ahmad Al-Rubaye / Getty Images
 
