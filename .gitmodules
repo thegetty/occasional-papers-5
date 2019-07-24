@@ -1,0 +1,3 @@
+[submodule "static/img/cover"]
+	path = static/img/cover
+	url = git@github.com:thegetty/occasional-papers-images.git
