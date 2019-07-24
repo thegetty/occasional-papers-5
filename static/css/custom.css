@@ -7,15 +7,23 @@
   
 /* Adjusting navbar display */
 .quire-progress-bar {
-  background-color: #544842;
+  background-color: #1e3253;
+  background-color: #3d5a88;
   height: 6px;
+}
+#cover .quire-progress-bar {
+  background-color: #102343;
+}
+#cover .quire-progress-bar div {
+  background-color: #3f5479;
 }
 .quire-progress-bar div {
   height: 6px;
+  background-color: #768fb8;
 }
 .quire-menu__formats h6 {
-  color: #a19b97;
-  border-color: #a19b97;
+  color: #647a9f;
+  border-color: #647a9f;
 }
 
 /* Using Source Sans for better font-weight match */
@@ -26,7 +34,7 @@
   font-weight: 300;
   margin-bottom: 0;  
   background-color: inherit;
-  color: #2f2019;
+  color: #000f27;
 }
 
 /* Matching page headings */
@@ -96,10 +104,11 @@
   font-style: normal;
 }
 .quire-cover__more .hero-more {
-  background-color: #63b1d7;
+  background-color: #5a6283;
+  background-color: #647a9f;
 }
 .quire-cover .quire-page__content .container.is-fluid .content {
-  color: #2f2019;
+  color: #000f27;
 }
 
 /* Handle contributor bio/name a little differently */
@@ -265,10 +274,10 @@ sup.quire-citation .quire-citation__content {
 
 /* Overriding default color */
 strong {
-  color: #2f2019;
+  color: #000f27;
 }
 .backmatter .quire-copyright__icon * {
-  fill: #2f2019;
+  fill: #000f27;
 }
 
 /* Styling copyright and about pages */
