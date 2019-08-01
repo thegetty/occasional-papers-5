@@ -9,8 +9,6 @@ toc: false
 
 {{< q-class "backmatter" >}}
 
-![getty logo](/img/logo-getty-black.png)
-
 This publication has been funded by the President’s International Council, J. Paul Getty Trust.
 
 © 2019 J. Paul Getty Trust

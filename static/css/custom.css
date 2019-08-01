@@ -218,6 +218,9 @@
     max-width: 4.25in;
     margin-left: 0;
   }
+  #copyright .quire-page__content .container .content .backmatter {
+    padding-top: 2.125in;
+  }
   #copyright .quire-page__header.hero {
     display: none;
   }
@@ -225,10 +228,10 @@
     max-height: .25in;
     margin-bottom: -4pt;
   }
-  #copyright img[alt='getty logo'] {
+  /* #copyright img[alt='getty logo'] {
     margin-top: .5in;
     margin-bottom: 1.375in;
-  }
+  } */
   #copyright .quire-page__content .container .content hr::after {
     content: none;
   }
