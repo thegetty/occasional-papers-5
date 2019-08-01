@@ -58,6 +58,14 @@
 .quire-page__content .container .content {
   background-color: whitesmoke;
 }
+@media print {
+  .quire:not(.no-js) .quire__primary #main,
+  .quire #main,
+  .quire-page__header,
+  .quire-page__content .container .content {
+    background-color: #fff;
+  }
+}
 
 /* Updating cover for design match and to accomodate series info */
 .quire-cover__hero {
@@ -119,9 +127,11 @@
   display: none;
 }
 
-#contents .quire-contents-list .menu-list a {
-  font-family: 'Noto Serif', serif;
-  font-size: 1em;
+@media screen {
+  #contents .quire-contents-list .menu-list a {
+    font-family: 'Noto Serif', serif;
+    font-size: 1em;
+  }
 }
 
 @media print {
@@ -174,7 +184,7 @@
     margin-bottom: 1.5em;
   }
   .title-page .title-tp {
-    color: black;
+    color: #000;
     font-size: 5.5em;
     letter-spacing: -.5pt;
     margin-top: 1.125in;
@@ -284,4 +294,11 @@ strong {
 .quire-page__content .content .backmatter p {
   text-indent: 0;
   margin-bottom: 1rem;
+}
+
+/* Make sure print is black only */
+@media print {
+  body * {
+    color: #000 !important;
+  }
 }
