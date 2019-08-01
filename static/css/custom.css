@@ -228,10 +228,6 @@
     max-height: .25in;
     margin-bottom: -4pt;
   }
-  /* #copyright img[alt='getty logo'] {
-    margin-top: .5in;
-    margin-bottom: 1.375in;
-  } */
   #copyright .quire-page__content .container .content hr::after {
     content: none;
   }
@@ -273,15 +269,23 @@
 }
 
  /* Style footnotes using custom q-note shortcode */
-sup.quire-citation button {
+ .quire-citation {
+   display: inline-block;
+ }
+ @media print {
+   .quire-citation {
+     top: 1.5pt;
+   }
+ }
+.quire-citation__button {
   border-bottom-width: 0;
-  font-size: 1.125em;
-  margin-right: .125em;
+  margin-right: 1pt;
+  margin-left: .5pt;
 }
-sup.quire-citation button:hover {
+.quire-citation__button:hover {
   border-bottom-width: 0;
 }
-sup.quire-citation .quire-citation__content {
+.quire-citation .quire-citation__content {
   font-size: 1.125em;
 }
 

@@ -34,7 +34,7 @@
 
     {{- $noteText := $.Scratch.Get "noteText" -}}  
     <sup class="quire-citation expandable" id="fnref:{{ $noteNumber }}">
-      <button aria-expanded="false">{{ $noteNumber }}</button>
+      <span class="quire-citation__button" role="button" tabindex="0" aria-expanded="false">{{ $noteNumber }}</span>
       <span hidden class="quire-citation__content"><span class="visually-hidden">Citation: </span>{{- markdownify $noteText -}}</span>
     </sup>
 
