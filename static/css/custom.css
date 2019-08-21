@@ -71,6 +71,7 @@
 .quire-cover__hero {
   background-color: #000;
   background-image: none;
+  overflow: scroll;
 }
 .hero.is-fullheight .hero-body {
   padding: 0;
@@ -80,11 +81,12 @@
   margin-left: 50%;
   margin-right: 5%;
   margin-top: 1.5rem;
+  margin-bottom: 3rem;
 }
 .quire-cover__hero .series-info {
   color: #fff;
   text-transform: uppercase;
-  font-size: .875rem;
+  font-size: 1.15vw;
   padding-right: 25%;
 }
 .quire-cover__hero .series-info .series-name {
@@ -92,18 +94,19 @@
   margin-bottom: 1em;
 }
 .quire-cover__hero .title {
-  font-size: 3.75rem;
-  margin-top: 10vh;
+  font-size: 5.5vw;
+  margin-top: 1.25em;
 }
 .quire-cover__hero .subtitle {
-  font-size: calc(1.15rem * 1.75);
+  font-size: 3vw;
   line-height: 1.15;
+  margin-top: .4em;
 }
 .quire-cover__hero .contributor {
-  font-size: calc(.75em * 1.75);
+  font-size: 1.9vw;
   text-transform: uppercase;
   letter-spacing: .5px;
-  margin-top: 15vh;
+  margin-top: 5em;
 }
 .quire-cover__hero .contributor .small {
   font-size: .65em;
@@ -117,6 +120,62 @@
 }
 .quire-cover .quire-page__content .container.is-fluid .content {
   color: #000f27;
+}
+
+@media screen and (max-width: 900px) {
+  .quire-cover__hero .series-info {
+    font-size: 1.45vw;
+  }
+  .quire-cover__hero .title {
+    font-size: 6.5vw;
+    margin-top: 1.25em;
+  }
+  .quire-cover__hero .subtitle {
+    font-size: 3.5vw;
+    margin-top: .4em;
+  }
+  .quire-cover__hero .contributor {
+    font-size: 2vw;
+    margin-top: 5em;
+  }
+}
+@media screen and (max-width: 700px) {
+  .quire-cover__hero .series-info {
+    font-size: 1.75vw;
+  }
+  .quire-cover__hero .title {
+    font-size: 7.5vw;
+    margin-top: 1.25em;
+  }
+  .quire-cover__hero .subtitle {
+    font-size: 4.5vw;
+    margin-top: .4em;
+  }
+  .quire-cover__hero .contributor {
+    font-size: 3vw;
+    margin-top: 5em;
+  }
+}
+@media screen and (max-width: 400px) {
+  .quire-cover__hero-body.hero-body {
+    margin-left: 5%;
+    text-align: center;
+  }
+  .quire-cover__hero .series-info {
+    font-size: .75rem;
+    padding-right: 0;
+  }
+  .quire-cover__hero .title {
+    font-size: 3rem;
+    margin-top: .5em;
+  }
+  .quire-cover__hero .subtitle {
+    font-size: 2rem;
+  }
+  .quire-cover__hero .contributor {
+    font-size: 1.25rem;
+    margin-top: 3em;
+  }
 }
 
 /* Handle contributor bio/name a little differently */
