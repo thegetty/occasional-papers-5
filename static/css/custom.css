@@ -37,6 +37,43 @@
   color: #000f27;
 }
 
+@media screen {
+  .quire-page__header .hero-body {
+    margin: 0 auto;
+    max-width: 720px;
+    text-align: left;
+    padding-left: 4rem;
+    padding-right: 6rem;
+    padding-top: 5rem;
+    padding-bottom: 0;
+  }
+  .quire-page__header .hero-body .label {
+    margin: 0 0 .25rem;
+    padding: 0;
+    line-height: 1;
+  }
+}
+@media screen and (max-width: 500px) {
+  .quire-page__header .hero-body {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    min-width: 100%;
+  }
+}
+
+/* Fix spacing on content page */
+@media screen {
+  .quire-contents-list {
+    padding-top: 1.5rem;
+    margin-top: 45px;
+  }
+  .quire-contents .quire-page__content .container {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+
 /* Matching page headings */
 .quire-page h1, .quire-page__header__title {
   text-transform: uppercase;
@@ -48,8 +85,10 @@
 .quire-page__content .content h2 {
   font-family: 'Noto Serif', serif;
   text-transform: inherit;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   margin-top: 1.5em;
+  margin-bottom: 0;
+  line-height: 1.7;
 }
 
 .quire:not(.no-js) .quire__primary #main,
@@ -212,11 +251,9 @@
   }
   .quire-page h2,
   .quire-page__content .content h2 {
-    font-size: 10.5pt;
-  }
-  .quire-page__content,
-  .quire-page__content .media-content {
-    text-align: justify;
+    font-size: 1em;
+    margin-bottom: 0;
+    line-height: 1.7;
   }
   .quire-page__content .container .content p {
     line-height: 1.7;
@@ -332,8 +369,9 @@
    display: inline-block;
  }
  @media print {
-   .quire-citation {
+   .content sup.quire-citation {
      top: 1.5pt;
+     font-size: 6pt;
    }
  }
 .quire-citation__button {
