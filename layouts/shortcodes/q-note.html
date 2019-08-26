@@ -22,7 +22,11 @@
 
   {{- range $.Site.Data.notes.notes_list -}}
       {{- if eq .id $noteNumber -}}
-          {{- $.Scratch.Add "noteText" .note -}}
+          {{- if .popup_version -}}
+              {{- $.Scratch.Add "noteText" .popup_version -}}
+          {{- else -}}
+              {{- $.Scratch.Add "noteText" .note -}}
+          {{- end -}}
       {{- end -}}
   {{- end -}}
 
