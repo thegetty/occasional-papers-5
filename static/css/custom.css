@@ -90,6 +90,10 @@
   margin-bottom: 0;
   line-height: 1.7;
 }
+.quire-page .backmatter h2,
+.quire-page__content .content .backmatterh2 {
+  margin-bottom: 1rem;
+}
 
 .quire:not(.no-js) .quire__primary #main,
 .quire #main,
@@ -276,7 +280,7 @@
     font-size: .875em;
   }
   .title-page .series-name {
-    max-width: 3in;
+    max-width: 2.25in;
     margin-bottom: 1.5em;
   }
   .title-page .title-tp {
@@ -445,4 +449,17 @@ blockquote .quire-citation em {
                           "\200B/\200B/" "//\200B"
                           "\200B:\200B:" "\200B::";
   }
+}
+
+/* Adjust menu styling */
+.quire-menu__header {
+  padding-right: 1rem;
+}
+.quire-menu__header__contributors,
+.quire-menu .cite-this,
+.quire-menu .quire-copyright + .menu-list {
+  font-family: "Archivo Narrow", sans-serif;
+}
+.quire-menu__header__contributors {
+  font-size: 1.15rem;
 }

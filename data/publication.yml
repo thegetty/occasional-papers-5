@@ -70,6 +70,7 @@ license:
   abbreviation: CC BY-NC
   url: https://creativecommons.org/licenses/by-nc/4.0/
   scope: full # full | text-only | some-exceptions
+  online_text: "This text of this work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International Public License](https://creativecommons.org/licenses/by-nc/4.0/). The cover image is reproduced with the permission of the rights holder acknowledged in the caption and is expressly excluded from the CC BY-NC license covering the rest of this publication. The image may not be reproduced, copied, transmitted, or manipulated without consent from the owner, who reserves all rights."
 
 # ------------------------------------------------------------------------------
 # Formats, Resources & Links
@@ -98,11 +99,11 @@ resource_link:
   - type: footer-link
     name: Privacy Policy
     link_relation: privacy-policy
-    url:
+    url: https://www.getty.edu/legal/privacy.html
   - type: footer-link
     name: Terms of Use
     link_relation: terms-of-service
-    url:
+    url: https://www.getty.edu/legal/copyright.html
 
 # ------------------------------------------------------------------------------
 # Subjects

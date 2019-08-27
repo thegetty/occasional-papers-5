@@ -20,7 +20,7 @@ Frowe, Helen, and Derek Matravers. “Conflict and Cultural Heritage: A Moral An
 
 ### MLA
 
-Frowe, Helen, and Derek Matravers. “Conflict and Cultural Heritage: A Moral Analysis of the Challenges of Heritage Protection.” J.&#160;Paul Getty Trust Occasional Papers in Cultural Heritage Policy, no. 3 , 2019. http://getty.edu/publications/occasional-papers-3/. Accessed <span class="cite-current-date">Aug. 29, 2019</span>.
+Frowe, Helen, and Derek Matravers. “Conflict and Cultural Heritage: A Moral Analysis of the Challenges of Heritage Protection.” J.&#160;Paul Getty Trust Occasional Papers in Cultural Heritage Policy, no. 3, 2019. http://getty.edu/publications/occasional-papers-3/. Accessed <span class="cite-current-date">Aug. 29, 2019</span>.
 
 ### Permanent URL
 
@@ -69,9 +69,12 @@ This text of this work is licensed under a [Creative Commons Attribution-NonComm
 This publication has been funded by the President’s International Council, J. Paul Getty Trust.
 
 **Published by Getty Publications**<br />
-1200 Getty Center Drive<br />
-Los Angeles, California 90049<br />
+1200 Getty Center Drive, Suite 500<br />
+Los Angeles, California 90049-1682<br />
 [www.getty.edu/publications](http://www.getty.edu/publications)
+
+ISBN 978-1-60606-639-3 (online)<br />
+ISBN 978-1-60606-640-9 (ebook)
 
 Also in the series:
 
@@ -81,6 +84,6 @@ Also in the series:
 
 ---
 
-Front cover: A boy stands at the entrance of a destroyed building in Mosul, Iraq, March 14, 2018. Photo: Ahmad Al-Rubaye / Getty Images
+Cover: A boy stands at the entrance of a destroyed building in Mosul, Iraq, March 14, 2018. Photo: Ahmad Al-Rubaye / Getty Images
 
 {{< /q-class >}}
