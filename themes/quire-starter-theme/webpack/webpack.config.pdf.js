@@ -4,20 +4,13 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const UglifyJSPlugin = require("uglifyjs-webpack-plugin");
 const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
 const autoprefixer = require("autoprefixer");
-const ImageminPlugin = require("imagemin-webpack");
-const imageminGifsicle = require("imagemin-gifsicle");
-const imageminJpegtran = require("imagemin-jpegtran");
-const imageminOptipng = require("imagemin-optipng");
-const imageminSvgo = require("imagemin-svgo");
 
 const PATHS = {
   source: path.join(__dirname, "../source"),
   build: path.join(__dirname, "../static")
 };
 
-const ASSET_PATH = process.env.ASSET_PATH || "/";
-
-console.log(ASSET_PATH);
+const ASSET_PATH = process.env.ASSET_PATH || "../";
 
 module.exports = {
   mode: "production",
@@ -137,29 +130,6 @@ module.exports = {
       $: "jquery",
       jQuery: "jquery",
       "window.jQuery": "jquery"
-    }),
-    // Make sure that the plugin is after any plugins that add images, example `CopyWebpackPlugin`
-    new ImageminPlugin({
-      bail: false, // Ignore errors on corrupted images
-      cache: true,
-      imageminOptions: {
-        // Lossless optimization with custom option
-        // Feel free to experement with options for better result for you
-        plugins: [
-          imageminGifsicle({
-            interlaced: true
-          }),
-          imageminJpegtran({
-            progressive: true
-          }),
-          imageminOptipng({
-            optimizationLevel: 5
-          }),
-          imageminSvgo({
-            removeViewBox: true
-          })
-        ]
-      }
     })
   ]
 };
