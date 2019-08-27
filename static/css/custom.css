@@ -276,8 +276,12 @@
   .title-page .pub-date {
     text-transform: uppercase;
     letter-spacing: .5pt;
-    font-weight: 600;
+    font-weight: 700;
     font-size: .875em;
+  }
+  .title-page .series-number,
+  .title-page .pub-date {
+    font-weight: 400;
   }
   .title-page .series-name {
     max-width: 2.25in;
@@ -420,11 +424,21 @@ strong {
 }
 
 /* Make footnote numbers in blockquotes roman  */
-blockquote .quire-citation {
+/* blockquote .quire-citation {
   font-style: normal;
 }
 blockquote .quire-citation em {
   font-style: italic;
+} */
+.quire-page__content .content blockquote {
+  font-style: normal;
+  padding: 0; 
+}
+.quire-page__content .content blockquote + p {
+  text-indent: 0;
+}
+.quire-page__content .container .content blockquote p:first-child::before, .quire-page__content .container .content blockquote ul:first-child::before, .quire-page__content .container .content blockquote ol:first-child::before, .quire-page__content .container .content blockquote dl:first-child::before, .quire-page__content .container .content blockquote h1:first-child::before, .quire-page__content .container .content blockquote h2:first-child::before, .quire-page__content .container .content blockquote h3:first-child::before, .quire-page__content .container .content blockquote h4:first-child::before, .quire-page__content .container .content blockquote h5:first-child::before, .quire-page__content .container .content blockquote h6:first-child::before {
+  content: "";
 }
 
 /* Adjust URL breaks in PDF */

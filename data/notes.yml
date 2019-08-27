@@ -1,18 +1,18 @@
 notes_list:
   - id: "1"
     location: "introduction"
-    note: "Thomas G. Weiss and Nina Connelly, “Cultural Cleansing and Mass Atrocities: Protecting Cultural Heritage in Armed Conflict Zones,” J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy, No. 1 (2017): 13, [http://www.getty.edu/publications/pdfs/CulturalCleansing_Weiss_Connelly.pdf](http://www.getty.edu/publications/pdfs/CulturalCleansing_Weiss_Connelly.pdf)."
-    popup_version: "Thomas G. Weiss and Nina Connelly, [“Cultural Cleansing and Mass Atrocities: Protecting Cultural Heritage in Armed Conflict Zones,”](http://www.getty.edu/publications/pdfs/CulturalCleansing_Weiss_Connelly.pdf) J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy, No. 1 (2017): 13."
+    note: "Thomas G. Weiss and Nina Connelly, “Cultural Cleansing and Mass Atrocities: Protecting Cultural Heritage in Armed Conflict Zones,” J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy, no. 1 (2017): 13, [http://www.getty.edu/publications/pdfs/CulturalCleansing_Weiss_Connelly.pdf](http://www.getty.edu/publications/pdfs/CulturalCleansing_Weiss_Connelly.pdf)."
+    popup_version: "Thomas G. Weiss and Nina Connelly, [“Cultural Cleansing and Mass Atrocities: Protecting Cultural Heritage in Armed Conflict Zones,”](http://www.getty.edu/publications/pdfs/CulturalCleansing_Weiss_Connelly.pdf) J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy, no. 1 (2017): 13."
 
   - id: "2"
     location: "introduction"
     note: "Ibid., 16."
-    popup_version: "Thomas G. Weiss and Nina Connelly, [“Cultural Cleansing and Mass Atrocities,”](http://www.getty.edu/publications/pdfs/CulturalCleansing_Weiss_Connelly.pdf) J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy, No. 1 (2017): 16."
+    popup_version: "Thomas G. Weiss and Nina Connelly, [“Cultural Cleansing and Mass Atrocities,”](http://www.getty.edu/publications/pdfs/CulturalCleansing_Weiss_Connelly.pdf) J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy, no. 1 (2017): 16."
 
   - id: "3"
     location: "introduction"
     note: "Ibid., 17, 42."
-    popup_version: "Thomas G. Weiss and Nina Connelly, [“Cultural Cleansing and Mass Atrocities,”](http://www.getty.edu/publications/pdfs/CulturalCleansing_Weiss_Connelly.pdf) J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy, No. 1 (2017): 17, 42."
+    popup_version: "Thomas G. Weiss and Nina Connelly, [“Cultural Cleansing and Mass Atrocities,”](http://www.getty.edu/publications/pdfs/CulturalCleansing_Weiss_Connelly.pdf) J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy, no. 1 (2017): 17, 42."
 
   - id: "4"
     location: "introduction"
@@ -56,8 +56,8 @@ notes_list:
 
   - id: "13"
     location: "1"
-    note: "Edward C. Luck, “Cultural Genocide and the Protection of Cultural Heritage,” J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy, No. 2 (2018): 20, http://www.getty.edu/publications/pdfs/CulturalGenocide_Luck.pdf."
-    popup_version: "Edward C. Luck, [“Cultural Genocide and the Protection of Cultural Heritage,”](http://www.getty.edu/publications/pdfs/CulturalGenocide_Luck.pdf) J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy, No. 2 (2018): 20."
+    note: "Edward C. Luck, “Cultural Genocide and the Protection of Cultural Heritage,” J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy, no. 2 (2018): 20, http://www.getty.edu/publications/pdfs/CulturalGenocide_Luck.pdf."
+    popup_version: "Edward C. Luck, [“Cultural Genocide and the Protection of Cultural Heritage,”](http://www.getty.edu/publications/pdfs/CulturalGenocide_Luck.pdf) J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy, no. 2 (2018): 20."
 
   - id: "14"
     location: "1"
