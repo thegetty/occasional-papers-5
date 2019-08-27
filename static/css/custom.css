@@ -463,3 +463,9 @@ blockquote .quire-citation em {
 .quire-menu__header__contributors {
   font-size: 1.15rem;
 }
+.quire-menu .quire-copyright {
+  padding-left: 0;
+}
+.quire-menu .quire-copyright + .menu-list {
+  margin-left: -.5em;
+}
