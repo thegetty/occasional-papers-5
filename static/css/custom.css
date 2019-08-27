@@ -37,6 +37,43 @@
   color: #000f27;
 }
 
+@media screen {
+  .quire-page__header .hero-body {
+    margin: 0 auto;
+    max-width: 720px;
+    text-align: left;
+    padding-left: 4rem;
+    padding-right: 6rem;
+    padding-top: 5rem;
+    padding-bottom: 0;
+  }
+  .quire-page__header .hero-body .label {
+    margin: 0 0 .25rem;
+    padding: 0;
+    line-height: 1;
+  }
+}
+@media screen and (max-width: 500px) {
+  .quire-page__header .hero-body {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    min-width: 100%;
+  }
+}
+
+/* Fix spacing on content page */
+@media screen {
+  .quire-contents-list {
+    padding-top: 1.5rem;
+    margin-top: 45px;
+  }
+  .quire-contents .quire-page__content .container {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+
 /* Matching page headings */
 .quire-page h1, .quire-page__header__title {
   text-transform: uppercase;
@@ -48,8 +85,14 @@
 .quire-page__content .content h2 {
   font-family: 'Noto Serif', serif;
   text-transform: inherit;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   margin-top: 1.5em;
+  margin-bottom: 0;
+  line-height: 1.7;
+}
+.quire-page .backmatter h2,
+.quire-page__content .content .backmatterh2 {
+  margin-bottom: 1rem;
 }
 
 .quire:not(.no-js) .quire__primary #main,
@@ -58,11 +101,20 @@
 .quire-page__content .container .content {
   background-color: whitesmoke;
 }
+@media print {
+  .quire:not(.no-js) .quire__primary #main,
+  .quire #main,
+  .quire-page__header,
+  .quire-page__content .container .content {
+    background-color: #fff;
+  }
+}
 
 /* Updating cover for design match and to accomodate series info */
 .quire-cover__hero {
   background-color: #000;
   background-image: none;
+  overflow: scroll;
 }
 .hero.is-fullheight .hero-body {
   padding: 0;
@@ -72,11 +124,12 @@
   margin-left: 50%;
   margin-right: 5%;
   margin-top: 1.5rem;
+  margin-bottom: 3rem;
 }
 .quire-cover__hero .series-info {
   color: #fff;
   text-transform: uppercase;
-  font-size: .875rem;
+  font-size: 1.15vw;
   padding-right: 25%;
 }
 .quire-cover__hero .series-info .series-name {
@@ -84,18 +137,19 @@
   margin-bottom: 1em;
 }
 .quire-cover__hero .title {
-  font-size: 3.75rem;
-  margin-top: 10vh;
+  font-size: 5.5vw;
+  margin-top: 1.25em;
 }
 .quire-cover__hero .subtitle {
-  font-size: calc(1.15rem * 1.75);
+  font-size: 3vw;
   line-height: 1.15;
+  margin-top: .4em;
 }
 .quire-cover__hero .contributor {
-  font-size: calc(.75em * 1.75);
+  font-size: 1.9vw;
   text-transform: uppercase;
   letter-spacing: .5px;
-  margin-top: 15vh;
+  margin-top: 5em;
 }
 .quire-cover__hero .contributor .small {
   font-size: .65em;
@@ -111,6 +165,62 @@
   color: #000f27;
 }
 
+@media screen and (max-width: 900px) {
+  .quire-cover__hero .series-info {
+    font-size: 1.45vw;
+  }
+  .quire-cover__hero .title {
+    font-size: 6.5vw;
+    margin-top: 1.25em;
+  }
+  .quire-cover__hero .subtitle {
+    font-size: 3.5vw;
+    margin-top: .4em;
+  }
+  .quire-cover__hero .contributor {
+    font-size: 2vw;
+    margin-top: 5em;
+  }
+}
+@media screen and (max-width: 700px) {
+  .quire-cover__hero .series-info {
+    font-size: 1.75vw;
+  }
+  .quire-cover__hero .title {
+    font-size: 7.5vw;
+    margin-top: 1.25em;
+  }
+  .quire-cover__hero .subtitle {
+    font-size: 4.5vw;
+    margin-top: .4em;
+  }
+  .quire-cover__hero .contributor {
+    font-size: 3vw;
+    margin-top: 5em;
+  }
+}
+@media screen and (max-width: 400px) {
+  .quire-cover__hero-body.hero-body {
+    margin-left: 5%;
+    text-align: center;
+  }
+  .quire-cover__hero .series-info {
+    font-size: .75rem;
+    padding-right: 0;
+  }
+  .quire-cover__hero .title {
+    font-size: 3rem;
+    margin-top: .5em;
+  }
+  .quire-cover__hero .subtitle {
+    font-size: 2rem;
+  }
+  .quire-cover__hero .contributor {
+    font-size: 1.25rem;
+    margin-top: 3em;
+  }
+}
+
 /* Handle contributor bio/name a little differently */
 .quire-contributor .title {
   display: none;
@@ -119,9 +229,11 @@
   display: none;
 }
 
-#contents .quire-contents-list .menu-list a {
-  font-family: 'Noto Serif', serif;
-  font-size: 1em;
+@media screen {
+  #contents .quire-contents-list .menu-list a {
+    font-family: 'Noto Serif', serif;
+    font-size: 1em;
+  }
 }
 
 @media print {
@@ -143,11 +255,9 @@
   }
   .quire-page h2,
   .quire-page__content .content h2 {
-    font-size: 10.5pt;
-  }
-  .quire-page__content,
-  .quire-page__content .media-content {
-    text-align: justify;
+    font-size: 1em;
+    margin-bottom: 0;
+    line-height: 1.7;
   }
   .quire-page__content .container .content p {
     line-height: 1.7;
@@ -166,15 +276,19 @@
   .title-page .pub-date {
     text-transform: uppercase;
     letter-spacing: .5pt;
-    font-weight: 600;
+    font-weight: 700;
     font-size: .875em;
   }
+  .title-page .series-number,
+  .title-page .pub-date {
+    font-weight: 400;
+  }
   .title-page .series-name {
-    max-width: 3in;
+    max-width: 2.25in;
     margin-bottom: 1.5em;
   }
   .title-page .title-tp {
-    color: black;
+    color: #000;
     font-size: 5.5em;
     letter-spacing: -.5pt;
     margin-top: 1.125in;
@@ -208,16 +322,15 @@
     max-width: 4.25in;
     margin-left: 0;
   }
+  #copyright .quire-page__content .container .content .backmatter {
+    padding-top: 2.125in;
+  }
   #copyright .quire-page__header.hero {
     display: none;
   }
   #copyright img {
     max-height: .25in;
     margin-bottom: -4pt;
-  }
-  #copyright img[alt='getty logo'] {
-    margin-top: .5in;
-    margin-bottom: 1.375in;
   }
   #copyright .quire-page__content .container .content hr::after {
     content: none;
@@ -260,15 +373,24 @@
 }
 
  /* Style footnotes using custom q-note shortcode */
-sup.quire-citation button {
+ .quire-citation {
+   display: inline-block;
+ }
+ @media print {
+   .content sup.quire-citation {
+     top: 1.5pt;
+     font-size: 6pt;
+   }
+ }
+.quire-citation__button {
   border-bottom-width: 0;
-  font-size: 1.125em;
-  margin-right: .125em;
+  margin-right: 1pt;
+  margin-left: .5pt;
 }
-sup.quire-citation button:hover {
+.quire-citation__button:hover {
   border-bottom-width: 0;
 }
-sup.quire-citation .quire-citation__content {
+.quire-citation .quire-citation__content {
   font-size: 1.125em;
 }
 
@@ -284,4 +406,80 @@ strong {
 .quire-page__content .content .backmatter p {
   text-indent: 0;
   margin-bottom: 1rem;
+}
+
+/* Make sure print is black only */
+@media print {
+  body * {
+    color: #000 !important;
+  }
+}
+
+/* Change styling of Foreword author byline */
+#foreword .quire-contributor * {
+  font-style: normal;
+}
+#foreword .quire-contributor__name {
+  font-weight: bold;
+}
+
+/* Make footnote numbers in blockquotes roman  */
+/* blockquote .quire-citation {
+  font-style: normal;
+}
+blockquote .quire-citation em {
+  font-style: italic;
+} */
+.quire-page__content .content blockquote {
+  font-style: normal;
+  padding: 0; 
+}
+.quire-page__content .content blockquote + p {
+  text-indent: 0;
+}
+.quire-page__content .container .content blockquote p:first-child::before, .quire-page__content .container .content blockquote ul:first-child::before, .quire-page__content .container .content blockquote ol:first-child::before, .quire-page__content .container .content blockquote dl:first-child::before, .quire-page__content .container .content blockquote h1:first-child::before, .quire-page__content .container .content blockquote h2:first-child::before, .quire-page__content .container .content blockquote h3:first-child::before, .quire-page__content .container .content blockquote h4:first-child::before, .quire-page__content .container .content blockquote h5:first-child::before, .quire-page__content .container .content blockquote h6:first-child::before {
+  content: "";
+}
+
+/* Adjust URL breaks in PDF */
+@media print {
+  /* PrinceXML doesn’t seem to support <wbr> embedded in the URLs as a
+  method for suggesting places to break words, instead we're using here
+  the prince-text-replace specialty attribute to insert zero-width-spaces */
+  a[target=_blank] {
+    prince-text-replace: "/" "\200B/"
+                          "~" "\200B~"
+                          "." "\200B."
+                          "," "\200B,"
+                          "-" "\200B-"
+                          "_" "\200B_"
+                          "?" "\200B?"
+                          "#" "\200B#"
+                          "%" "\200B%"
+                          "=" "\200B="
+                          "&" "\200B&"
+                          "+" "\200B+"
+                          ":" "\200B:"
+                          "\200B/\200B/" "//\200B"
+                          "\200B:\200B:" "\200B::";
+  }
+}
+
+/* Adjust menu styling */
+.quire-menu__header {
+  padding-right: 1rem;
+}
+.quire-menu__header__contributors,
+.quire-menu .cite-this,
+.quire-menu .quire-copyright + .menu-list {
+  font-family: "Archivo Narrow", sans-serif;
+}
+.quire-menu__header__contributors {
+  font-size: 1.15rem;
+}
+.quire-menu .quire-copyright {
+  padding-left: 0;
+}
+.quire-menu .quire-copyright + .menu-list {
+  margin-left: -.5em;
 }
