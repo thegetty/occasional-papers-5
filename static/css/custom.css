@@ -423,16 +423,14 @@ strong {
   font-weight: bold;
 }
 
-/* Make footnote numbers in blockquotes roman  */
-/* blockquote .quire-citation {
-  font-style: normal;
-}
-blockquote .quire-citation em {
-  font-style: italic;
-} */
+/* Restyle blockquote  */
 .quire-page__content .content blockquote {
   font-style: normal;
-  padding: 0; 
+}
+@media screen {
+  .quire-page__content .content blockquote {
+    padding: 0; 
+  }
 }
 .quire-page__content .content blockquote + p {
   text-indent: 0;
