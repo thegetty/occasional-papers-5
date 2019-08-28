@@ -36,9 +36,9 @@ Any revisions or corrections made to this publication after the first edition da
 
 ## Other Formats
 
-  - [PDF (## MB)](/downloads/output.pdf)
-  - [EPUB (## MB)](/downloads/output.epub)
-  - [MOBI/Kindle (## MB)](/downloads/output.mobi)
+  - [PDF](/downloads/FroweMatravers_ConflictandCulturalHeritage.pdf)
+  - [EPUB](/downloads/FroweMatravers_ConflictandCulturalHeritage.epub)
+  - [MOBI/Kindle](/downloads/FroweMatravers_ConflictandCulturalHeritage.mobi)
 
 ## Copyright
 
