@@ -244,23 +244,24 @@ function navigationTeardown() {
  * taking into account the height of the navbar.
  */
 function scrollToHash() {
-  let $scroller = $("#main");
   let $navbar = $(".quire-navbar");
   let targetHash = window.location.hash;
-
   if (targetHash) {
     let targetHashEl = document.getElementById(targetHash.slice(1));
     let $targetHashEl = $(targetHashEl);
-
     if ($targetHashEl.length) {
-      let newPosition = $targetHashEl.offset().top;
       if ($navbar.length) {
-        newPosition -= $navbar.height();
+        let offset = $(targetHashEl).offset();
+        let scrollto = offset.top - ($navbar.height() * 2); // fixed_top_bar_height = 50px
+        setTimeout(()=> {
+          $('html, body').animate({scrollTop:scrollto}, 0);
+        },250)
       }
-      $scroller.scrollTop(newPosition);
     }
   } else {
-    $scroller.scrollTop(0);
+    setTimeout(()=> {
+      $('html, body').animate({scrollTop:0}, 0);
+    },250)
   }
 }
 
