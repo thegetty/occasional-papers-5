@@ -246,22 +246,24 @@ function navigationTeardown() {
 function scrollToHash() {
   let $navbar = $(".quire-navbar");
   let targetHash = window.location.hash;
+  let timeout = 500;
   if (targetHash) {
     let targetHashEl = document.getElementById(targetHash.slice(1));
     let $targetHashEl = $(targetHashEl);
     if ($targetHashEl.length) {
       if ($navbar.length) {
         let offset = $(targetHashEl).offset();
-        let scrollto = offset.top - ($navbar.height() * 2); // fixed_top_bar_height = 50px
+        let scrollto = offset.top - $navbar.height() - 12;
+        targetHashEl.scrollIntoView()
         setTimeout(()=> {
           $('html, body').animate({scrollTop:scrollto}, 0);
-        },250)
+        },timeout)
       }
     }
   } else {
     setTimeout(()=> {
       $('html, body').animate({scrollTop:0}, 0);
-    },250)
+    },timeout)
   }
 }
 
