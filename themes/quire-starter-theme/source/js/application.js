@@ -255,7 +255,6 @@ function scrollToHash() {
         let scrollto = offset.top - ($navbar.height() * 2); // fixed_top_bar_height = 50px
         setTimeout(()=> {
           $('html, body').animate({scrollTop:scrollto}, 0);
-          alert(scrollto);
         },250)
       }
     }
