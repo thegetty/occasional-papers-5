@@ -1,0 +1,19 @@
+{{/* 
+Run page position script before we load CSS and JS minified files 
+A lag is created if we run this after or async  
+*/}}
+<script>
+window.onload = function () {
+  var targetHash = window.location.hash;
+  targetHashEl = document.getElementById(targetHash.slice(1)),
+    offset = document.querySelector(".quire-navbar").offsetHeight + 15;
+  if (targetHashEl) {
+    var bodyRect = document.body.getBoundingClientRect().top,
+      elementRect = targetHashEl.getBoundingClientRect().top,
+      elementPosition = elementRect - bodyRect,
+      offsetPosition = elementPosition - offset;
+    document.documentElement.scrollTop = offsetPosition;
+    document.body.scrollTop = offsetPosition; // For Safari
+  }
+}
+</script>
