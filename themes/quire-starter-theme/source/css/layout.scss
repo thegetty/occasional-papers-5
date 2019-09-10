@@ -93,9 +93,8 @@
         margin-top: $navbar-height;
         color: background-color-text($secondary-background-color);
         flex: 1 1 auto;
-        -webkit-overflow-scrolling: touch;
-        overflow-y: scroll;
         position: relative;
+        -webkit-overflow-scrolling: touch;
         @media print {
           color: $print-text-color;
         }

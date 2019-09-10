@@ -184,6 +184,7 @@ window["search"] = () => {
  * @description Initial setup on first page load.
  */
 function globalSetup() {
+  // scrollToHash();
   let container = document.getElementById("container");
   container.classList.remove("no-js");
   var classNames = [];
@@ -196,7 +197,6 @@ function globalSetup() {
   if (classNames.length) classNames.push("on-device");
   // if (body) body.classList.add(...classNames);
   loadSearchData();
-  scrollToHash();
 }
 
 /**
@@ -242,27 +242,32 @@ function navigationTeardown() {
  * @description Scroll the #main area after each smoothState reload.
  * If a hash id is present, scroll to the location of that element,
  * taking into account the height of the navbar.
+ * This function cause a perf issue that 
+ * We need to run this even earlier than this also function gets mixed results
+ * We move this logic to /themes/quire-starter-theme/layouts/partials/head.html
  */
-function scrollToHash() {
-  let $scroller = $("#main");
+/* function scrollToHash() {
   let $navbar = $(".quire-navbar");
   let targetHash = window.location.hash;
-
+  let timeout = 500;
   if (targetHash) {
     let targetHashEl = document.getElementById(targetHash.slice(1));
     let $targetHashEl = $(targetHashEl);
-
     if ($targetHashEl.length) {
-      let newPosition = $targetHashEl.offset().top;
       if ($navbar.length) {
-        newPosition -= $navbar.height();
+        let offset = $(targetHashEl).offset();
+        let scrollto = offset.top - $navbar.height() - 12;
+        setTimeout(()=> {
+          $('html, body').animate({scrollTop:scrollto}, 0);
+        },timeout)
       }
-      $scroller.scrollTop(newPosition);
     }
   } else {
-    $scroller.scrollTop(0);
+    setTimeout(()=> {
+      $('html, body').animate({scrollTop:0}, 0);
+    },timeout)
   }
-}
+} */
 
 /**
  * @description
