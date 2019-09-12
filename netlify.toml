@@ -34,7 +34,7 @@ HUGO_VERSION = "0.55.5"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-  from = "/*"
+  from = "/site/*"
   to = "/publications/occasional-papers-3/:splat"
   status = 200
   force = true
