@@ -1,6 +1,6 @@
 [build]
 base = "themes/quire-starter-theme"
-publish = "publications/occasional-papers-3/"
+publish = "site"
 command = "npm run build:production"
 
 [context.production.environment]

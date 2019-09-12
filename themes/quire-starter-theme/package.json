@@ -9,7 +9,7 @@
   "main": "webpack/webpack.config.dev.js",
   "scripts": {
     "build:preview": "webpack --config webpack/webpack.config.prod.js && cd ../../ && hugo --config config.yml,config/site.yml",
-    "build:production": "webpack --config webpack/webpack.config.prod.js && cd ../../ && hugo --config config.yml -b /publications/occasional-papers-3/ -d publications/occasional-papers-3/ --minify -v"
+    "build:production": "webpack --config webpack/webpack.config.prod.js && cd ../../ && hugo --config config.yml -b /publications/occasional-papers-3/ --minify -v"
   },
   "author": "Getty Publications",
   "license": "BSD-3-Clause",
