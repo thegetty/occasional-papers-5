@@ -1,6 +1,6 @@
 [build]
 base = "themes/quire-starter-theme"
-publish = "site"
+publish = "publications/occasional-papers-3/"
 command = "npm run build:production"
 
 [context.production.environment]
@@ -34,7 +34,7 @@ HUGO_VERSION = "0.55.5"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-  from = "/site/*"
+  from = "/*"
   to = "/publications/occasional-papers-3/:splat"
   status = 200
   force = true
