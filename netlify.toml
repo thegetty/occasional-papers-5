@@ -33,8 +33,8 @@ HUGO_VERSION = "0.55.5"
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
 
-[[redirects]]
-  from = "https://occasional-papers-3.netlify.com/*"
-  to = "https://occasional-papers-3.netlify.com/publications/occasional-papers-3/:splat"
-  status = 301
-  force = true
+#[[redirects]]
+#  from = "/*"
+#  to = "/publications/occasional-papers-3/:splat"
+#  status = 301
+#  force = true
