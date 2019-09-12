@@ -19,9 +19,9 @@
         <div class="backmatter">
           <ol>
           {{- range $.Site.Data.notes.notes_list -}}
-            <li id="fnref:{{ .id | urlize }}">
+            <li id="fnref:{{ .id | urlize | relURL }}">
               {{- .note | markdownify -}}              
-              <a class="footnote-return is-screen-only" href="/{{ .location }}/#fnref:{{ .id }}">↩</a>
+              <a class="footnote-return is-screen-only" href="/{{ .location }}/#fnref:{{ .id | relURL }}">↩</a>
             </li>
           {{ end }}
           </ol>
