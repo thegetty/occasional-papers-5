@@ -1,6 +1,7 @@
 [build]
+base = "themes/quire-starter-theme"
 publish = "site"
-command = "npm run build"
+command = "npm run build:production"
 
 [context.production.environment]
 HUGO_VERSION = "0.55.5"
@@ -8,23 +9,32 @@ HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
 [context.split1]
-command = "npm run build"
+base = "themes/quire-starter-theme"
+command = "npm run build:preview"
 
 [context.split1.environment]
 HUGO_VERSION = "0.55.5"
 HUGO_ENV = "production"
 
 [context.deploy-preview]
-command = "npm run build"
+base = "themes/quire-starter-theme"
+command = "npm run build:preview"
 
 [context.deploy-preview.environment]
 HUGO_VERSION = "0.55.5"
 
 [context.branch-deploy]
-command = "npm run build"
+base = "themes/quire-starter-theme"
+command = "npm run build:preview"
 
 [context.branch-deploy.environment]
 HUGO_VERSION = "0.55.5"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[redirects]]
+  from = "/*"
+  to = "/publications/occasional-papers-3/:splat"
+  status = 200
+  force = true
