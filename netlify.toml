@@ -34,7 +34,7 @@ HUGO_VERSION = "0.55.5"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-  from = "https://occasional-papers-3.netlify.com/*"
-  to = "https://occasional-papers-3.netlify.com/publications/occasional-papers-3/:splat"
-  status = 200
+  from = "/*"
+  to = "/publications/occasional-papers-3/:splat"
+  status = 301
   force = true
