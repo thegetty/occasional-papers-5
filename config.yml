@@ -6,6 +6,7 @@
 # match the name of the folder in /themes that contains your theme files; if
 # you've copied the default theme and given it a different name make sure to
 # update the value here too.
+baseURL: ""
 canonifyURLs: true
 
 title: "Quire Starter"
