@@ -30,7 +30,7 @@ http://getty.edu/publications/occasional-papers-3/
 
 Any revisions or corrections made to this publication after the first edition date will be listed here and in the project repository at https://github.com/thegetty/occasional-papers-3/, where a more detailed version history is available. The revisions branch of the project repository, when present, will also show any changes currently under consideration but not yet published here.
 
-### September 13, 2019
+### October 15, 2019
   
   - First edition
 
