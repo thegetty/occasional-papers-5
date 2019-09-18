@@ -1,110 +1,33 @@
-# Quire Starter
-_A Digital Publishing Framework from Getty Publications_
+This is the repository for *Conflict and Cultural Heritage: A Moral Analysis of the Challenges of Heritage Protection*, by Helen Frowe and Derek Matravers. This is the third paper in the J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy series and was first published October 15, 2019, by Getty Publications. It is available online at [http://www.getty.edu/publications/occasional-papers-3/](http://www.getty.edu/publications/occasional-papers-3/) and may be downloaded free of charge in multiple formats.
 
-This is the starter template for
-[Quire](http://www.getty.edu/publications/digital/platforms-tools.html), an
-open-source multi-format publishing framework built on
-[Hugo](https://github.com/gohugoio/hugo). Quire consists of:
+## About the Book
 
-- [quire-cli](https://github.com/gettypubs/quire-cli)
-- [quire-starter](https://github.com/gettypubs/quire-starter)
-- [quire-starter-theme](https://github.com/gettypubs/quire-starter-theme)
-- [quire-docs](https://github.com/gettypubs/quire-starter)
+In 2016, in response to recent attacks on cultural heritage sites in Syria, Iraq, and Timbuktu, the J. Paul Getty Trust convened a meeting at the British Academy in London to discuss the need for an international framework to protect cultural heritage in zones of armed conflict. To further explore these questions, the Trust subsequently launched the series J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy.
+ 
+In this third issue of the series, philosophers Helen Frowe and Derek Matravers pose a key question: what is the appropriate response to attacks on cultural heritage? They assert that we must more carefully consider the morality of using deadly military force to protect cultural heritage. Frowe and Matravers question the leading argument that there is a causal relationship between the destruction of cultural heritage and genocide, and they further argue that the defense of heritage must not be treated with the same weight or urgency—and thus should not be protected according to the same international policies—as the defense of human lives. By calling for expanded theory, empirical data, and the consideration of morality in the crafting of international resolutions, Frowe and Matravers present a compelling, thoughtful critique that stimulates debate on this critical topic.
+ 
+## Using this Repository
 
-## Getting Started
+This is one in series of multiformat publications using [Quire](http://www.getty.edu/publications/digital/platforms-tools.html), Getty’s new publishing framework. Quire is currently in private beta, with the goal of it being released as free and open source software in the future. In the meantime, users are encouraged to request access at http://bit.ly/quire-beta. This repository can also be run locally to build the online site (but not the PDF or ebook formats) with [Hugo](https://gohugo.io/), the [static site generator](https://www.smashingmagazine.com/2015/11/modern-static-website-generators-next-big-thing/) at the core of Quire. 
 
-### Quire-CLI
+We are dedicated to maintaining this publication for years to come at the permanent URL, [http://www.getty.edu/publications/heritagemanagement/](http://www.getty.edu/publications/occasional-papers-3/), and in its various formats and incarnations. For any updates to the book, we will be following something between an app and traditional book publication model. Updates will only be made in regulated chunks as formal revisions and new editions and will always be thoroughly documented here in the repository, as well as in the revision history included with each of the book’s many formats.
 
-There are two ways to get started using this template for your own projects. If
-you are using the [quire-cli](https://github.com/gettypubs/quire-cli), this
-template is what you will see after running the `quire new` command in a
-terminal session.
+The primary content pieces of the book can be found in the `data` and `content` directories. The master branch represents the current, published edition at all times, and the revisions branch, when present, will show changes currently under consideration. We invite you to submit suggestions or corrections via pull request on the revisions branch, by posting an issue, or by emailing us at [pubsinfo@getty.edu](mailto:pubsinfo@getty.edu).
 
-To start development on your own project, navigate into your project directory
-and run `quire preview` to see changes locally, and `quire build` output static
-files. The `quire pdf` and `quire epub` commands are also available if you are
-generating other formats for your publication.
+## Development Notes
 
-### Manual setup
+This project was last built with the following software versions:
 
-Alternatively, you can clone this repository and begin using it directly. In
-that case you will probably want to "flatten" the starter kit and it's
-accompanying theme into a single repository so you can keep track of your work
-in your own Git repository. You only need to follow these steps if you *are not*
-using the `quire` command-line tool (it will take care of that for you).
+- Quire 0.17.0
+- Node 8.12.0 / npm 6.4.1
+- Hugo 0.53
+- PrinceXML 12.4
+- Pandoc 2.3.1
 
-1. Clone the kit and its theme submodule: 
-   `git clone --recursive https://github.com/gettypubs/quire-starter.git`
-2. Change into the kit directory and remove the submodule from the repo's tree: 
-   `git rm --cached themes/quire-starter-theme`
-3. Remove the `.gitmodules` file: `rm .gitmodules`
-4. Add the contents of the theme directory to the repo and commit them: 
-   `git add themes/quire-starter-theme`
-5. Make sure you have a new remote set up to push changes to as you make them.
+While v0.17.0 of the core Quire Starter Theme was used, a number of customizations were made specifically to bring the design inline with previous papers in the series which we not originally published with Quire. Within the theme itself, changes were made to the `source/css/variables.scss` and `source/css/print.scss` files and two new open license fonts were included: Archivo Narrow and Source Sans Pro. Outside of the theme, in the project’s `layouts` directory, a number of custom templates are included, notably a custom cover layout, and some custom partial templates to allow for modest customization to other elements of the book. The `q-note` shortcode was also added to allow for endnotes in the book rather than the usual footnotes other Quire books use by default.
 
-Quire is built on top of Hugo, so even without the Quire CLI tool you can still
-preview or build your project the same as you would in any other Hugo website
-(`hugo server`, etc.). In order to see any changes you've made to the theme
-files however, you will also need to run Webpack in the
-`themes/quire-starter-theme` subfolder (make sure to install the necessary
-dependencies there first!). To simulate the `quire preview` experience you will
-need to run `hugo server` in the project root and 
-`./node_modules/.bin/webpack --watch` in the `themes/quire-starter-theme`
-subfolder.
+## License
 
-## Deployment
+© 2019 J. Paul Getty Trust
 
-At some point you will probably want to publish what you have built so that it
-can be shared with the wider world. Quire currently supports two methods of
-deployment: Netlify and Github Pages. Both of these services are fast, free, and
-fairly easy to setup. 
-
-### Deploying to Netlify
-
-Assuming you have created a repository for this project on GitHub, sign up or
-log in to [Netlify](https://www.netlify.com/) using your GitHub account.
-
-1. Click the big button labeled *new site from Git*
-2. Select your repository
-3. Configure the basic build settings: choose appropriate branch (`master` by
-   default)
-4. You can set the default build command to `hugo` and the publish directory to
-   `public/`, but this is not necessare since the `netlify.toml` file has all the
-   information pre-configured.
-5. Netlify will auto-generate a site URL for you, or you can set it yourself.
-   The default example uses `http://quire-demo.netlify.com`. Set this as your
-   `baseURL` in `config.build.yml`, and set `relativeURLs: true`
-6. Now, every time you push up a commit to `master` on GitHub, Netlify will
-   automatically rebuild your site using the settings in `netlify.toml`.
-   Pretty cool!
-
-### Deploying to GitHub Pages
-
-If you don't need all the features of Netlify, Quire has limited support for
-GitHub pages as well, but there are a few caveats. Unlike Netlify, GitHub Pages
-does not support continuous deployment for Hugo/Quire websites. This means you
-will need to manually deploy the site by running a script provided in
-`bin/deploy.sh` in the project folder.
-
-In `config.build.yml`, comment out the Netlify lines and uncomment the GH Pages
-settings. Your `baseURL` will need to be in the format that GitHub Pages expects
-(https://yourusername.github.io/projectname for most sites). Setting 
-`canonifyURLs: true` will help to avoid broken links.
-
-Finally, you will need to remove the `public/` directory from your `.gitignore`
-file so that you can check built files into version control.
-
-At this point you can run `bin/deploy.sh` and everything will be pushed up to
-GitHub on the `gh-pages` branch. It may take a few moments for everything to
-become visible online.
-
-If you get git errors when deploying because of upstream changes, you can always
-delete the `gh-pages` branch on GitHub and re-run the deploy script.
-
-### Deploying Elsewhere
-
-Any web server capable of hosting static files will work (S3, FTP server, etc.),
-but you will likely need to customize the values in `config.build.yml` to suit
-your needs.
-
-
+This text of this work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International Public License](https://creativecommons.org/licenses/by-nc/4.0/). The cover image is reproduced with the permission of the rights holder acknowledged in the caption and is expressly excluded from the CC BY-NC license covering the rest of this publication. The image may not be reproduced, copied, transmitted, or manipulated without consent from the owner, who reserves all rights.
