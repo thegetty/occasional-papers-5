@@ -113,13 +113,13 @@ notes_list:
 
   - id: "26"
     location: "2"
-    note: "“Culture under Fire,” Forum for European Philosophy, London School of Economics, January 17, 2018, audio at www.lse.ac.uk/website-archive/newsAndMedia/videoAndAudio/channels/publicLecturesAndEvents/player.aspx?id=3967, at 38 minutes."
-    popup_version: "[“Culture under Fire,”](www.lse.ac.uk/website-archive/newsAndMedia/videoAndAudio/channels/publicLecturesAndEvents/player.aspx?id=3967) Forum for European Philosophy, London School of Economics, January 17, 2018, audio at 38 minutes."
+    note: "“Culture under Fire,” Forum for European Philosophy, London School of Economics, January 17, 2018, audio at http://www.lse.ac.uk/website-archive/newsAndMedia/videoAndAudio/channels/publicLecturesAndEvents/player.aspx?id=3967, at 38 minutes."
+    popup_version: "[“Culture under Fire,”](http://www.lse.ac.uk/website-archive/newsAndMedia/videoAndAudio/channels/publicLecturesAndEvents/player.aspx?id=3967) Forum for European Philosophy, London School of Economics, January 17, 2018, audio at 38 minutes."
 
   - id: "27"
     location: "2"
     note: "Ibid., at 39 minutes."
-    popup_version: "[“Culture under Fire,”](www.lse.ac.uk/website-archive/newsAndMedia/videoAndAudio/channels/publicLecturesAndEvents/player.aspx?id=3967) audio at 39 minutes."
+    popup_version: "[“Culture under Fire,”](http://www.lse.ac.uk/website-archive/newsAndMedia/videoAndAudio/channels/publicLecturesAndEvents/player.aspx?id=3967) audio at 39 minutes."
 
   - id: "28"
     location: "2"
