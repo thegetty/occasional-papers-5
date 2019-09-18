@@ -129,12 +129,18 @@
 .quire-cover__hero .series-info {
   color: #fff;
   text-transform: uppercase;
-  font-size: 1.15vw;
+  font-size: 1.35vw;
+  letter-spacing: .5px;
   padding-right: 25%;
+  font-family: "Archivo Narrow", sans-serif;
 }
 .quire-cover__hero .series-info .series-name {
   font-weight: 700;
   margin-bottom: 1em;
+}
+.quire-cover__hero .series-info .series-number,
+.quire-cover__hero .series-info .pub-date {
+  letter-spacing: 1px;
 }
 .quire-cover__hero .title {
   font-size: 5.5vw;
