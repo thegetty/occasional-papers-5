@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" $if(lang)$ xml:lang="$lang$" $endif$>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="pandoc" />
+    <title>$pagetitle$</title>
+    <style type="text/css">
+        $if(quotes)$ q {
+            quotes: "“" "”" "‘" "’";
+        }
+        $endif$
+                
+        section#copyright h1 {
+          color: transparent;
+        }
+        section#copyright img {
+          height: 30px;
+        }
+        section#copyright ul {
+          list-style-type: none;
+        }
+        section#copyright p {
+          text-indent: 0;
+          margin-bottom: 1em;
+        }
+        section#foreword ul {
+          list-style-type: none;
+        }
+        .quire-contributor__name,
+        .quire-contributor__title,
+        .quire-contributor__affiliation {
+          display: block;
+        }
+        .quire-contributor__title,
+        .quire-contributor__affiliation {
+          font-style: italic;
+        }
+        h1 + p,    
+        h2 + p,
+        h3 + p,
+        p:first-child {
+          text-indent: 0;
+        }
+        h1 {
+          text-transform: uppercase;
+          margin-left: 1em;
+          margin-bottom: 2em;
+          font-family: sans-serif !important;
+        }
+        h1 .label {
+          color: inherit;
+          background-color: transparent;
+          text-align: left;
+          margin: 0;
+          font-size: 2.5em;
+          font-weight: 300;
+          padding: 0;
+        }  
+        section.titlepage * {
+          font-family: sans-serif;
+          margin-left: 1.5rem;
+        }
+        
+    </style>
+    $if(highlighting-css)$
+    <style type="text/css">
+        $highlighting-css$
+    </style>
+    $endif$ $for(css)$
+    <link rel="stylesheet" type="text/css" href="$css$" /> $endfor$ $for(header-includes)$ $header-includes$ $endfor$
+</head>
+<body$if(coverpage)$ id="cover" $endif$>
+    
+    $if(titlepage)$
+    <section class="titlepage" epub:type="titlepage">
+        $for(title)$ $if(title.type)$
+        <h1 class="$title.type$">$title.text$</h1>
+        $else$
+        <h1 class="title">$title$</h1>
+        $endif$ $endfor$ 
+        
+        <h2 class="contributor">Helen Frowe and Derek Matravers</h2>
+        
+        <p class="publisher" style="text-indent: 0;">Getty Publications, Los Angeles</p>
+        
+    </section>
+    $else$ 
+
+    $for(include-before)$ 
+    $include-before$ 
+    $endfor$ 
+    
+    $body$ 
+    
+    $for(include-after)$ 
+    $include-after$ 
+    $endfor$ 
+
+    $endif$
+    </body>
+
+</html>

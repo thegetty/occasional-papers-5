@@ -2,6 +2,7 @@
 title: Cover
 weight: 1
 menu: false
+epub: false
 type: cover
 slug: .
 toc: false
