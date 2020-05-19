@@ -9,13 +9,13 @@
 
 # ------------------------------------------------------------------------------
 # Title & Description
-title: Conflict and Cultural Heritage
-subtitle: A Moral Analysis of the Challenges of Heritage Protection
+title: Cultural Heritage under Siege
+subtitle: Laying the Foundation for a Legal and Political Framework to Protect Cultural Heritage at Risk in Zones of Armed Conflict
 reading_line:
 short_title:
 
 series: J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy
-number_in_series: 3
+number_in_series: 4
 
 description:
   one_line:
@@ -31,7 +31,7 @@ language: en
 
 pub_type: online # book | journal-periodical | other
 identifier:
-  isbn: 978-1-60606-639-3
+  isbn: 978-1-60606-681-2
 
 publisher:
   - name: Getty Publications
@@ -43,27 +43,27 @@ publisher:
 # Contributors
 # ------------------------------------------------------------------------------
 
-contributor_as_it_appears: "Helen Frowe <span class='small'>and</span> Derek Matravers"
+contributor_as_it_appears: "James Cuno <span class='small'>and</span> Thomas G. Weiss."
 
 contributor:
-  - id: hfrowe
+  - id: jcuno
     type: primary
     file_as: 1
-    first_name: Helen
-    last_name: Frowe
-    bio: "**Helen Frowe** is Professor of Practical Philosophy and Wallenberg Academy Fellow at Stockholm University, where she directs the Stockholm Centre for the Ethics of War and Peace. Her research focuses on permissible harming, particularly harming in self-defense and war. She is the author of *Defensive Killing* (Oxford, 2014) and *The Ethics of War and Peace: An Introduction* (Routledge, 2011, 2014) and coeditor of *The Oxford Handbook of Ethics of War* (Oxford, 2018) and *How We Fight: Ethics in War* (Oxford, 2014). Her two most recent papers, on duties to rescue and civilian liability, appeared in *Ethics*; her work has also been published in *Philosophical Quarterly, Oxford Studies in Political Philosophy*, *Law and Philosophy*, *Ethics and International Affairs*, and *Proceedings of the Aristotelian Society*, among other journals. She is currently co-investigator (with Derek Matravers) on the AHRC-funded project “Heritage in War.”"
-  - id: dmatravers
+    first_name: James
+    last_name: Cuno
+    bio: "**James Cuno** is the President and CEO of the J. Paul Getty Trust."
+  - id: tweiss
     type: primary
     file_as: 2
-    first_name: Derek
-    last_name: Matravers
-    bio: "**Derek Matravers** is Professor of Philosophy at the Open University and a senior member of Darwin College, Cambridge. He studied for his undergraduate degree at University College London before moving to Cambridge for his PhD. He has held visiting professorships at universities in Canada, New Zealand, and China. His recent work includes *Introducing Philosophy of Art: Eight Case Studies* (Routledge, 2013), *Fiction and Narrative* (Oxford, 2014), and *Empathy* (Polity, 2017). In addition, he is the author of *Art and Emotion* (Oxford, 1998), as well as numerous articles on aesthetics, ethics, and the philosophy of mind. He is the editor, with Paloma Atencia-Linares, of the *British Journal of Aesthetics*. Since 2017 he has, along with Helen Frowe, directed the AHRC-funded project “Heritage in War.”"
+    first_name: Thomas G.
+    last_name: Weiss
+    bio: "**Thomas G. Weiss** is the Presidential PRofessor of Political Science at the CUNY Graduate Center."
 
 # ------------------------------------------------------------------------------
 # Copright & License
 # ------------------------------------------------------------------------------
 
-copyright: © 2017 J. Paul Getty Trust
+copyright: © 2020 J. Paul Getty Trust
 
 license:
   name: Creative Commons Attribution-NonCommercial 4.0 International Public License
@@ -122,7 +122,7 @@ revision_history:
   - date:
     summary:
 
-repository_url: https://github.com/thegetty/occasional-papers-3/
+repository_url: https://github.com/thegetty/occasional-papers-4/
 
 # ------------------------------------------------------------------------------
 # Promo Image
