@@ -4,9 +4,6 @@ weight: 6
 type: page
 ---
 
-## James Cuno and Thomas G. Weiss
->
-
 **James Cuno**: We are meeting less than three weeks after the Easter Sunday suicide bombings in Sri Lanka, which claimed more than three hundred lives. ISIS, which was said to have been totally defeated just two months before, claimed credit for the bombings and released a video of its leader, Abū Bakr al-Baghdadi, seen for the first time in five years, calling on his jihadist followers to rally around his vision for ISIS. “Our battle today,” he said, “is a battle of attrition, and we will prolong it for the enemy. And they must know that the jihad will continue until Judgment Day.” One of the Sri Lankan bombers, Jameel Mohamed Abdul Lathief, traveled to Raqqa, Syria, in 2014. There he trained with ISIS for three to six months, before returning to recruit others and to carry out the attacks. The Sri Lankan Islamist group Jamiyyathul Millatu Ibrahim recruited for ISIS and joined forces with the Islamist preacher Zahran Hashim, the alleged organizer of the Easter Sunday attacks. Days before, he is said to have organized attacks on Buddhist sculptures. As a result of those earlier attacks, police in Manawela arrested thirteen people.
 
 The question many journalists have asked is, what relationship might there be between those two kinds of violent attacks, on cultural heritage and on the lives of those who profess a cultural identity with them and what they represent? The prime minister of Sri Lanka, Ranil Wickremesinghe, noted a few days after the suicide bombings, “We know that before the Buddhist images, there were attacks on Sufi mosques, so they seem to be going step by step. First their own Muslims, Sufis, then the Buddhists. And there was something in a small church near Kandy, Kandukuri, information that they wanted to damage the church.”
