@@ -36,9 +36,9 @@ Any revisions or corrections made to this publication after the first edition da
 
 ## Other Formats
 
-  - [PDF](/downloads/FroweMatravers_ConflictandCulturalHeritage.pdf)
-  - [EPUB](/downloads/FroweMatravers_ConflictandCulturalHeritage.epub)
-  - [MOBI/Kindle](/downloads/FroweMatravers_ConflictandCulturalHeritage.mobi)
+  - [PDF](/downloads/CunoWeiss_CulturalHeritageUnderSiege.pdf)
+  - [EPUB](/downloads/CunoWeiss_CulturalHeritageUnderSiege.epub)
+  - [MOBI/Kindle](/downloads/CunoWeiss_CulturalHeritageUnderSiege.mobi)
 
 ## Copyright
 
