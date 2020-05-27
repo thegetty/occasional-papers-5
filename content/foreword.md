@@ -16,15 +16,15 @@ Although many of the participants in the convening are contributing to the book 
 
 In this, the fourth publication in the series, J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy, we are presenting an edited version of the papers and discussion at the convening, which was organized in five sections, in addition to Opening and Concluding Remarks.
 
-> Populations at Risk
+- Populations at Risk
 
-> Cultural Heritage at Risk
+- Cultural Heritage at Risk
 
-> Military Perspectives and Costs: War, Occupation, Intervention
+- Military Perspectives and Costs: War, Occupation, Intervention
 
-> International Law, Problems and Prospects
+- International Law, Problems and Prospects
 
-> Social and Cultural Costs
+- Social and Cultural Costs
 
 Before the opening dinner, Irina Bokova, former director-general of UNESCO (2009–17), set the stage of our convening with poignant and illuminating remarks. We thank her for her many contributions to our meetings, just as we thank all those who generously participated with their formal and informal papers and commentary.
 
