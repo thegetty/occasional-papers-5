@@ -49,49 +49,49 @@ contributor_as_it_appears: "Edited by James Cuno <span class='small'>and</span> 
 contributor:
   - id: jcuno
     type: primary
-    file_as: 1
+    file_as: 01
     first_name: James
     last_name: Cuno
     title: "President and CEO"
     affiliation: "J. Paul Getty Trust"
   - id: tweiss
     type: primary
-    file_as: 2
+    file_as: 02
     first_name: Thomas G.
     last_name: Weiss
     title: "Presidential Professor of Political Science"
     affiliation: "CUNY Graduate Center"
   - id: sadams
     type: secondary
-    file_as: 3
+    file_as:
     first_name: Simon
     last_name: Adams
     title: "Executive Director"
     affiliation: "Global Centre for the Responsibility to Protect"
   - id: ibokova
     type: secondary
-    file_as: 4
+    file_as:
     first_name: Irina
     last_name: Bokova
     title: "Director-General"
     affiliation: "UNESCO (2009–17)"
   - id: mbouchenaki
     type: secondary
-    file_as: 5
+    file_as:
     first_name: Mounir
     last_name: Bouchenaki
     title: "Adviser, UNESCO"
     affiliation: "Adviser, Bahrain Authority for Culture and Antiquities"
   - id: hfischer
     type: secondary
-    file_as: 6
+    file_as:
     first_name: Hartwig
     last_name: Fischer
     title: "Director"
     affiliation: "British Museum"
   - id: hfrowe
     type: secondary
-    file_as: 7
+    file_as:
     first_name: Helen
     last_name: Frowe
     title: "Professor of Practical Philosophy"
@@ -99,21 +99,21 @@ contributor:
     affiliation: "Director, Stockholm Centre for the Ethics of War and Peace, Stockholm University"
   - id: bisakhan
     type: secondary
-    file_as: 8
+    file_as:
     first_name: Benjamin
     last_name: Isakhan
     title: "Associate Professor of Politics and Policy Studies"
     affiliation: "Deakin University"
   - id: eluck
     type: secondary
-    file_as: 9
+    file_as:
     first_name: Edward C.
     last_name: Luck
     title: "Arnold A. Salzman Professor of Professional Practice in International and Public Affairs"
     affiliation: "Columbia University"
   - id: dmatravers
     type: secondary
-    file_as: 10
+    file_as:
     first_name: Derek
     last_name: Matravers
     title: "Professor of Philosophy"
@@ -121,35 +121,35 @@ contributor:
     affiliation: "Senior Member, Darwin College, Cambridge"
   - id: lmeskell
     type: secondary
-    file_as: 11
+    file_as:
     first_name: Lynn
     last_name: Meskell
     title: "Shirley and Leonard Ely Professor of Humanities and Sciences, Department of Anthropology"
     affiliation: "Stanford University"
   - id: mmiller
     type: secondary
-    file_as: 12
+    file_as:
     first_name: Mary
     last_name: Miller
     title: "Director"
     affiliation: "Getty Research Institute"
   - id: lmonreal
     type: secondary
-    file_as: 13
+    file_as:
     first_name: Luis
     last_name: Monreal
     title: "Director-General"
     affiliation: "Aga Khan Trust for Culture"
   - id: tpotts
     type: secondary
-    file_as: 14
+    file_as:
     first_name: Timothy
     last_name: Potts
     title: "Director"
     affiliation: "J. Paul Getty Museum"
   - id: ssagan
     type: secondary
-    file_as: 15
+    file_as:
     first_name: Scott
     last_name: Sagan
     title: "Caroline S. G. Munro Professor of Political Science"
@@ -159,21 +159,21 @@ contributor:
     affiliation: "Stanford University"
   - id: iserageldin
     type: secondary
-    file_as: 16
+    file_as:
     first_name: Ismail
     last_name: Serageldin
     title: "Emeritus Librarian of Alexandria, Library of Alexandria"
     affiliation: "Adviser to the Egyptian prime minister in matters concerning culture, science, and museums"
   - id: ksingh
     type: secondary
-    file_as: 17
+    file_as:
     first_name: Kavita
     last_name: Singh
     title: "Professor"
     affiliation: "Jawaharlal Nehru University"
   - id: jwelsh
     type: secondary
-    file_as: 18
+    file_as:
     first_name: Jennifer
     last_name: Welsh
     title: "Canada 150 Research Chair in Global Governance and Security"
@@ -181,7 +181,7 @@ contributor:
     affiliation: "McGill University"
   - id: pwise
     type: secondary
-    file_as: 19
+    file_as: 
     first_name: Paul H.
     last_name: Wise
     title: "Richard F. Behrman Professor of Child Health and Safety"
