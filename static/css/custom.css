@@ -415,6 +415,16 @@
  .quire-citation {
    display: inline-block;
  }
+ /* make appear as if new section with line break above and no text indent */
+ .quire-citation.name {
+   margin-left: -1.5rem;
+   margin-top: 1rem;
+ }
+ /* but not for the first paragraph on the page */
+ .quire-page__content .content > p:first-child .quire-citation.name {
+   margin-left: 0;
+   margin-top: 0;
+ }
  @media print {
    .content sup.quire-citation {
      top: 1.5pt;
@@ -429,8 +439,18 @@
 .quire-citation__button:hover {
   border-bottom-width: 0;
 }
-.quire-citation .quire-citation__content {
-  font-size: 1.125em;
+.quire-citation__button.name-button {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-right: .5em;
+  font-family: "Archivo Narrow", sans-serif;
+  color: var(--color-mid-light);
+}
+@media print {
+  .quire-citation__button.name-button {
+    color: #000;
+  }
 }
 
 /* Overriding default color */
