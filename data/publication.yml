@@ -9,18 +9,18 @@
 
 # ------------------------------------------------------------------------------
 # Title & Description
-title: Conflict and Cultural Heritage
-subtitle: A Moral Analysis of the Challenges of Heritage Protection
+title: Cultural Heritage under Siege
+subtitle: Laying the Foundation for a Legal and Political Framework to Protect Cultural Heritage at Risk in Zones of Armed Conflict
 reading_line:
 short_title:
 
 series: J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy
-number_in_series: 3
+number_in_series: 4
 
 description:
   one_line:
   full: >-
-    In the third issue of the J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy series, authors Helen Frowe and Derek Matravers pivot from the earlier tone of the series in discussing the appropriate response to attacks on cultural heritage with their paper, *“Conflict and Cultural Heritage: A Moral Analysis of the Challenges of Heritage Protection.”* While Frowe and Matravers acknowledge the importance of cultural heritage, they assert that we must more carefully consider the complex moral dimensions—the inevitable serious consequences to human beings—before formulating policy to forcefully protect it.
+    The fourth volume of the J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy series is the result of a multi-day discussion on the issue of cultural heritage under siege. It features an edited collection of papers and discussions by nineteen scholars and practitioners of different specialties in the field of cultural heritage. This paper, along with the other Occasional Papers, is free and downloadable online.
 
 # ------------------------------------------------------------------------------
 # Publication Details
@@ -31,39 +31,170 @@ language: en
 
 pub_type: online # book | journal-periodical | other
 identifier:
-  isbn: 978-1-60606-639-3
+  isbn: 978-1-60606-681-2
 
 publisher:
   - name: Getty Publications
     location: Los Angeles
     url:
     logo: logo-getty.png
+  - logo: awn-logo.png
 
 # ------------------------------------------------------------------------------
 # Contributors
 # ------------------------------------------------------------------------------
 
-contributor_as_it_appears: "Helen Frowe <span class='small'>and</span> Derek Matravers"
+contributor_as_it_appears: "Edited by James Cuno <span class='small'>and</span> Thomas G. Weiss."
 
 contributor:
-  - id: hfrowe
+  - id: jcuno
     type: primary
-    file_as: 1
+    file_as: 01
+    first_name: James
+    last_name: Cuno
+    title: "President and CEO"
+    affiliation: "J. Paul Getty Trust"
+  - id: tweiss
+    type: primary
+    file_as: 02
+    first_name: Thomas G.
+    last_name: Weiss
+    title: "Presidential Professor of Political Science"
+    affiliation: "CUNY Graduate Center"
+  - id: sadams
+    type: secondary
+    file_as:
+    first_name: Simon
+    last_name: Adams
+    title: "Executive Director"
+    affiliation: "Global Centre for the Responsibility to Protect"
+  - id: ibokova
+    type: secondary
+    file_as:
+    first_name: Irina
+    last_name: Bokova
+    title: "Director-General"
+    affiliation: "UNESCO (2009–17)"
+  - id: mbouchenaki
+    type: secondary
+    file_as:
+    first_name: Mounir
+    last_name: Bouchenaki
+    title: "Adviser, UNESCO"
+    affiliation: "Adviser, Bahrain Authority for Culture and Antiquities"
+  - id: hfischer
+    type: secondary
+    file_as:
+    first_name: Hartwig
+    last_name: Fischer
+    title: "Director"
+    affiliation: "British Museum"
+  - id: hfrowe
+    type: secondary
+    file_as:
     first_name: Helen
     last_name: Frowe
-    bio: "**Helen Frowe** is Professor of Practical Philosophy and Wallenberg Academy Fellow at Stockholm University, where she directs the Stockholm Centre for the Ethics of War and Peace. Her research focuses on permissible harming, particularly harming in self-defense and war. She is the author of *Defensive Killing* (Oxford, 2014) and *The Ethics of War and Peace: An Introduction* (Routledge, 2011, 2014) and coeditor of *The Oxford Handbook of Ethics of War* (Oxford, 2018) and *How We Fight: Ethics in War* (Oxford, 2014). Her two most recent papers, on duties to rescue and civilian liability, appeared in *Ethics*; her work has also been published in *Philosophical Quarterly, Oxford Studies in Political Philosophy*, *Law and Philosophy*, *Ethics and International Affairs*, and *Proceedings of the Aristotelian Society*, among other journals. She is currently co-investigator (with Derek Matravers) on the AHRC-funded project “Heritage in War.”"
+    title: "Professor of Practical Philosophy"
+    affiliation: "Wallenberg Academy Fellow, Stockholm University"
+    affiliation: "Director, Stockholm Centre for the Ethics of War and Peace, Stockholm University"
+  - id: bisakhan
+    type: secondary
+    file_as:
+    first_name: Benjamin
+    last_name: Isakhan
+    title: "Associate Professor of Politics and Policy Studies"
+    affiliation: "Deakin University"
+  - id: eluck
+    type: secondary
+    file_as:
+    first_name: Edward C.
+    last_name: Luck
+    title: "Arnold A. Salzman Professor of Professional Practice in International and Public Affairs"
+    affiliation: "Columbia University"
   - id: dmatravers
-    type: primary
-    file_as: 2
+    type: secondary
+    file_as:
     first_name: Derek
     last_name: Matravers
-    bio: "**Derek Matravers** is Professor of Philosophy at the Open University and a senior member of Darwin College, Cambridge. He studied for his undergraduate degree at University College London before moving to Cambridge for his PhD. He has held visiting professorships at universities in Canada, New Zealand, and China. His recent work includes *Introducing Philosophy of Art: Eight Case Studies* (Routledge, 2013), *Fiction and Narrative* (Oxford, 2014), and *Empathy* (Polity, 2017). In addition, he is the author of *Art and Emotion* (Oxford, 1998), as well as numerous articles on aesthetics, ethics, and the philosophy of mind. He is the editor, with Paloma Atencia-Linares, of the *British Journal of Aesthetics*. Since 2017 he has, along with Helen Frowe, directed the AHRC-funded project “Heritage in War.”"
+    title: "Professor of Philosophy"
+    affiliation: "The Open University"
+    affiliation: "Senior Member, Darwin College, Cambridge"
+  - id: lmeskell
+    type: secondary
+    file_as:
+    first_name: Lynn
+    last_name: Meskell
+    title: "Shirley and Leonard Ely Professor of Humanities and Sciences, Department of Anthropology"
+    affiliation: "Stanford University"
+  - id: mmiller
+    type: secondary
+    file_as:
+    first_name: Mary
+    last_name: Miller
+    title: "Director"
+    affiliation: "Getty Research Institute"
+  - id: lmonreal
+    type: secondary
+    file_as:
+    first_name: Luis
+    last_name: Monreal
+    title: "Director-General"
+    affiliation: "Aga Khan Trust for Culture"
+  - id: tpotts
+    type: secondary
+    file_as:
+    first_name: Timothy
+    last_name: Potts
+    title: "Director"
+    affiliation: "J. Paul Getty Museum"
+  - id: ssagan
+    type: secondary
+    file_as:
+    first_name: Scott
+    last_name: Sagan
+    title: "Caroline S. G. Munro Professor of Political Science"
+    affiliation: "Mimi and Peter Haas University Fellow in Undergraduate Education"
+    affiliation: "Senior Fellow, Center for International Security and Cooperation"
+    affiliation: "Freeman-Spogli Institute for International Studies"
+    affiliation: "Stanford University"
+  - id: iserageldin
+    type: secondary
+    file_as:
+    first_name: Ismail
+    last_name: Serageldin
+    title: "Emeritus Librarian of Alexandria, Library of Alexandria"
+    affiliation: "Adviser to the Egyptian prime minister in matters concerning culture, science, and museums"
+  - id: ksingh
+    type: secondary
+    file_as:
+    first_name: Kavita
+    last_name: Singh
+    title: "Professor"
+    affiliation: "Jawaharlal Nehru University"
+  - id: jwelsh
+    type: secondary
+    file_as:
+    first_name: Jennifer
+    last_name: Welsh
+    title: "Canada 150 Research Chair in Global Governance and Security"
+    affiliation: "Director, Centre for International Peace and Security Studies"
+    affiliation: "McGill University"
+  - id: pwise
+    type: secondary
+    file_as: 
+    first_name: Paul H.
+    last_name: Wise
+    title: "Richard F. Behrman Professor of Child Health and Safety"
+    affiliation: "Professor of Pediatrics and Health Policy"
+    affiliation: "Senior Fellow, Center on Democracy, Development, and the Rule of Law, and the Center for International Security and Cooperation"
+    affiliation: "Freeman-Spogli Institute for International Studies"
+    affiliation: "Stanford University"
 
 # ------------------------------------------------------------------------------
 # Copright & License
 # ------------------------------------------------------------------------------
 
-copyright: © 2017 J. Paul Getty Trust
+copyright: © 2020 J. Paul Getty Trust
 
 license:
   name: Creative Commons Attribution-NonCommercial 4.0 International Public License
@@ -81,17 +212,17 @@ resource_link:
     name: PDF
     media_type: application/pdf
     link_relation: alternate
-    url: /downloads/FroweMatravers_ConflictandCulturalHeritage.pdf
+    url: /downloads/CunoWeiss_CulturalHeritageUnderSiege.pdf
   - type: other-format
     name: EPUB
     media_type: application/epub+zip
     link_relation: alternate
-    url: /downloads/FroweMatravers_ConflictandCulturalHeritage.epub
+    url: /downloads/CunoWeiss_CulturalHeritageUnderSiege.epub
   - type: other-format
     name: Kindle/MOBI
     media_type: vnd.amazon.mobi8-ebook
     link_relation: alternate
-    url: /downloads/FroweMatravers_ConflictandCulturalHeritage.mobi
+    url: /downloads/CunoWeiss_CulturalHeritageUnderSiege.mobi
   - type: footer-link
     name: About
     link_relation: about
@@ -122,7 +253,7 @@ revision_history:
   - date:
     summary:
 
-repository_url: https://github.com/thegetty/occasional-papers-3/
+repository_url: https://github.com/thegetty/occasional-papers-4/
 
 # ------------------------------------------------------------------------------
 # Promo Image
