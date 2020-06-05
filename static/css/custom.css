@@ -412,14 +412,14 @@
 }
 
  /* Style footnotes using custom q-note shortcode */
- .quire-citation {
-   display: inline-block;
- }
+
  /* make appear as if new section with line break above and no text indent */
  .quire-citation.name {
    margin-left: -1.5rem;
    margin-top: 1rem;
+   display: inline-block;
  }
+
  /* but not for the first paragraph on the page */
  .quire-page__content .content > p:first-child .quire-citation.name {
    margin-left: 0;
