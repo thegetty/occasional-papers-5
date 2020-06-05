@@ -13,6 +13,10 @@
 
   {{< q-name "Jane Smith" "Smith" >}}
 
+  This shortcode also supports the use of a `affiliation_as_it_appears`
+  custom attribute for contributors. This attribute is useful for when a
+  contributor’s title and affiliation can’t easily be put into single fields.
+
 */}}
 
 {{- $errorName := dict "shortcode" "q-name" "message" "There is not enough information in `publication.yml`." "example" "" -}}
@@ -26,23 +30,26 @@
     {{ $.Scratch.Set "name" (add (add .first_name " ") .last_name) }}
   {{ end }}
   {{- if eq ($.Scratch.Get "name") $nameLookup -}}
-    {{- $.Scratch.Set "title" .title -}}
-    {{- $.Scratch.Set "affiliation" .affiliation -}}
+    {{- if .affiliation_as_it_appears -}}
+      {{- $.Scratch.Set "affiliationAppears" .affiliation_as_it_appears -}}
+    {{- else -}}
+      {{- $.Scratch.Set "title" .title -}}
+      {{- $.Scratch.Set "affiliation" .affiliation -}}
+    {{- end -}}
   {{- end -}}
 {{- end -}}
 
-{{- if eq ($.Scratch.Get "affiliation") nil -}}
-
-  {{ $nameLookup }}
+{{- if eq ($.Scratch.Get "name") nil -}}
 
   {{- partial "error-message.html" $errorName -}}
 
 {{- else -}}
 
-  <span class="quire-citation name expandable">{{ if ne .Site.Params.citationPopupStyle "icon" }}<span class="quire-citation__button name-button" role="button" tabindex="0" aria-expanded="false">{{ end }}{{ if eq (len .Params) 2 }}{{ .Get 1 | markdownify }}{{ else }}{{ .Get 0 }}{{ end }}{{ if eq .Site.Params.citationPopupStyle "icon" }}<button class="material-icons md-18 material-control-point" aria-expanded="false">control_point</button>{{ end }}{{ if ne .Site.Params.citationPopupStyle "icon" }}</span>{{ end }}<span hidden class="quire-citation__content"><span class="visually-hidden">Speaker: </span><strong>{{ .Get 0 }}</strong><br />{{ markdownify ($.Scratch.Get "title") }}<br />{{ markdownify ($.Scratch.Get "affiliation") }}</span></span>
+  <span class="quire-citation name expandable">{{ if ne .Site.Params.citationPopupStyle "icon" }}<span class="quire-citation__button name-button" role="button" tabindex="0" aria-expanded="false">{{ end }}{{ if eq (len .Params) 2 }}{{ .Get 1 | markdownify }}{{ else }}{{ .Get 0 }}{{ end }}{{ if eq .Site.Params.citationPopupStyle "icon" }}<button class="material-icons md-18 material-control-point" aria-expanded="false">control_point</button>{{ end }}{{ if ne .Site.Params.citationPopupStyle "icon" }}</span>{{ end }}<span hidden class="quire-citation__content"><span class="visually-hidden">Speaker: </span><strong>{{ .Get 0 }}</strong><br />{{ if ($.Scratch.Get "affiliationAppears") }}{{ markdownify ($.Scratch.Get "affiliationAppears") }}{{ else }}{{ markdownify ($.Scratch.Get "title") }}<br />{{ markdownify ($.Scratch.Get "affiliation") }}{{ end }}</span></span>
 
 {{- end -}}
 
 {{- $.Scratch.Delete "name" -}}
+{{- $.Scratch.Delete "affiliationAppears" -}}
 {{- $.Scratch.Delete "title" -}}
 {{- $.Scratch.Delete "affiliation" -}}
