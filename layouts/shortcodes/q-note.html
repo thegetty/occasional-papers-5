@@ -1,7 +1,7 @@
 {{/*
 
   Adapted from the q-cite shortcode. This shortcode adds a pop-up footnote
-  reference to the text. The first positional parameter is an id that should 
+  reference to the text. The first positional parameter is an id that should
   correspond to one in the `notes.yml` file.
 
   {{< q-note "1" >}}
@@ -36,11 +36,9 @@
 
   {{- else -}}
 
-    {{- $noteText := $.Scratch.Get "noteText" -}}  
-    <sup class="quire-citation expandable" id="fnref:{{ $noteNumber }}">
-      <span class="quire-citation__button" role="button" tabindex="0" aria-expanded="false">{{ $noteNumber }}</span>
-      <span hidden class="quire-citation__content"><span class="visually-hidden">Citation: </span>{{- markdownify $noteText -}}</span>
-    </sup>
+    {{- $noteText := $.Scratch.Get "noteText" -}}
+    <sup class="quire-citation expandable" id="fnref:{{ $noteNumber }}"><span class="quire-citation__button" role="button" tabindex="0" aria-expanded="false">{{ $noteNumber }}</span>
+    <span hidden class="quire-citation__content"><span class="visually-hidden">Citation: </span>{{- markdownify $noteText -}}</span> </sup>
 
   {{- end -}}
 

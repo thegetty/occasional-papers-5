@@ -30,7 +30,7 @@ http://getty.edu/publications/occasional-papers-4/
 
 Any revisions or corrections made to this publication after the first edition date will be listed here and in the project repository at https://github.com/thegetty/occasional-papers-4/, where a more detailed version history is available. The revisions branch of the project repository, when present, will also show any changes currently under consideration but not yet published here.
 
-### October 15, 2019
+### September 10, 2020
 
   - First edition
 
@@ -88,5 +88,11 @@ Also in the series:
 ---
 
 Cover: A boy stands at the entrance of a destroyed building in Mosul, Iraq, March 14, 2018. Photo: Ahmad Al-Rubaye / Getty Images
+
+{{< q-class "awn-logo" >}}
+
+![This book is part of 'Ancient Worlds Now: A Future for the Past', a multifaceted Getty initiative to promote a greater understanding of the world’s cultural heritage and its value to global society](/img/awn-logo-and-line--2F2B0F.png)
+
+{{< /q-class >}}
 
 {{< /q-class >}}

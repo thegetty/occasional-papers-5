@@ -1,5 +1,5 @@
 ---
-title: About the Authors
+title: About the Participants
 weight: 14
 type: page
 ---

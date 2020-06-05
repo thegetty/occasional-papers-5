@@ -1,3 +1,23 @@
+:root {
+
+  /* Palette:
+    https://coolors.co/2f2b0f-5d561d-7c7127-9b8d31-f5f5f5
+  */
+
+  --color-dark: #2F2B0F;
+  /* --color-dark should be the same value as $off-black in
+  themes/quire-starter-theme/source/css/colors.scss  */
+
+  --color-mid-dark: #5D561D;
+
+  --color-mid-light: #7C7127;
+
+  --color-light: #9B8D31;
+  /* --color-light should be the same value as $accent-color in
+   themes/quire-starter-theme/source/css/variables.scss */
+
+}
+
 /* Matching running heads from previous print editions */
 .quire-navbar-page-controls__item {
   text-transform: uppercase;
@@ -7,23 +27,16 @@
 
 /* Adjusting navbar display */
 .quire-progress-bar {
-  background-color: #1e3253;
-  background-color: #3d5a88;
+  background-color: var(--color-mid-dark);
   height: 6px;
-}
-#cover .quire-progress-bar {
-  background-color: #102343;
-}
-#cover .quire-progress-bar div {
-  background-color: #3f5479;
 }
 .quire-progress-bar div {
   height: 6px;
-  background-color: #768fb8;
+  background-color: var(--color-mid-light);
 }
 .quire-menu__formats h6 {
-  color: #647a9f;
-  border-color: #647a9f;
+  color: var(--color-light);
+  border-color: var(--color-light);
 }
 
 /* Using Source Sans for better font-weight match */
@@ -34,7 +47,7 @@
   font-weight: 300;
   margin-bottom: 0;
   background-color: inherit;
-  color: #000f27;
+  color: var(--color-dark);
 }
 
 @media screen {
@@ -51,6 +64,8 @@
     margin: 0 0 .25rem;
     padding: 0;
     line-height: 1;
+    display: block;
+    width: initial;
   }
 }
 @media screen and (max-width: 500px) {
@@ -80,6 +95,11 @@
   letter-spacing: .5px;
   font-size: 2.5rem;
   font-weight: 700;
+}
+@media screen {
+  .quire-page h1, .quire-page__header__title {
+    text-align: center;
+  }
 }
 .quire-page h2,
 .quire-page__content .content h2 {
@@ -111,6 +131,7 @@
 }
 
 /* Updating cover for design match and to accomodate series info */
+/* Updating cover for design match and to accomodate series info */
 .quire-cover__hero {
   background-color: #000;
   background-image: none;
@@ -118,33 +139,47 @@
 }
 .hero.is-fullheight .hero-body {
   padding: 0;
+  height: calc(95vh - 6rem);
+  justify-content: space-between;
 }
 .quire-cover__hero-body.hero-body {
   flex-direction: column;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.quire-page--type-left .quire-cover__hero-body.hero-body {
+  margin-left: 5%;
+  margin-right: 50%;
+}
+.quire-cover__hero-body.hero-body,
+.quire-page--type-right .quire-cover__hero-body.hero-body {
   margin-left: 50%;
   margin-right: 5%;
-  margin-top: 1.5rem;
-  margin-bottom: 3rem;
 }
 .quire-cover__hero .series-info {
   color: #fff;
   text-transform: uppercase;
   font-size: 1.35vw;
   letter-spacing: .5px;
-  padding-right: 25%;
   font-family: "Archivo Narrow", sans-serif;
 }
 .quire-cover__hero .series-info .series-name {
   font-weight: 700;
   margin-bottom: 1em;
+  float: left;
+  width: 70%;
 }
 .quire-cover__hero .series-info .series-number,
 .quire-cover__hero .series-info .pub-date {
   letter-spacing: 1px;
 }
+.quire-cover__hero .series-info .series-number-and-date {
+  float: right;
+  width: 25%;
+}
 .quire-cover__hero .title {
   font-size: 5.5vw;
-  margin-top: 1.25em;
+  margin: 0;
 }
 .quire-cover__hero .subtitle {
   font-size: 3vw;
@@ -155,7 +190,9 @@
   font-size: 1.9vw;
   text-transform: uppercase;
   letter-spacing: .5px;
-  margin-top: 5em;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 100%;
 }
 .quire-cover__hero .contributor .small {
   font-size: .65em;
@@ -164,11 +201,14 @@
   font-style: normal;
 }
 .quire-cover__more .hero-more {
-  background-color: #5a6283;
-  background-color: #647a9f;
+  background-color: var(--color-light);
 }
 .quire-cover .quire-page__content .container.is-fluid .content {
-  color: #000f27;
+  color: var(--color-dark);
+}
+.quire-cover__more .hero-more svg {
+  margin-top: .2rem;
+  margin-left: .2rem;
 }
 
 @media screen and (max-width: 900px) {
@@ -379,8 +419,18 @@
 }
 
  /* Style footnotes using custom q-note shortcode */
- .quire-citation {
+
+ /* make appear as if new section with line break above and no text indent */
+ .quire-citation.name {
+   margin-left: -1.5rem;
+   margin-top: 1rem;
    display: inline-block;
+ }
+
+ /* but not for the first paragraph on the page */
+ .quire-page__content .content > p:first-child .quire-citation.name {
+   margin-left: 0;
+   margin-top: 0;
  }
  @media print {
    .content sup.quire-citation {
@@ -396,16 +446,26 @@
 .quire-citation__button:hover {
   border-bottom-width: 0;
 }
-.quire-citation .quire-citation__content {
-  font-size: 1.125em;
+.quire-citation__button.name-button {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-right: .5em;
+  font-family: "Archivo Narrow", sans-serif;
+  color: var(--color-mid-light);
+}
+@media print {
+  .quire-citation__button.name-button {
+    color: #000;
+  }
 }
 
 /* Overriding default color */
 strong {
-  color: #000f27;
+  color: var(--color-dark);
 }
 .backmatter .quire-copyright__icon * {
-  fill: #000f27;
+  fill: var(--color-dark);
 }
 
 /* Styling copyright and about pages */
@@ -419,14 +479,6 @@ strong {
   body * {
     color: #000 !important;
   }
-}
-
-/* Change styling of Foreword author byline */
-#foreword .quire-contributor * {
-  font-style: normal;
-}
-#foreword .quire-contributor__name {
-  font-weight: bold;
 }
 
 /* Restyle blockquote  */
@@ -501,4 +553,11 @@ strong {
 }
 .quire-contributors-list.name-title-block .quire-contributor_name,.content ul.quire-contributors-list.name-title-block .quire-contributor__name {
   font-weight: bold;
+}
+
+
+/* Styling for Ancient Worlds Now logo and tagline */
+.awn-logo {
+  max-width: 300px;
+  margin-top: 6rem;
 }
