@@ -481,14 +481,6 @@ strong {
   }
 }
 
-/* Change styling of Foreword author byline */
-#foreword .quire-contributor * {
-  font-style: normal;
-}
-#foreword .quire-contributor__name {
-  font-weight: bold;
-}
-
 /* Restyle blockquote  */
 .quire-page__content .content blockquote {
   font-style: normal;
