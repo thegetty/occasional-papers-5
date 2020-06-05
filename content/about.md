@@ -89,4 +89,10 @@ Also in the series:
 
 Cover: A boy stands at the entrance of a destroyed building in Mosul, Iraq, March 14, 2018. Photo: Ahmad Al-Rubaye / Getty Images
 
+{{< q-class "awn-logo" >}}
+
+![This book is part of 'Ancient Worlds Now: A Future for the Past', a multifaceted Getty initiative to promote a greater understanding of the world’s cultural heritage and its value to global society](/img/awn-logo-and-line--2F2B0F.png)
+
+{{< /q-class >}}
+
 {{< /q-class >}}

@@ -562,3 +562,10 @@ strong {
 .quire-contributors-list.name-title-block .quire-contributor_name,.content ul.quire-contributors-list.name-title-block .quire-contributor__name {
   font-weight: bold;
 }
+
+
+/* Styling for Ancient Worlds Now logo and tagline */
+.awn-logo {
+  max-width: 300px;
+  margin-top: 6rem;
+}
