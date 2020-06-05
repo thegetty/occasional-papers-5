@@ -22,7 +22,7 @@ In this, the fourth publication in the series, J. Paul Getty Trust Occasional Pa
 
 - Military Perspectives and Costs: War, Occupation, Intervention
 
-- International Law, Problems and Prospects
+- International Law: Problems and Prospects
 
 - Social and Cultural Costs
 
