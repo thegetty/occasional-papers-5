@@ -64,6 +64,8 @@
     margin: 0 0 .25rem;
     padding: 0;
     line-height: 1;
+    display: block;
+    width: initial;
   }
 }
 @media screen and (max-width: 500px) {
@@ -93,6 +95,11 @@
   letter-spacing: .5px;
   font-size: 2.5rem;
   font-weight: 700;
+}
+@media screen {
+  .quire-page h1, .quire-page__header__title {
+    text-align: center;
+  }
 }
 .quire-page h2,
 .quire-page__content .content h2 {
