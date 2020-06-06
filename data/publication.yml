@@ -43,7 +43,7 @@ publisher:
 # Contributors
 # ------------------------------------------------------------------------------
 
-contributor_as_it_appears: "<span class='small'>Edited by</span> James Cuno <span class='small'>and</span> Thomas G. Weiss"
+contributor_as_it_appears: "<span class='small'>Edited by</span> James&nbsp;Cuno <span class='small'>and</span> Thomas&nbsp;G.&nbsp;Weiss"
 
 contributor:
   - id: jcuno
