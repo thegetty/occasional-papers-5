@@ -69,12 +69,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thegetty/occasional-papers-3.git"
+    "url": "git+https://github.com/thegetty/occasional-papers-4.git"
   },
   "author": "Mantas Andrijausaks mandrijauskas@getty.edu",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thegetty/occasional-papers-3/issues"
+    "url": "https://github.com/thegetty/occasional-papers-4/issues"
   },
-  "homepage": "https://github.com/thegetty/occasional-papers-3#readme"
+  "homepage": "https://github.com/thegetty/occasional-papers-4#readme"
 }
