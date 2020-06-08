@@ -6,6 +6,7 @@
  * @description This file serves as the entry point for Webpack, the JS library
  * responsible for building all CSS and JS assets for the theme.
  */
+
 // Stylesheets
 import "intersection-observer";
 import "leaflet-fullscreen/dist/leaflet.fullscreen.css";
@@ -27,6 +28,7 @@ import Popup from "./popup";
 import DeepZoom from "./deepzoom";
 import Map from "./map";
 
+// array of leaflet instances
 const mapArr = [];
 
 /**
@@ -180,23 +182,88 @@ window["search"] = () => {
 };
 
 /**
+ * scrollToHash
+ * @description Scroll the #main area after each smoothState reload.
+ * If a hash id is present, scroll to the location of that element,
+ * taking into account the height of the navbar.
+ */
+function scrollToHash() {
+  // Select all links with hashes
+  $('a[href*="#"]')
+    // Remove links that don't actually link to anything
+    .not('[href="#"]')
+    .not('[href="#0"]')
+    .click(function(event) {
+      // only override default link behavior if it points to the same page
+      if (this.pathname.includes(window.location.pathname)) {
+        // prevent default scrolling behavior
+        event.preventDefault();
+        // ensure the hash is manually set after preventing default
+        window.location.hash = this.hash;
+      }
+      // save current hash, prefixing all ':' and '.' with '\\' to make them query-selectable
+      var hash = this.hash.replace(":", "\\:");
+      hash = hash.replace(".", "\\.");
+      // Figure out element to scroll to
+      var target = $(hash);
+      target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
+      // Does a scroll target exist?
+      if (target.length) {
+        $("html, body").animate(
+          {
+            scrollTop: target.offset().top - $(".quire-navbar").height() - 7
+          },
+          1,
+          function() {
+            // Callback after animation
+            // Must change focus!
+            var $target = $(target);
+            $target.focus();
+            if ($target.is(":focus")) {
+              // Checking if the target was focused
+              return false;
+            } else {
+              $target.attr("tabindex", "-1"); // Adding tabindex for elements not focusable
+              $target.focus(); // Set focus again
+            }
+          }
+        );
+      }
+    });
+}
+
+function scrollToHashOnLoad() {
+  if (window.location.hash) {
+    var hash = window.location.hash;
+    hash = hash.replace(":", "\\:");
+    hash = hash.replace(".", "\\.");
+    $("html, body").animate(
+      {
+        scrollTop: $(hash).offset().top - $(".quire-navbar").height() - 7
+      },
+      75,
+      "swing"
+    );
+  }
+}
+
+/**
  * globalSetup
  * @description Initial setup on first page load.
  */
 function globalSetup() {
-  // scrollToHash();
   let container = document.getElementById("container");
   container.classList.remove("no-js");
   var classNames = [];
   if (navigator.userAgent.match(/(iPad|iPhone|iPod)/i))
     classNames.push("device-ios");
+
   if (navigator.userAgent.match(/android/i)) classNames.push("device-android");
 
-  var body = document.getElementsByTagName("body")[0];
-
   if (classNames.length) classNames.push("on-device");
-  // if (body) body.classList.add(...classNames);
+
   loadSearchData();
+  scrollToHash();
 }
 
 /**
@@ -227,47 +294,6 @@ function navigationSetup() {
     navigation = new Navigation();
   }
 }
-
-/*
-function navigationTeardown() {
-  if (navigation) {
-    navigation.teardown();
-  }
-  navigation = undefined;
-}
-*/
-
-/**
- * scrollToHash
- * @description Scroll the #main area after each smoothState reload.
- * If a hash id is present, scroll to the location of that element,
- * taking into account the height of the navbar.
- * This function cause a perf issue that 
- * We need to run this even earlier than this also function gets mixed results
- * We move this logic to /themes/quire-starter-theme/layouts/partials/head.html
- */
-/* function scrollToHash() {
-  let $navbar = $(".quire-navbar");
-  let targetHash = window.location.hash;
-  let timeout = 500;
-  if (targetHash) {
-    let targetHashEl = document.getElementById(targetHash.slice(1));
-    let $targetHashEl = $(targetHashEl);
-    if ($targetHashEl.length) {
-      if ($navbar.length) {
-        let offset = $(targetHashEl).offset();
-        let scrollto = offset.top - $navbar.height() - 12;
-        setTimeout(()=> {
-          $('html, body').animate({scrollTop:scrollto}, 0);
-        },timeout)
-      }
-    }
-  } else {
-    setTimeout(()=> {
-      $('html, body').animate({scrollTop:0}, 0);
-    },timeout)
-  }
-} */
 
 /**
  * @description
@@ -439,46 +465,56 @@ function validateSize(map) {
  * @description
  * find expandable class and look for aria-expanded
  * https://github.com/gettypubs/quire/issues/152
- * Cite button where users can select, tied to two config settings: 
+ * Cite button where users can select, tied to two config settings:
  * citationPopupStyle - text for text only | icon for text and icon
  * citationPopupLinkText which is whatever text you it to say
  */
 function toggleCite() {
-    let expandables = document.querySelectorAll('.expandable [aria-expanded]');
-    for (let i = 0; i < expandables.length; i++) {
-        expandables[i].addEventListener('click', function() {
-            var expanded = this.getAttribute('aria-expanded');
-            if (expanded === 'false') {
-                this.setAttribute('aria-expanded', 'true');
-            } else {
-                this.setAttribute('aria-expanded', 'false');
-            }
-            var content = this.parentNode.querySelector('.quire-citation__content');
-            if (content) {
-                content.getAttribute('hidden');
-                if (typeof content.getAttribute('hidden') === 'string') {
-                    content.removeAttribute('hidden');
-                } else {
-                    content.setAttribute('hidden', 'hidden');
-                }
-            }
-        });
-    }
-    document.addEventListener('click', function(event) {
-        let content = event.target.parentNode;
-        if (content.classList.contains('quire-citation') || content.classList.contains('quire-citation__content')) {
-            // do nothing
+  let expandables = document.querySelectorAll(".expandable [aria-expanded]");
+  for (let i = 0; i < expandables.length; i++) {
+    expandables[i].addEventListener("click", event => {
+      // Allow these links to bubble up
+      event.stopPropagation();
+      let expanded = event.target.getAttribute("aria-expanded");
+      if (expanded === "false") {
+        event.target.setAttribute("aria-expanded", "true");
+      } else {
+        event.target.setAttribute("aria-expanded", "false");
+      }
+      let content = event.target.parentNode.querySelector(
+        ".quire-citation__content"
+      );
+      if (content) {
+        content.getAttribute("hidden");
+        if (typeof content.getAttribute("hidden") === "string") {
+          content.removeAttribute("hidden");
         } else {
-            // find all Buttons/Cites
-            let citeButtons = document.querySelectorAll('.quire-citation .quire-citation__button');
-            let citesContents = document.querySelectorAll('.quire-citation__content');
-            // hide all buttons
-            for (let i = 0; i < citesContents.length; i++) {
-                citeButtons[i].setAttribute('aria-expanded', 'false');
-                citesContents[i].setAttribute('hidden', 'hidden');
-            }
+          content.setAttribute("hidden", "hidden");
         }
+      }
     });
+  }
+  document.addEventListener("click", event => {
+    let content = event.target.parentNode;
+    if (!content) return;
+    if (
+      content.classList.contains("quire-citation") ||
+      content.classList.contains("quire-citation__content")
+    ) {
+      // do nothing
+    } else {
+      // find all Buttons/Cites
+      let citeButtons = document.querySelectorAll(".quire-citation__button");
+      let citesContents = document.querySelectorAll(".quire-citation__content");
+      // hide all buttons
+      if (!citesContents) return;
+      for (let i = 0; i < citesContents.length; i++) {
+        if (!citeButtons[i]) return;
+        citeButtons[i].setAttribute("aria-expanded", "false");
+        citesContents[i].setAttribute("hidden", "hidden");
+      }
+    }
+  });
 }
 
 /**
@@ -525,4 +561,5 @@ globalSetup();
 // Run when document is ready
 $(window).ready(() => {
   pageSetup();
+  scrollToHashOnLoad();
 });

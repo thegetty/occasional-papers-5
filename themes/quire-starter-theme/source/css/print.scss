@@ -10,20 +10,18 @@
 // -----------------------------------------------------------------------------
 $print-base-text-column-width: 4.75in;
 
-$print-bottom-margin: 0.75in;
-$print-top-margin: 0.875in;
-$print-outer-margin: 1.125in;
-$print-inner-margin: .625in;
+$print-bottom-margin: 0.875in;
+$print-top-margin: 0.75in;
+$print-outer-margin: 0.75in;
+$print-inner-margin: 1in;
 
-$print-base-text-column-width: $print-width - $print-outer-margin - $print-inner-margin;
+@if $print-width <= 7 {
+  $print-inner-margin: $print-width - $print-base-text-column-width - $print-outer-margin;
+}
 
-// @if $print-width <= 7 {
-//   $print-inner-margin: $print-width - $print-base-text-column-width - $print-outer-margin;
-// }
-
-// @if $print-height <= 10 {
-//   $print-top-margin: 0.5in;
-// }
+@if $print-height <= 10 {
+  $print-top-margin: 0.5in;
+}
 
 $print-footer-font: $quire-headings-font;
 $print-footer-font-size: 8pt;
@@ -52,27 +50,20 @@ $print-trim: $print-bleed * 2;
     margin-left: $print-outer-margin;
     margin-right: $print-inner-margin;
 
-    @top-left {
-      content: string(pubseries);
+    @bottom-right {
+      content: string(sectiontitle);
       text-transform: uppercase;
-      font-size: 7pt;
-      letter-spacing: .5pt;
-      margin-left: .75in;
+      letter-spacing: 1pt;
+      font-size: 7.5pt;
     }
 
-    @top-left-corner {
+    @bottom-left {
       content: counter(page);
-      font-size: 12pt;
-      margin-left: $print-outer-margin;
-      margin-right: -.75in;
-      text-align: left;
-      font-family: 'Source Sans Pro', sans-serif;
-      font-weight: 400;
     }
   }
 
   @page:left:first {
-    @top-right {
+    @bottom-right {
       content: none;
     }
   }
@@ -81,40 +72,30 @@ $print-trim: $print-bleed * 2;
     margin-left: $print-inner-margin;
     margin-right: $print-outer-margin;
 
-    @top-right {
-      content: string(pubtitle);
-      text-transform: uppercase;
-      font-size: 7pt;
-      letter-spacing: .5pt;
-      text-align: right;
-      margin-right: .75in;
+    @bottom-left {
+      content: string(pagetitle);
     }
 
-    @top-right-corner {
-      content: counter(page);
-      font-size: 12pt;
-      margin-right: $print-outer-margin;
-      margin-left: -.75in;
+    @bottom-right {
       text-align: right;
-      font-family: 'Source Sans Pro', sans-serif;
-      font-weight: 400;
+      content: counter(page);
     }
   }
 
   @page:right:first {
-    @top-left {
+    @bottom-left {
       content: none;
     }
   }
 
   @page frontmatter:left {
-    @top-left {
+    @bottom-left {
       content: counter(page, lower-roman);
     }
   }
   
   @page frontmatter:right {
-    @top-right {
+    @bottom-right {
       text-align: right;
       content: counter(page, lower-roman);
     }
@@ -122,14 +103,14 @@ $print-trim: $print-bleed * 2;
   
   @page frontmatter-splash:left {
     background-color: $print-splash-color;
-    @top-left {
+    @bottom-left {
       content: counter(page, lower-roman);
     }
   }
   
   @page frontmatter-splash:right {
     background-color: $print-splash-color;
-    @top-right {
+    @bottom-right {
       text-align: right;
       content: counter(page, lower-roman);
     }
@@ -151,31 +132,26 @@ $print-trim: $print-bleed * 2;
   }
 
   @page no-footer, entry-image, splash-image {
-    @top-right {
+    @bottom-right {
       content: none;
     }
-    @top-right-corner {
+  
+    @bottom-left {
       content: none;
     }
-    @top-left {
-      content: none;
-    }
-    @top-left-corner {
-      content: none;
-    }
-  } 
+  }
   
   @page page-one:first {
-    @top-left {
+    @bottom-left {
       content: none;
     }
   }
   
   @page :blank {
-    @top-left {
+    @bottom-left {
       content: none;
     }
-    @top-right {
+    @bottom-right {
       content: none;
     }
   }
@@ -199,14 +175,6 @@ $print-trim: $print-bleed * 2;
   
   .pdf-page-label {
     string-set: pagelabel content();
-  }
-  
-  .pdf-publication-title {
-    string-set: pubtitle content();
-  }
-  
-  .pdf-publication-series {
-    string-set: pubseries content();
   }
 
   .quire-contents-list {
@@ -441,6 +409,62 @@ $print-trim: $print-bleed * 2;
     }
   }
   
+// Improve page and line breaks
+// -----------------------------------------------------------------------------
+  html body * {
+    orphans: 2;
+    widows: 2;
+  }
+  
+  // Use PrinceXML prince-text-replace to insert zero-width-spaces in URLs
+  // that are printed in the text of the book, in order to facilitate better
+  // line breaking per Chicago Manual of Style
+  // https://www.chicagomanualofstyle.org/book/ed17/part3/ch14/psec018.html
+  a[target=_blank] {
+    prince-text-replace: "/" "\200B/"
+                          "~" "\200B~"
+                          "." "\200B."
+                          "," "\200B,"
+                          "-" "\200B-"
+                          "_" "\200B_"
+                          "?" "\200B?"
+                          "#" "\200B#"
+                          "%" "\200B%"
+                          "=" "\200B="
+                          "&" "\200B&"
+                          "+" "\200B+"
+                          ":" "\200B:"
+                          "\200B/\200B/" "//\200B"
+                          "\200B:\200B:" "\200B::";
+  }
+  
+  // Same method as above but to improve breaks around em-dashes
+  html body * {
+    prince-text-replace: "—" "—\200B";
+  }
+  
+  // For contributor bio lists/pages
+  .quire-contributor .title {
+    page-break-after: avoid;
+  }
+  .quire-contributor .media {
+    page-break-before: avoid;
+    page-break-inside: auto;
+  }
+  
+// Better list defaults and custom bullet alignment
+// -----------------------------------------------------------------------------
+  .quire-page__content .container .content ul {
+    margin-left: 1rem;
+  }
+  .quire-page__content .container .content ul li:before {
+    margin-top: .15em;
+    font-size: 7pt;
+  }
+  .quire-page__content .container .content hr:after {
+    font-size: 7pt;
+  }
+  
 // Globally hidden elements
 // -----------------------------------------------------------------------------
   html body {
@@ -450,6 +474,7 @@ $print-trim: $print-bleed * 2;
     .select,
     .visually-hidden,
     .footnote-return,
+    .footnote-backref,
     .is-screen-only,
     .remove-from-epub {
       display: none;

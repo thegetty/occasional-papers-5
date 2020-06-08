@@ -1,12 +1,15 @@
 // @ts-check
 
+import $ from "jquery";
 import DeepZoom from "./deepzoom.js";
 import Map from "./map.js";
 import { toggleFullscreen } from "./helper";
 import "magnific-popup/dist/magnific-popup.css";
+// eslint-disable-next-line no-undef
 require("magnific-popup");
 
 export default function(gallerySelector, mapArr) {
+  /** set var */
   const fullscreenButton = `
   <div 
   class="leaflet-control-fullscreen leaflet-bar leaflet-control remove-from-epub"
@@ -20,6 +23,11 @@ export default function(gallerySelector, mapArr) {
     </a>
   </div>
   `;
+
+  /**
+   * @description Find all instances of soundcloud players
+   * and stop them
+   */
   const findSoundCloudWidgetsAndStopThem = () => {
     const items = [...document.querySelectorAll(`.quire-figure`)];
     items
@@ -39,44 +47,14 @@ export default function(gallerySelector, mapArr) {
       });
   };
 
+  /**
+   * @param {*} self
+   * @description update caption in modal viewer if
+   * needed and clear before update
+   */
   const captionUpdate = self => {
-    if ($(".quire-caption-container")) {
-      $(".quire-caption-container").remove();
-    }
-    switch (self.currItem.type) {
-      case "inline":
-        self.caption =
-          $(self.currItem.el)
-            .find(".figure-caption")
-            .html() ||
-          $(self.currItem.el)
-            .parent()
-            .find("figcaption")
-            .html();
-        if (self.caption !== undefined) {
-          self.captionCont = `<div class="quire-caption-container"><span class="caption">${
-            self.caption
-          }</span></div>`;
-          $(".mfp-wrap").prepend(self.captionCont);
-        }
-        break;
-      case "iframe":
-        self.caption =
-          $(self.currItem.el)
-            .find(".figure-caption")
-            .html() ||
-          $(self.currItem.el)
-            .parent()
-            .find("figcaption")
-            .html();
-        if (self.caption !== undefined) {
-          self.captionCont = `<div class="quire-caption-container"><span class="caption">${
-            self.caption
-          }</span></div>`;
-          $(".mfp-wrap").prepend(self.captionCont);
-        }
-        break;
-      case "image":
+    const setCaption = self => {
+      if (self) {
         $(".mfp-title").hide();
         self.caption =
           $(self.currItem.el)
@@ -87,20 +65,33 @@ export default function(gallerySelector, mapArr) {
             .find("figcaption")
             .html();
         if (self.caption !== undefined) {
-          self.captionCont = `<div class="quire-caption-container"><span class="caption">${
-            self.caption
-          }</span></div>`;
+          self.captionCont = `<div class="quire-caption-container"><span class="caption">${self.caption}</span></div>`;
           $(".mfp-wrap").prepend(self.captionCont);
         }
-        break;
-      default:
+      } else {
         if ($(".quire-caption-container")) {
           $(".quire-caption-container").remove();
         }
+      }
+    };
+    setCaption();
+    switch (self.currItem.type) {
+      case "inline":
+        setCaption(self);
+        break;
+      case "iframe":
+        setCaption(self);
+        break;
+      case "image":
+        setCaption(self);
+        break;
+      default:
+        setCaption();
         break;
     }
   };
 
+  // add link to first slide when view as slides is present
   const updateViewSlidesLink = () => {
     let items = [...document.querySelectorAll(`.quire-figure--group`)];
     items
@@ -117,17 +108,26 @@ export default function(gallerySelector, mapArr) {
         });
       });
   };
-
-  // add link to first slide when view as slides is present
   updateViewSlidesLink();
 
+  /**
+   *
+   * @description e magnificPopup object
+   *
+   */
   $(gallerySelector).magnificPopup({
     delegate: "a.popup",
     type: "image",
     closeBtnInside: false,
+    closeOnBgClick: false,
     fixedContentPos: "auto",
     fixedBgPos: "auto",
     overflowY: "hidden",
+    image: {
+      titleSrc: function(item) {
+        return item.el.find(".figure-caption-container").html();
+      }
+    },
     gallery: {
       enabled: true,
       preload: [0, 2], // read about this option in next Lazy-loading section
@@ -138,10 +138,7 @@ export default function(gallerySelector, mapArr) {
       tNext: "Next (Right arrow key)", // title for right button
       tCounter: "",
       closeMarkup:
-        '<button title="Close (Esc)" type="button" class="mfp-close"></button>',
-      titleSrc: function(item) {
-        return item.el.find(".figure-caption").html();
-      }
+        '<button title="Close (Esc)" type="button" class="mfp-close"></button>'
     },
     callbacks: {
       beforeOpen: function() {
@@ -149,12 +146,8 @@ export default function(gallerySelector, mapArr) {
         $("body").addClass("android-fixed");
         this.current = this.index + 1;
         this.total = this.items.length - 1;
-        this.counter = `<span class="counter">${this.current} of ${
-          this.items.length
-        }</span>`;
-        this.cont = `<div class="quire-counter-container">${
-          this.counter
-        }</div>`;
+        this.counter = `<span class="counter">${this.current} of ${this.items.length}</span>`;
+        this.cont = `<div class="quire-counter-container">${this.counter}</div>`;
       },
       elementParse: function(item) {
         if (item.el[0].getAttribute("data-type") === "video") {
@@ -197,9 +190,9 @@ export default function(gallerySelector, mapArr) {
       change: function() {
         this.current = this.index + 1;
         if (document.querySelector(".counter")) {
-          document.querySelector(".counter").innerHTML = `${this.current} of ${
-            this.items.length
-          }`;
+          document.querySelector(
+            ".counter"
+          ).innerHTML = `${this.current} of ${this.items.length}`;
         }
         captionUpdate(this);
         let id = this.content.children()[0].id;
