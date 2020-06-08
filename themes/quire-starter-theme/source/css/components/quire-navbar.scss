@@ -27,7 +27,7 @@
   font-family: $quire-navigation-font;
   font-weight: 400;
   font-size: .875em;
-  position: fixed;
+  position: sticky;
   z-index: 1;
 
   svg {
@@ -45,8 +45,8 @@
     font-size: .65rem;
   }
 
-  @include foreground-color($off-black,$quire-navbar-text-color);
-  background-color: $off-black;
+  @include foreground-color($quire-navbar-color,$quire-navbar-text-color);
+  background-color: $quire-navbar-color;
   min-height: $navbar-height;
   top: 0 !important;
   width: 100%;
@@ -157,16 +157,13 @@
   justify-content: center;
 
   &__item {
-    padding: 0;
+    padding: 0 1rem;
     max-height: $navbar-height;
     overflow: hidden;
     display: none;
 
     a, svg {
       transition: all .25s ease;
-    }
-    a {
-      padding: 0;
     }
 
     span.nav-label {
@@ -185,7 +182,7 @@
 
     &.quire-previous-page {
       a {
-        padding-right: 3vw;
+        padding: 0 1.5em 0 0.5em;
       }
       svg {
         margin-right: 1em;
@@ -195,7 +192,7 @@
     &.quire-next-page {
       font-style: normal;
       a {
-        padding-left: 3vw;
+        padding: 0 0.5em 0 1.5em;
       }
       svg {
         margin-left: 0.25em;

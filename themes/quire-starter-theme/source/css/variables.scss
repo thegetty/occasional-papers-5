@@ -95,7 +95,7 @@ $quire-navigation-font: 'Archivo Narrow', sans-serif; // navbar and next/prev bu
 // Navbar
 // -----------------------------------------------------------------------------
 // Declare navbar colors
-$quire-navbar-color: $off-white;
+$quire-navbar-color: $off-black;
 $quire-navbar-hover-color: null;
 $quire-navbar-text-color: null;
 
@@ -106,7 +106,7 @@ $quire-navbar-text-color: null;
   $quire-navbar-text-color: $white !default;
 } @else {
   // Normal Navbar (default)
-  $quire-navbar-color: $off-white !default;
+  $quire-navbar-color: $white !default;
   $quire-navbar-hover-color: darken($quire-navbar-color, 5%) !default;
   @if $theme == classic {
     $quire-navbar-text-color: lighten($off-black, 20%) !default;
