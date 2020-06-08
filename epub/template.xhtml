@@ -11,7 +11,7 @@
             quotes: "“" "”" "‘" "’";
         }
         $endif$
-                
+
         section#copyright h1 {
           color: transparent;
         }
@@ -37,7 +37,7 @@
         .quire-contributor__affiliation {
           font-style: italic;
         }
-        h1 + p,    
+        h1 + p,
         h2 + p,
         h3 + p,
         p:first-child {
@@ -57,12 +57,12 @@
           font-size: 2.5em;
           font-weight: 300;
           padding: 0;
-        }  
+        }
         section.titlepage * {
           font-family: sans-serif;
           margin-left: 1.5rem;
         }
-        
+
     </style>
     $if(highlighting-css)$
     <style type="text/css">
@@ -72,31 +72,31 @@
     <link rel="stylesheet" type="text/css" href="$css$" /> $endfor$ $for(header-includes)$ $header-includes$ $endfor$
 </head>
 <body$if(coverpage)$ id="cover" $endif$>
-    
+
     $if(titlepage)$
     <section class="titlepage" epub:type="titlepage">
         $for(title)$ $if(title.type)$
         <h1 class="$title.type$">$title.text$</h1>
         $else$
         <h1 class="title">$title$</h1>
-        $endif$ $endfor$ 
-        
-        <h2 class="contributor">Helen Frowe and Derek Matravers</h2>
-        
-        <p class="publisher" style="text-indent: 0;">Getty Publications, Los Angeles</p>
-        
-    </section>
-    $else$ 
+        $endif$ $endfor$
 
-    $for(include-before)$ 
-    $include-before$ 
-    $endfor$ 
-    
-    $body$ 
-    
-    $for(include-after)$ 
-    $include-after$ 
-    $endfor$ 
+        <h2 class="contributor">Edited by James Cuno and Thomas G. Weiss"</h2>
+
+        <p class="publisher" style="text-indent: 0;">Getty Publications, Los Angeles</p>
+
+    </section>
+    $else$
+
+    $for(include-before)$
+    $include-before$
+    $endfor$
+
+    $body$
+
+    $for(include-after)$
+    $include-after$
+    $endfor$
 
     $endif$
     </body>
