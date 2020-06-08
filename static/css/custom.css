@@ -592,6 +592,9 @@ strong {
   margin-left: -.5em;
 }
 
+/* SPECIFIC FOR OCCASIONAL PAPERS #4
+============================================================================= */
+
 /* Adjust appearance of contributor names in author.md */
 .content ul.quire-contributors-list.name-title-block .quire-contributor {
   width: 100%;
@@ -604,6 +607,11 @@ strong {
 }
 .content ul.quire-contributors-list.name-title-block .quire-contributor__name {
   font-weight: bold;
+}
+@media print {
+  .content ul.quire-contributors-list.name-title-block {
+    display: inherit;
+  }
 }
 
 /* Styling for Ancient Worlds Now logo and tagline */
