@@ -7,7 +7,8 @@ type: cover
 class: type-left with-shading
 slug: .
 toc: false
-image: cover/op4--ap--20068414927380.jpg
+image: cover-a.jpg
+# image: cover/op4--ap--20068414927380.jpg
 # image: cover/op4--ap--20074494579925.jpg
 # image: cover/op4--reuters--RTX6RX4G.jpg
 ---
