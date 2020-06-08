@@ -1,5 +1,10 @@
 {{/*
 
+  THIS OVERRIDE VERSION OF THE SHORTCODE ADDS SUPPORT FOR THE CUSTOM
+  `affiliation_as_it_appears` and `honorific` ATTRIBUTES TO THE
+  name-title-block MARKUP.
+  
+
   The q-contributor shortcode can be used to create a page of contributor
   biographies, a section of bios for a single page, a list of contributors,
   or a byline for a particular page.
@@ -242,7 +247,7 @@
 {{- range ($.Page.Scratch.GetSortedMapValues "contributorlist") -}}
 {{- $nameid := plainify (replace (index . 0) " " "-") -}}
   <li class="quire-contributor" id="{{ $nameid }}">
-      <span class="quire-contributor__name">{{ index . 0 }}</span>
+      <span class="quire-contributor__name">{{ index . 0 }}{{- if ne (index . 7) "n/a" -}}, {{ index . 7 }}{{ end }}</span>
       {{- if or (eq ($.Get "format") "name-title") (eq ($.Get "format") "name-title-block") -}}
 
       {{- if ne ($.Get "format") "name-title-block" -}}

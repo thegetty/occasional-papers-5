@@ -4,10 +4,7 @@ weight: 5
 type: page
 contributor_byline: false
 contributor:
-  - first_name: James
-    last_name: Cuno, co-convenor
-    title: President and CEO
-    affiliation: J. Paul Getty Trust
+  - id: jcuno
 ---
 
 Over three days, May 8–10, 2019, Thomas G. Weiss, Presidential Professor of Political Science at the CUNY Graduate Center, and I convened at the Getty Center nineteen scholars and practitioners of different specialties and experience to discuss the topic, “Cultural Heritage under Siege.” In one way or another, we had been discussing this topic for three years. The purpose of the convening was to begin to finalize the shape and substance of the book we decided needed to be written, *Cultural Heritage and Mass Atrocities: Human and Security Costs*, to be published by Getty Publications in 2022.

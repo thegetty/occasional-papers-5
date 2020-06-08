@@ -51,6 +51,7 @@ contributor:
     file_as: 01
     first_name: James
     last_name: Cuno
+    honorific: co-convenor
     title: "President and CEO"
     affiliation: "J. Paul Getty Trust"
   - id: tweiss
@@ -58,6 +59,7 @@ contributor:
     file_as: 02
     first_name: Thomas G.
     last_name: Weiss
+    honorific: co-convenor
     title: "Presidential Professor of Political Science"
     affiliation: "CUNY Graduate Center"
   - id: sadams
