@@ -78,16 +78,16 @@ ISBN 978-1-60606-682-9 (ebook)
 
 Also in the series:
 
-[“Cultural Cleansing and Mass Atrocities: Protecting Cultural Heritage in Armed Conflict Zones”](http://getty.edu/publications/pdfs/CulturalCleansing_Weiss_Connelly.pdf) <br />Thomas G. Weiss and Nina Connelly
+[“Cultural Cleansing and Mass Atrocities: Protecting Cultural Heritage in Armed Conflict Zones”](https://www.getty.edu/publications/pdfs/CulturalCleansing_Weiss_Connelly.pdf) <br />Thomas G. Weiss and Nina Connelly
 
-[“Cultural Genocide and the Protection of Cultural Heritage”](http://getty.edu/publications/pdfs/CulturalGenocide_Luck.pdf) <br />Edward C. Luck
+[“Cultural Genocide and the Protection of Cultural Heritage”](http://www.getty.edu/publications/pdfs/CulturalGenocide_Luck.pdf) <br />Edward C. Luck
 
 ["Conflict and Cultural Heritage: A Moral Analysis of the Challenges of Heritage Protection"](https://www.getty.edu/publications/occasional-papers-3/downloads/FroweMatravers_ConflictandCulturalHeritage.pdf) <br />Helen Frowe and Derek Matravers
 
 
 ---
 
-Cover: A boy stands at the entrance of a destroyed building in Mosul, Iraq, March 14, 2018. Photo: Ahmad Al-Rubaye / Getty Images
+Cover: Caption TK
 
 {{< q-class "awn-logo" >}}
 
