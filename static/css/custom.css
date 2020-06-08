@@ -94,14 +94,14 @@
 
 
 /* Matching page headings */
-.quire-page h1, .quire-page__header__title {
+.quire-page:not(.quire-cover) h1, .quire-page__header__title {
   text-transform: uppercase;
   letter-spacing: .5px;
   font-size: 2.5rem;
   font-weight: 700;
 }
 @media screen {
-  .quire-page h1, .quire-page__header__title {
+  .quire-page:not(.quire-cover) h1, .quire-page__header__title {
     text-align: center;
   }
 }
@@ -345,7 +345,7 @@
   .quire-page__header .hero-body .label {
     margin: 0;
   }
-  .quire-page h1, .quire-page__header__title {
+  .quire-page:not(.quire-cover) h1, .quire-page__header__title {
     margin-top: 0;
     text-align: left;
     margin-left: .75in;
