@@ -32,7 +32,7 @@ language: en
 pub_type: online # book | journal-periodical | other
 identifier:
   isbn: 978-1-60606-681-2
-  url: https://www.getty.edu/publication/occasional-papers-3/
+  url: https://www.getty.edu/publication/occasional-papers-4/
 
 publisher:
   - name: Getty Publications
