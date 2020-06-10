@@ -10,17 +10,17 @@ In 2016, in response to recent attacks on cultural heritage sites in Syria, Iraq
 
 The fourth volume of the J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy series is the result of a multi-day discussion on the issue of cultural heritage under siege. It features an edited collection of papers and discussions by nineteen scholars and practitioners of different specialties in the field of cultural heritage.
 
-{{< q-class "backmatter" >}}
+<div class="backmatter">
 
 ## Citation Information
 
 ### Chicago
 
-Cuno, James, and Thomas G. Weiss. “Cultural Heritage under Siege: Laying the Foundation for a Legal and Political Framework to Protect Cultural Heritage at Risk in Zones of Armed Conflict.” J.&#160;Paul Getty Trust Occasional Papers in Cultural Heritage Policy, no. 4 (2020). http://getty.edu/publications/occasional-papers-4/.
+{{< q-citethis type="chicago" range="publication" >}}
 
 ### MLA
 
-Cuno, James, and Thomas G. Weiss. “Cultural Heritage under Siege: Laying the Foundation for a Legal and Political Framework to Protect Cultural Heritage at Risk in Zones of Armed Conflict.” J.&#160;Paul Getty Trust Occasional Papers in Cultural Heritage Policy, no. 4, 2020. http://getty.edu/publications/occasional-papers-4/. Accessed <span class="cite-current-date">Aug. 29, 2019</span>.
+{{< q-citethis type="mla" range="publication" >}}
 
 ### Permanent URL
 
@@ -95,4 +95,4 @@ Cover: Caption TK
 
 {{< /q-class >}}
 
-{{< /q-class >}}
+</div>
