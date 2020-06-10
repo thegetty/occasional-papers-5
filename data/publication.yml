@@ -32,6 +32,7 @@ language: en
 pub_type: online # book | journal-periodical | other
 identifier:
   isbn: 978-1-60606-681-2
+  url: https://www.getty.edu/publication/occasional-papers-4/
 
 publisher:
   - name: Getty Publications
@@ -48,6 +49,7 @@ contributor_as_it_appears: "<span class='small'>Edited by</span> James&nbsp;Cuno
 contributor:
   - id: jcuno
     type: primary
+    role: editor
     file_as: 01
     first_name: James
     last_name: Cuno
@@ -56,6 +58,7 @@ contributor:
     affiliation: "J. Paul Getty Trust"
   - id: tweiss
     type: primary
+    role: editor
     file_as: 02
     first_name: Thomas G.
     last_name: Weiss

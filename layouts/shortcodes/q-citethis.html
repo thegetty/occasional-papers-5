@@ -1,0 +1,4 @@
+{{ $type := .Get "type" }}
+{{ $range := .Get "range" }}
+
+<p>{{  partial "cite-this.html" (dict "page" . "site" .Site "type" $type) }}</p>
