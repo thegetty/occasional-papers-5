@@ -24,7 +24,7 @@ The fourth volume of the J. Paul Getty Trust Occasional Papers in Cultural Herit
 
 ### Permanent URL
 
-http://getty.edu/publications/occasional-papers-4/
+https://www.getty.edu/publications/occasional-papers-4/
 
 ## Revision History
 
