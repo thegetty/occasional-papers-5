@@ -36,7 +36,7 @@ Also in the series:
 
 ---
 
-Cover: Engineers from of the National Authority for the Conservation of Historic Towns work during the reconstruction of buildings destroyed by an air strike at the old quarter of Yemen's capital Sanaa, November 7, 2015. Photo: REUTERS / Mohamed al-Sayaghi
+Cover: Engineers from the National Authority for the Conservation of Historic Towns work during the reconstruction of buildings destroyed by an air strike in the old quarter of Yemen's capital, Sanaa, November 7, 2015. Photo: REUTERS / Mohamed al-Sayaghi
 
 ![awn-logo](/img/awn-logo-and-line.png)
 
