@@ -68,10 +68,10 @@ This text of this work is licensed under a [Creative Commons Attribution-NonComm
 
 This publication has been funded by the President’s International Council, J. Paul Getty Trust.
 
-**Published by Getty Publications**<br />
+**Published by Getty Publications, Los Angeles**<br />
 1200 Getty Center Drive, Suite 500<br />
 Los Angeles, California 90049-1682<br />
-[www.getty.edu/publications](http://www.getty.edu/publications)
+[getty.edu/publications](http://www.getty.edu/publications)
 
 ISBN 978-1-60606-681-2 (online)<br />
 ISBN 978-1-60606-682-9 (ebook)
