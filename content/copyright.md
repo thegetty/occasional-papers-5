@@ -9,7 +9,7 @@ toc: false
 
 {{< q-class "backmatter" >}}
 
-This publication was created using Quire<sup>TM</sup>, a multiformat publishing tool from Getty.
+This publication was created using Quire™, a multiformat publishing tool from Getty.
 
 This publication has been funded by the President’s International Council, J. Paul Getty Trust.
 
