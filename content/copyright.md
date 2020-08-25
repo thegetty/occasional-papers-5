@@ -11,7 +11,7 @@ toc: false
 
 This publication was created using Quire™, a multiformat publishing tool from Getty.
 
-The free online edition of this publication is available at https://www.getty.edu/publications/occasional-papers-4/. Also available are free PDF, EPUB, and MOBI/Kindle downloads.
+The free online edition of this publication is available at [getty.edu/publications/occasional-papers-4/](https://www.getty.edu/publications/occasional-papers-4/). Also available are free PDF, EPUB, and MOBI/Kindle downloads.
 
 This publication has been funded by the President’s International Council, J. Paul Getty Trust.
 
@@ -19,10 +19,10 @@ This publication has been funded by the President’s International Council, J. 
 
 ![cc-by-nc](/img/cc-by-nc.png)
 
-The text of this work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/. The cover image is reproduced with the permission of the rights holder acknowledged in the caption and is expressly excluded from the CC BY-NC license covering the rest of this publication. The image may not be reproduced, copied, transmitted, or manipulated without consent from the owner, who reserves all rights.
+The text of this work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of this license, visit [creativecommons.org/licenses/by-nc/4.0/](http://creativecommons.org/licenses/by-nc/4.0/). The cover image is reproduced with the permission of the rights holder acknowledged in the caption and is expressly excluded from the CC BY-NC license covering the rest of this publication. The image may not be reproduced, copied, transmitted, or manipulated without consent from the owner, who reserves all rights.
 
-First edition, 2020
-https://github.com/thegetty/occasional-papers-4/
+First edition, 2020<br />
+[github.com/thegetty/occasional-papers-4/](https://github.com/thegetty/occasional-papers-4/)
 
 **Published by Getty Publications, Los Angeles**<br />
 1200 Getty Center Drive, Suite 500<br />

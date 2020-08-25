@@ -28,7 +28,7 @@ https://www.getty.edu/publications/occasional-papers-4/
 
 ## Revision History
 
-Any revisions or corrections made to this publication after the first edition date will be listed here and in the project repository at https://github.com/thegetty/occasional-papers-4/, where a more detailed version history is available. The revisions branch of the project repository, when present, will also show any changes currently under consideration but not yet published here.
+Any revisions or corrections made to this publication after the first edition date will be listed here and in the project repository at [github.com/thegetty/occasional-papers-4/](https://github.com/thegetty/occasional-papers-4/), where a more detailed version history is available. The revisions branch of the project repository, when present, will also show any changes currently under consideration but not yet published here.
 
 ### September 8, 2020
 
