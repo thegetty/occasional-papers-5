@@ -44,7 +44,9 @@ Any revisions or corrections made to this publication after the first edition da
 
 This publication was created using Quire™, a multiformat publishing tool from Getty.
 
-This publication has been funded by the President’s International Council, J. Paul Getty Trust.© 2020 J. Paul Getty Trust
+This publication has been funded by the President’s International Council, J. Paul Getty Trust.
+
+© 2020 J. Paul Getty Trust
 
 {{< q-class "cc-icon" >}}
 <svg class="quire-copyright__icon">
