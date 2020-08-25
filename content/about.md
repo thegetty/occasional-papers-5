@@ -38,7 +38,7 @@ Any revisions or corrections made to this publication after the first edition da
 
   - [PDF](/downloads/CunoWeiss_CulturalHeritageUnderSiege.pdf)
   - [EPUB](/downloads/CunoWeiss_CulturalHeritageUnderSiege.epub)
-  - [MOBI/Kindle](/downloads/CunoWeiss_CulturalHeritageUnderSiege.mobi)
+  - [Kindle/MOBI](/downloads/CunoWeiss_CulturalHeritageUnderSiege.mobi)
 
 ## Copyright
 

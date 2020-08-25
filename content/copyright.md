@@ -11,7 +11,7 @@ toc: false
 
 This publication was created using Quire™, a multiformat publishing tool from Getty.
 
-The free online edition of this publication is available at [getty.edu/publications/occasional-papers-4/](https://www.getty.edu/publications/occasional-papers-4/). Also available are free PDF, EPUB, and MOBI/Kindle downloads.
+The free online edition of this publication is available at [getty.edu/publications/occasional-papers-4/](https://www.getty.edu/publications/occasional-papers-4/). Also available are free PDF, EPUB, and Kindle/MOBI downloads.
 
 This publication has been funded by the President’s International Council, J. Paul Getty Trust.
 
