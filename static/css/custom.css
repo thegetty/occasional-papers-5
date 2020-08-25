@@ -656,4 +656,11 @@ strong {
     bottom: 0;
     left: 0;
   }
+  #copyright .quire-page__content {
+    column-count: 2;
+    max-width: none;
+  }
+  #copyright .quire-page__content .container .content hr {
+    width: 100%;
+  }
 }
