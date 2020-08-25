@@ -64,9 +64,11 @@ Any revisions or corrections made to this publication after the first edition da
 </svg>
 {{< /q-class >}}
 
-This text of this work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International Public License](https://creativecommons.org/licenses/by-nc/4.0/). The cover image is reproduced with the permission of the rights holder acknowledged in the caption and is expressly excluded from the CC BY-NC license covering the rest of this publication. The image may not be reproduced, copied, transmitted, or manipulated without consent from the owner, who reserves all rights.
+This publication was created using Quire™, a multiformat publishing tool from Getty.
 
 This publication has been funded by the President’s International Council, J. Paul Getty Trust.
+
+This text of this work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International Public License](https://creativecommons.org/licenses/by-nc/4.0/). The cover image is reproduced with the permission of the rights holder acknowledged in the caption and is expressly excluded from the CC BY-NC license covering the rest of this publication. The image may not be reproduced, copied, transmitted, or manipulated without consent from the owner, who reserves all rights.
 
 **Published by Getty Publications, Los Angeles**<br />
 1200 Getty Center Drive, Suite 500<br />
@@ -87,7 +89,7 @@ Also in the series:
 
 ---
 
-Cover: Engineers from the National Authority for the Conservation of Historic Towns work during the reconstruction of buildings destroyed by an air strike in the old quarter of Yemen's capital, Sanaa, November 7, 2015. Photo: REUTERS / Mohamed al-Sayaghi
+Cover: Engineers from the National Authority for the Conservation of Historic Towns at work on the reconstruction of buildings destroyed by an air strike in the old quarter of Yemen's capital, Sanaa, November 7, 2015. Photo: REUTERS / Mohamed al-Sayaghi
 
 {{< q-class "awn-logo" >}}
 
