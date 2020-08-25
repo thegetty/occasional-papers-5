@@ -42,7 +42,9 @@ Any revisions or corrections made to this publication after the first edition da
 
 ## Copyright
 
-© 2020 J. Paul Getty Trust
+This publication was created using Quire™, a multiformat publishing tool from Getty.
+
+This publication has been funded by the President’s International Council, J. Paul Getty Trust.© 2020 J. Paul Getty Trust
 
 {{< q-class "cc-icon" >}}
 <svg class="quire-copyright__icon">
@@ -63,10 +65,6 @@ Any revisions or corrections made to this publication after the first edition da
 </switch>
 </svg>
 {{< /q-class >}}
-
-This publication was created using Quire™, a multiformat publishing tool from Getty.
-
-This publication has been funded by the President’s International Council, J. Paul Getty Trust.
 
 This text of this work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International Public License](https://creativecommons.org/licenses/by-nc/4.0/). The cover image is reproduced with the permission of the rights holder acknowledged in the caption and is expressly excluded from the CC BY-NC license covering the rest of this publication. The image may not be reproduced, copied, transmitted, or manipulated without consent from the owner, who reserves all rights.
 
