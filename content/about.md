@@ -6,9 +6,9 @@ epub: false
 search: false
 ---
 
-In 2016, in response to recent attacks on cultural heritage sites in Syria, Iraq, and Timbuktu, the J.&#160;Paul Getty Trust convened a meeting at the British Academy in London to discuss the need for an international framework to protect cultural heritage in zones of armed conflict. To further explore these questions, the Trust subsequently launched the series J.&#160;Paul Getty Trust Occasional Papers in Cultural Heritage Policy.
+In 2016, in response to recent attacks on cultural heritage sites in Syria, Iraq, and Timbuktu, the J.&#160;Paul Getty Trust convened a meeting at the British Academy in London to discuss the need for an international framework to protect cultural heritage in zones of armed conflict. To further explore these questions, the Trust subsequently launched the *J.&#160;Paul Getty Trust Occasional Papers in Cultural Heritage Policy*.
 
-The fourth volume of the J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy series is the result of a multiday discussion on the issue of cultural heritage under siege. It features an edited collection of papers and discussions by nineteen scholars and practitioners of different specialties in the field of cultural heritage.
+The fourth volume of the *J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy* is the result of a multiday discussion on the issue of cultural heritage under siege. It features an edited collection of papers and discussions by nineteen scholars and practitioners of different specialties in the field of cultural heritage.
 
 <div class="backmatter">
 
@@ -68,7 +68,7 @@ This publication has been funded by the President’s International Council, J. 
 </svg>
 {{< /q-class >}}
 
-This text of this work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International Public License](https://creativecommons.org/licenses/by-nc/4.0/). The cover image is reproduced with the permission of the rights holder acknowledged in the caption and is expressly excluded from the CC BY-NC license covering the rest of this publication. The image may not be reproduced, copied, transmitted, or manipulated without consent from the owner, who reserves all rights.
+This text of this work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). The cover image is reproduced with the permission of the rights holder acknowledged in the caption and is expressly excluded from the CC BY-NC license covering the rest of this publication. The image may not be reproduced, copied, transmitted, or manipulated without consent from the owner, who reserves all rights.
 
 **Published by Getty Publications, Los Angeles**<br />
 1200 Getty Center Drive, Suite 500<br />
@@ -80,12 +80,11 @@ ISBN 978-1-60606-682-9 (ebook)
 
 Also in the series:
 
+[“Cultural Cleansing and Mass Atrocities: Protecting Cultural Heritage in Armed Conflict Zones”](https://www.getty.edu/publications/occasional-papers-1/) <br />Thomas G. Weiss and Nina Connelly
 
-[<em>Cultural Cleansing and Mass Atrocities: Protecting Cultural Heritage in Armed Conflict Zones</em>](http://www.getty.edu/publications/pdfs/CulturalCleansing_Weiss_Connelly.pdf) <br />Thomas G. Weiss and Nina Connelly
+[“Cultural Genocide and the Protection of Cultural Heritage”](https://www.getty.edu/publications/occasional-papers-2/) <br />Edward C. Luck
 
-[<em>Cultural Genocide and the Protection of Cultural Heritage</em>](http://www.getty.edu/publications/pdfs/CulturalGenocide_Luck.pdf) <br />Edward C. Luck
-
-[<em>Conflict and Cultural Heritage: A Moral Analysis of the Challenges of Heritage Protection</em>](https://www.getty.edu/publications/occasional-papers-3/downloads/FroweMatravers_ConflictandCulturalHeritage.pdf) <br />Helen Frowe and Derek Matravers
+[“Conflict and Cultural Heritage: A Moral Analysis of the Challenges of Heritage Protection”](https://www.getty.edu/publications/occasional-papers-3/) <br />Helen Frowe and Derek Matravers
 
 
 ---
