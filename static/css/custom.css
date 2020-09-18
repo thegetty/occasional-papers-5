@@ -141,7 +141,7 @@
   background-image: none;
   overflow: scroll;
 }
-.quire-cover__hero, 
+.quire-cover__hero,
 .quire-cover__overlay {
   min-height: calc(95vh - 4rem) !important;
 }
@@ -572,9 +572,7 @@ strong {
                           "=" "\200B="
                           "&" "\200B&"
                           "+" "\200B+"
-                          ":" "\200B:"
-                          "\200B/\200B/" "//\200B"
-                          "\200B:\200B:" "\200B::";
+                          "\200B/\200B/" "//\200B" !important;
   }
 }
 
