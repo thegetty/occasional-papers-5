@@ -28,12 +28,12 @@
 {{- if eq $citationType "chicago" -}}
 
   {{/* ------------  CHICAGO ------------ */}}
-  {{ template "publication-contributors" (dict "page" .page "Site" .site "type" $citationType) }}. “{{ .site.Data.publication.title }}{{ with .site.Data.publication.subtitle }}{{ if $endPunctuation }} {{ else }}: {{ end }}{{ . }}{{ end }}.” {{ with .site.Data.publication.series }}{{ . }}{{ end }}{{ with .site.Data.publication.number_in_series }}{{ if $seriesStart }} {{ else }}, {{ end }}{{ . }}{{ end }}. {{ template "publishers-chicago" (dict "site" .site) }}{{ with .site.Data.publication.pub_date }}, {{ dateFormat "2006" . }}{{ end }}. <span class="url-string">{{ with .site.Data.publication.identifier.url }}{{ . }}{{ end }}</span>.
+  {{ template "publication-contributors" (dict "page" .page "Site" .site "type" $citationType) }}. “{{ .site.Data.publication.title }}{{ with .site.Data.publication.subtitle }}{{ if $endPunctuation }} {{ else }}: {{ end }}{{ . }}{{ end }}.” {{ with .site.Data.publication.series }}<em>{{ . }}</em>{{ end }}{{ with .site.Data.publication.number_in_series }}{{ if $seriesStart }}, no. {{ else }}, {{ end }}{{ . }}{{ end }}{{ with .site.Data.publication.pub_date }} ({{ dateFormat "2006" . }}){{ end }}. <span class="url-string">{{ with .site.Data.publication.identifier.url }}{{ . }}{{ end }}</span>.
 
 {{- else if eq $citationType "mla" -}}
 
   {{/* ------------  MLA ------------ */}}
-  {{ template "publication-contributors" (dict "page" .page "Site" .site "type" $citationType) }}. “{{ .site.Data.publication.title }}{{ with .site.Data.publication.subtitle }}{{ if $endPunctuation }} {{ else }}: {{ end }}{{ . }}{{ end }}.” {{ with .site.Data.publication.series }}{{ . }}{{ end }}{{ with .site.Data.publication.number_in_series }}{{ if $seriesStart }} {{ else }}, {{ end }}{{ . }}{{ end }}. {{ template "publishers-mla" (dict "site" .site) }}{{ with .site.Data.publication.pub_date }}, {{ dateFormat "2006" . }}{{ end }}. <span class="url-string">{{ with .site.Data.publication.identifier.url }}{{ . }}{{ end }}</span>. Accessed <span class="cite-current-date">Aug. 29, 2019</span>.
+  {{ template "publication-contributors" (dict "page" .page "Site" .site "type" $citationType) }}. “{{ .site.Data.publication.title }}{{ with .site.Data.publication.subtitle }}{{ if $endPunctuation }} {{ else }}: {{ end }}{{ . }}{{ end }}.” {{ with .site.Data.publication.series }}<em>{{ . }}</em>{{ end }}{{ with .site.Data.publication.number_in_series }}{{ if $seriesStart }}, no. {{ else }}, {{ end }}{{ . }}{{ end }}{{ with .site.Data.publication.pub_date }}, {{ dateFormat "2006" . }}{{ end }}, <span class="url-string">{{ with .site.Data.publication.identifier.url }}{{ . | replaceRE "^https?://" "" }}{{ end }}</span>. Accessed <span class="cite-current-date">Aug. 29, 2019</span>.
 
 {{- end -}}
 
