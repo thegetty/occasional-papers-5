@@ -16,7 +16,7 @@ publishDir: site
 
 footnoteReturnLinkContents: "↩"
 metaDataFormat: "yaml"
-googleAnalytics: ""
+googleAnalytics: "UA-8087223-1"
 
 pluralizeListTitles: true
 disableKinds:
@@ -33,7 +33,7 @@ markup:
   goldmark:
     renderer:
       unsafe: true # allows HTML tags within Markdown file
-      
+
 # These values can be accessed in templates via .Site.Params
 params:
   searchEnabled: true
