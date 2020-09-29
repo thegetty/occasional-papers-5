@@ -30,7 +30,7 @@ Los Angeles, California 90049-1682<br />
 [getty.edu/publications](http://www.getty.edu/publications)
 
 ISBN 978-1-60606-681-2 (online)<br />
-ISBN 978-1-60606-682-9 (ebook)
+ISBN 978-1-60606-682-9 (e-book)
 
 Also in the series:
 

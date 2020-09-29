@@ -8,7 +8,7 @@ search: false
 
 In 2016, in response to recent attacks on cultural heritage sites in Syria, Iraq, and Timbuktu, the J.&#160;Paul Getty Trust convened a meeting at the British Academy in London to discuss the need for an international framework to protect cultural heritage in zones of armed conflict. To further explore these questions, the Trust subsequently launched the *J.&#160;Paul Getty Trust Occasional Papers in Cultural Heritage Policy*.
 
-The fourth volume of the *J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy* is the result of a multiday discussion on the issue of cultural heritage under siege. It features an edited collection of papers and discussions by nineteen scholars and practitioners of different specialties in the field of cultural heritage.
+The fourth issue of the *J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy* is the result of a multiday convening on the issue of cultural heritage under siege. It features an edited collection of presentations and discussions by nineteen scholars and practitioners of diverse specialties related to the field of cultural heritage.
 
 <div class="backmatter">
 
@@ -76,7 +76,7 @@ Los Angeles, California 90049-1682<br />
 [getty.edu/publications](http://www.getty.edu/publications)
 
 ISBN 978-1-60606-681-2 (online)<br />
-ISBN 978-1-60606-682-9 (ebook)
+ISBN 978-1-60606-682-9 (e-book)
 
 Also in the series:
 

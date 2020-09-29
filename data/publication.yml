@@ -20,19 +20,19 @@ number_in_series: 4
 description:
   one_line:
   full: >-
-    The fourth volume of the J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy series is the result of a multiday discussion on the issue of cultural heritage under siege. It features an edited collection of papers and discussions by nineteen scholars and practitioners of different specialties in the field of cultural heritage.
+    The fourth issue of the *J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy* is the result of a multiday convening on the issue of cultural heritage under siege. It features an edited collection of presentations and discussions by nineteen scholars and practitioners of diverse specialties related to the field of cultural heritage.
 
 # ------------------------------------------------------------------------------
 # Publication Details
 # ------------------------------------------------------------------------------
 
-pub_date: 2020-07-21
+pub_date: 2020-09-08
 language: en
 
 pub_type: online # book | journal-periodical | other
 identifier:
   isbn: 978-1-60606-681-2
-  url: https://www.getty.edu/publication/occasional-papers-4/
+  url: https://www.getty.edu/publications/occasional-papers-4/
 
 publisher:
   - name: Getty Publications
