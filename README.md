@@ -1,4 +1,4 @@
-This is the repository for “Cultural Heritage under Siege: Laying the Foundation for a Legal and Political Framework to Protect Cultural Heritage at Risk in Zones of Armed Conflict,” edited by James Cuno and Thomas G.Weiss. This is the fourth paper in the *J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy* and was first published September 8, 2020, by Getty Publications. It is available online at [http://www.getty.edu/publications/occasional-papers-4/](http://www.getty.edu/publications/occasional-papers-4/) and may be downloaded free of charge in multiple formats.
+This is the repository for “Cultural Heritage under Siege: Laying the Foundation for a Legal and Political Framework to Protect Cultural Heritage at Risk in Zones of Armed Conflict,” edited by James Cuno and Thomas G. Weiss. This is the fourth paper in the *J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy* and was first published September 8, 2020, by Getty Publications. It is available online at [http://www.getty.edu/publications/occasional-papers-4/](http://www.getty.edu/publications/occasional-papers-4/) and may be downloaded free of charge in multiple formats.
 
 ## About the Book
 
@@ -25,6 +25,14 @@ This project was last built with the following software versions:
 - Pandoc 2.10.1
 
 While v0.18.0 of the core Quire Starter Theme was used, a number of customizations were made specifically to bring the design inline with previous papers in the series which we not originally published with Quire. Within the theme itself, changes were made to the `source/css/variables.scss` and `source/css/print.scss` files and two new open license fonts were included: Archivo Narrow and Source Sans Pro. Outside of the theme, in the project’s `layouts` directory, a number of custom templates are included, notably a custom cover layout, and some custom partial templates to allow for modest customization to other elements of the book. The `q-note` shortcode was also added to allow for endnotes in the book rather than the usual footnotes other Quire books use by default.
+
+### Images Submodule
+
+The cover images for the *Occasional Papers* are licensed from third parties for use exclusively in each publication. As such, they are kept in a separate, private repository, https://github.com/thegetty/occasional-papers-images/, which is linked to this main publication repository as a submodule in `static/img/cover/`. When cloning this repo for further development, you’ll permissions for the private repository and will need to clone recursively in order to clone both the main repo and the submodule.
+
+```
+git clone --recursive https://github.com/thegetty/occasional-papers-4.git
+```
 
 ## License
 
