@@ -23,9 +23,4 @@ President and CEO
 
 J. Paul Getty Trust
 
-[^1]: “\#Unite4Heritage campaign launched by UNESCO Director-General in Baghdad,” UNESCO World Heritage Centre, March 28, 2015, <https://whc.unesco.org/en/news/1254>.
-
-[^2]: Robbie Gramer, “UNESCO Fights Back as ISIS Tries to Stamp Out Culture,” *Foreign Policy*, April 12, 2017, <https://foreignpolicy.com/2017/04/12/unesco-united-nations-isis-islamic-state-cultural-antiquities-trade-irina-bokova-refugees-heritage/>.
-
-
 {{< q-contributor range="page" format="name-title-block" align="right" >}}
