@@ -93,6 +93,4 @@ Edited by James Cuno and Thomas G. Weiss
 Cover: *Title*, date, full caption and credit
 
 
-{{< /q-class >}}
-
 </div>

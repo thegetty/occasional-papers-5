@@ -4,13 +4,8 @@ weight: 14
 type: page
 ---
 
-{{< q-contributor range="primary" format="name-title-block" >}}
 
 ---
-
-{{< q-contributor range="secondary" format="name-title-block" >}}
-
-About the Author
 
 Born in Sofia, Bulgaria, Irina Bokova was the director-general of UNESCO for two terms, from 2009 to 2017. She is the first woman to lead the organization. As director-general, Bokova was actively engaged in the UN efforts to adopt Agenda 2030 for Sustainable Development, focusing on quality education, gender equality, and the protection of the world’s cultural heritage.
 
