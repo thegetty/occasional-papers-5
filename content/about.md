@@ -67,7 +67,7 @@ This text of this work is licensed under a [Creative Commons Attribution-NonComm
 **Published by Getty Publications, Los Angeles**<br />
 1200 Getty Center Drive, Suite 500<br />
 Los Angeles, California 90049-1682<br />
-[getty.edu/publications](https://getty.edu/publications)<br />
+[getty.edu/publications](https://getty.edu/publications)
 
 Rachel Barth, *Project Editor*<br />
 Martin Burke, *Manuscript Editor*<br />
@@ -75,10 +75,10 @@ Greg Albers, *Digital Manager*<br />
 Jeffrey Cohen, *Cover Designer*<br />
 Molly McGeehan, *Production*<br />
 Leslie Rollins, *Image and Rights Acquisition*<br />
-Audrey Warne, *Digital Assistant*<br />
+Audrey Warne, *Digital Assistant*
 
 ISBN (online): 978-1-60606-750-5<br />
-ISBN (e-book): 978-1-60606-751-2<br />
+ISBN (e-book): 978-1-60606-751-2
 
 Also in this series:
 
