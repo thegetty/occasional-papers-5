@@ -7,18 +7,12 @@ contributor:
   - id: jcuno
 ---
 
-Over three days, May 8–10, 2019, Thomas G. Weiss, Presidential Professor of Political Science at the CUNY Graduate Center, and I convened at the Getty Center nineteen scholars and practitioners of different specialties and experience to discuss the topic “Cultural Heritage under Siege.” In one way or another, we had been discussing this topic for three years. The purpose of the convening was to begin to finalize the shape and substance of the book we decided needed to be written, *Cultural Heritage and Mass Atrocities: Human and Security Costs*, to be published by Getty Publications in 2022.
+UNESCO is the United Nations Educational, Scientific and Cultural Organization. Its goal is to build peace through international cooperation in education, the sciences, and culture.
 
-Although many of the participants in the convening are contributing to the book as authors, all of the participants contributed to its shape and substance in some way. Tom and I are deeply grateful to everyone who attended the convening. The presentations, discussions, and debates were inspiring, and the warmth of friendship was gratifying.
+Irina Bokova was UNESCO’s tenth, and first woman, director-general, serving from 2009 to 2017. She had previously served as Bulgaria’s first secretary of state for European integration, minister of foreign affairs *ad interim*, and as ambassador to France.
 
-In this, the fourth publication in the *J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy*, we are presenting an edited version of the papers and discussion at the convening, which was organized in five sections, in addition to Opening and Concluding Remarks:
+As director-general, Irina Bokova championed the protection of cultural heritage. On March 28, 2015, she launched “Unite4Heritage,” a global campaign to raise awareness of the importance and vulnerability of the world’s cultural heritage, seeking to “protect and safeguard heritage under threat” in areas where it is endangered by extremists.{{< q-note "1" >}} Among its most dramatic projects is a multipronged information campaign, “Safeguarding Syrian Cultural Heritage,” both moveable and immoveable, that which is in museums and archaeological sites. There, she coined the phrase “cultural cleansing,” arguing that “\[when\] you destroy identities of people, destroy their history, you destroy the reasoning for future reconciliation and peace.”{{< q-note "2" >}}
 
-- [Populations at Risk](/1/)
-- [Cultural Heritage at Risk](/2/)
-- [Military Perspectives and Costs: War, Occupation, and Intervention](/3/)
-- [International Law: Problems and Prospects](/4/)
-- [Social and Cultural Costs](/5/)
-
-Before the opening dinner, Irina Bokova, former director-general of UNESCO (2009–17), set the stage of our convening with poignant and illuminating remarks. We thank her for her many contributions to our meetings, just as we thank all those who generously participated with their formal and informal papers and commentary.
+Currently, Irina is participating in a Getty Publications book project, *Cultural Heritage and Mass Atrocities* (due to be published in 2022), for which she contributed the foreword. There she wrote that heritage is “a vision for peace and mutual respect, carved in stone and cultural landscapes, with the power to change the minds of women and men, to shape a different future for all.…\[A\]ll cultures are different but that difference does not divide—it unites.” The Getty Trust is pleased to publish Irina Bokova’s reflections of her time as director-general of UNESCO in our series, J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy.
 
 {{< q-contributor range="page" format="name-title-block" align="right" >}}
