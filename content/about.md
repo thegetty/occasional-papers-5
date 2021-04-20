@@ -42,49 +42,56 @@ This publication was created using Quire™, a multiplatform publishing tool own
 
 © 2021 J. Paul Getty Trust
 
-\[insert CC logo\]
+{{< q-class "cc-icon" >}}
+<svg class="quire-copyright__icon">
+<switch>
+  <use xlink:href="#cc"></use>
+</switch>
+<switch>
+  <use xlink:href="#cc-by"></use>
+  <foreignObject width="135" height="30">
+      <img src="/icons/cc-by.png" alt="CC-BY-NC" />
+  </foreignObject>
+</switch>
+<switch>
+  <use xlink:href="#cc-by-nc"></use>
+  <foreignObject width="135" height="30">
+      <img src="/icons/cc-by-nc.png" alt="CC-BY-NC" />
+  </foreignObject>
+</switch>
+</svg>
+{{< /q-class >}}
 
 This text of this work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). The cover image is reproduced with the permission of the rights holder acknowledged in the caption and is expressly excluded from the CC BY-NC license covering the rest of this publication. The image may not be reproduced, copied, transmitted, or manipulated without consent from the owner, who reserves all rights.
 
-**Published by Getty Publications, Los Angeles**
+**Published by Getty Publications, Los Angeles**<br />
+1200 Getty Center Drive, Suite 500<br />
+Los Angeles, California 90049-1682<br />
+[getty.edu/publications](https://getty.edu/publications)<br />
 
-1200 Getty Center Drive, Suite 500
+Rachel Barth, *Project Editor*<br />
+Martin Burke, *Manuscript Editor*<br />
+Greg Albers, *Digital Manager*<br />
+Jeffrey Cohen, *Cover Designer*<br />
+Molly McGeehan, *Production*<br />
+Leslie Rollins, *Image and Rights Acquisition*<br />
+Audrey Warne, *Digital Assistant*<br />
 
-Los Angeles, California 90049-1682
-
-getty.edu/publications
-
-Rachel Barth, *Project Editor*
-
-Martin Burke, *Manuscript Editor*
-
-Greg Albers, *Digital Manager*
-
-Jeffrey Cohen, *Cover Designer*
-
-Molly McGeehan, *Production*
-
-Leslie Rollins, *Image and Rights Acquisition*
-
-Audrey Warne, *Digital Assistant*
-
-ISBN (online): 978-1-60606-750-5
-
-ISBN (e-book): 978-1-60606-751-2
+ISBN (online): 978-1-60606-750-5<br />
+ISBN (e-book): 978-1-60606-751-2<br />
 
 Also in this series:
 
-[“Cultural Cleansing and Mass Atrocities: Protecting Cultural Heritage in Armed Conflict Zones”](http://getty.edu/publications/pdfs/CulturalCleansing_Weiss_Connelly.pdf)\
+[“Cultural Cleansing and Mass Atrocities: Protecting Cultural Heritage in Armed Conflict Zones”](http://getty.edu/publications/pdfs/CulturalCleansing_Weiss_Connelly.pdf)<br />
 Thomas G. Weiss and Nina Connelly
 
-[“Cultural Genocide and the Protection of Cultural Heritage”](http://getty.edu/publications/pdfs/CulturalGenocide_Luck.pdf)\
+[“Cultural Genocide and the Protection of Cultural Heritage”](http://getty.edu/publications/pdfs/CulturalGenocide_Luck.pdf)<br />
 Edward C. Luck
 
-[“Conflict and Cultural Heritage: A Moral Analysis of the Challenges of Heritage Protection”](https://occasional-papers-3.netlify.app/)
-
+[“Conflict and Cultural Heritage: A Moral Analysis of the Challenges of Heritage Protection”](https://occasional-papers-3.netlify.app/)<br />
 Helen Frowe and Derek Matravers
 
-[“Cultural Heritage under Siege: Laying the Foundation for a Legal and Political Framework to Protect Cultural Heritage at Risk in Zones of Armed Conflict”](https://www.getty.edu/publications/occasional-papers-4/)\
+[“Cultural Heritage under Siege: Laying the Foundation for a Legal and Political Framework to Protect Cultural Heritage at Risk in Zones of Armed Conflict”](https://www.getty.edu/publications/occasional-papers-4/)<br />
 Edited by James Cuno and Thomas G. Weiss
 
 
