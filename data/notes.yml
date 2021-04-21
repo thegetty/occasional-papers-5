@@ -155,7 +155,7 @@ notes_list:
   - id: "31"
     location: "2"
     note: "Minusma, UN Missions, “Cultural Heritage.”"
-    popup_version:
+    popup_version: "“Cultural Heritage,” MINUSMA, March 24, 2015, <https://minusma.unmissions.org/en/cultural-heritage>."
 
   - id: "32"
     location: "2"
@@ -165,7 +165,7 @@ notes_list:
   - id: "33"
     location: "2"
     note: "See the strategy document, UN doc. 38/C/49, article 55.4."
-    popup_version:
+    popup_version: "UN doc. 38/C/49, article 55.4, November 2, 2015, <https://en.unesco.org/system/files/235186e1.pdf>."
 
   - id: "34"
     location: "2"
