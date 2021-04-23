@@ -1,6 +1,6 @@
 ---
 title: Notes
-weight: 15
+weight: 14
 type: page
 layout: notes
 ---

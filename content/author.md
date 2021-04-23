@@ -1,6 +1,6 @@
 ---
 title: About the Author
-weight: 14
+weight: 15
 type: page
 ---
 
