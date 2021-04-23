@@ -9,13 +9,18 @@ toc: false
 
 {{< q-class "backmatter" >}}
 
-This publication was created using Quire™, a multiplatform publishing tool owned by the J. Paul Getty Trust.
+This publication was created using Quire™, a multiformat publishing tool owned by the J. Paul Getty Trust.
+
+The free online edition of this publication is available at [getty.edu/publications/occasional-papers-5/](https://www.getty.edu/publications/occasional-papers-5/). Also available are free PDF, EPUB, and Kindle/MOBI downloads.
 
 © 2021 J. Paul Getty Trust
 
 ![cc-by-nc](/img/cc-by-nc.png)
 
-The text of this work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. \[verify this—and this should be linked\] The cover image is reproduced with the permission of the rights holder acknowledged in the caption and is expressly excluded from the CC BY-NC license covering the rest of this publication. The image may not be reproduced, copied, transmitted, or manipulated without consent from the owner, who reserves all rights.
+The text of this work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of this license, visit [creativecommons.org/licenses/by-nc/4.0/](http://creativecommons.org/licenses/by-nc/4.0/). The cover image is reproduced with the permission of the rights holder acknowledged in the caption and is expressly excluded from the CC BY-NC license covering the rest of this publication. The image may not be reproduced, copied, transmitted, or manipulated without consent from the owner, who reserves all rights.
+
+First edition, 2021<br />
+[github.com/thegetty/occasional-papers-5/](https://github.com/thegetty/occasional-papers-5/)
 
 **Published by Getty Publications, Los Angeles**<br />
 1200 Getty Center Drive, Suite 500<br />
@@ -30,8 +35,8 @@ Molly McGeehan, *Production*<br />
 Leslie Rollins, *Image and Rights Acquisition*<br />
 Audrey Warne, *Digital Assistant*
 
-ISBN (online): 978-1-60606-750-5<br />
-ISBN (e-book): 978-1-60606-751-2
+ISBN 978-1-60606-750-5 (online)<br />
+ISBN 978-1-60606-751-2 (e-book)
 
 Also in this series:
 

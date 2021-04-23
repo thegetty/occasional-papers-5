@@ -6,11 +6,11 @@ epub: false
 search: false
 ---
 
-<div class="backmatter">
-
 In 2016, in response to recent attacks on cultural heritage sites in Syria, Iraq, and Timbuktu, the J. Paul Getty Trust convened a meeting at the British Academy in London to discuss the need for an international framework to protect cultural heritage in zones of armed conflict. To further explore these questions, the Trust subsequently launched the *J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy*.
 
 The fifth issue of this series, written by Irina Bokova, former director-general of UNESCO, focuses on the value that UNESCO can bring to the fight to protect cultural heritage. During her two terms at UNESCO, Bokova worked to promote international peace and cooperation by raising awareness of the value of cultural heritage and partnering with local communities to rebuild and revitalize their damaged heritage—and themselves. One of Bokova’s most successful campaigns, #Unite4Heritage, has created a global social network of people who are sharing stories, knowledge, and personal experiences about their heritage in an effort to challenge the hate-filled narratives put forward by extremists and keep threatened cultures alive and vital.
+
+<div class="backmatter">
 
 ## Citation Information
 
@@ -36,13 +36,13 @@ Any revisions or corrections made to this publication after the first edition da
 
 ## Other Formats (TK)
 
-  - [PDF](/downloads/CunoWeiss_CulturalHeritageUnderSiege.pdf)
-  - [EPUB](/downloads/CunoWeiss_CulturalHeritageUnderSiege.epub)
-  - [Kindle/MOBI](/downloads/CunoWeiss_CulturalHeritageUnderSiege.mobi)
+  - [PDF](/downloads/output.pdf)
+  - [EPUB](/downloads/output.epub)
+  - [Kindle/MOBI](/downloads/output.mobi)
 
 ## Copyright
 
-This publication was created using Quire™, a multiplatform publishing tool owned by the J. Paul Getty Trust.
+This publication was created using Quire™, a multiformat publishing tool owned by the J. Paul Getty Trust.
 
 © 2021 J. Paul Getty Trust
 
@@ -81,8 +81,8 @@ Molly McGeehan, *Production*<br />
 Leslie Rollins, *Image and Rights Acquisition*<br />
 Audrey Warne, *Digital Assistant*
 
-ISBN (online): 978-1-60606-750-5<br />
-ISBN (e-book): 978-1-60606-751-2
+ISBN 978-1-60606-750-5 (online)<br />
+ISBN 978-1-60606-751-2 (e-book)
 
 Also in this series:
 
