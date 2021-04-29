@@ -1,4 +1,4 @@
---- # ------------------------------------------------------------------------------
+# ------------------------------------------------------------------------------
 
 # ==============================================================================
 # Publication.yml
@@ -9,30 +9,32 @@
 
 # ------------------------------------------------------------------------------
 # Title & Description
-title: Cultural Heritage under Siege
-subtitle: Laying the Foundation for a Legal and Political Framework to Protect Cultural Heritage at Risk in Zones of Armed Conflict
+title: UNESCO’S Response to the Rise of Violent Extremism
+subtitle: A Decade of Building International Momentum in the Struggle to Protect Cultural Heritage
 reading_line:
 short_title:
 
 series: J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy
-number_in_series: 4
+number_in_series: 5
 
 description:
   one_line:
   full: >-
-    The fourth issue of the *J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy* is the result of a multiday convening on the issue of cultural heritage under siege. It features an edited collection of presentations and discussions by nineteen scholars and practitioners of diverse specialties related to the field of cultural heritage.
+    In 2016, in response to recent attacks on cultural heritage sites in Syria, Iraq, and Timbuktu, the J. Paul Getty Trust convened a meeting at the British Academy in London to discuss the need for an international framework to protect cultural heritage in zones of armed conflict. To further explore these questions, the Trust subsequently launched the *J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy*.
+
+    The fifth issue of this series, written by Irina Bokova, former director-general of UNESCO, focuses on the value that UNESCO can bring to the fight to protect cultural heritage. During her two terms at UNESCO, Bokova worked to promote international peace and cooperation by raising awareness of the value of cultural heritage and partnering with local communities to rebuild and revitalize their damaged heritage—and themselves. One of Bokova’s most successful campaigns, #Unite4Heritage, has created a global social network of people who are sharing stories, knowledge, and personal experiences about their heritage in an effort to challenge the hate-filled narratives put forward by extremists and keep threatened cultures alive and vital.
 
 # ------------------------------------------------------------------------------
 # Publication Details
 # ------------------------------------------------------------------------------
 
-pub_date: 2020-09-08
+pub_date: #2021-00-00
 language: en
 
 pub_type: online # book | journal-periodical | other
 identifier:
-  isbn: 978-1-60606-681-2
-  url: https://www.getty.edu/publications/occasional-papers-4/
+  isbn: 978-1-60606-750-5
+  url: https://www.getty.edu/publications/occasional-papers-5/
 
 publisher:
   - name: Getty Publications
@@ -44,168 +46,42 @@ publisher:
 # Contributors
 # ------------------------------------------------------------------------------
 
-contributor_as_it_appears: "<span class='small'>Edited by</span> James&nbsp;Cuno <span class='small'>and</span> Thomas&nbsp;G.&nbsp;Weiss"
+contributor_as_it_appears:
 
 contributor:
   - id: jcuno
-    type: primary
+    type: secondary
     role: editor
-    file_as: 01
+    file_as:
     first_name: James
     last_name: Cuno
-    honorific: co-convenor
+    honorific:
     title: "President and CEO"
     affiliation: "J. Paul Getty Trust"
-  - id: tweiss
-    type: primary
-    role: editor
-    file_as: 02
-    first_name: Thomas G.
-    last_name: Weiss
-    honorific: co-convenor
-    title: "Presidential Professor of Political Science"
-    affiliation: "CUNY Graduate Center"
-  - id: sadams
-    type: secondary
-    file_as:
-    first_name: Simon
-    last_name: Adams
-    title: "Executive Director"
-    affiliation: "Global Centre for the Responsibility to Protect"
   - id: ibokova
-    type: secondary
+    type: primary
+    role: author
     file_as:
     first_name: Irina
     last_name: Bokova
     title: "Director-General"
     affiliation: "UNESCO (2009–17)"
-  - id: mbouchenaki
-    type: secondary
-    file_as:
-    first_name: Mounir
-    last_name: Bouchenaki
-    affiliation_as_it_appears: |
-      Adviser, UNESCO<br />
-      Adviser, Bahrain Authority for Culture and Antiquities<br />
-  - id: hfischer
-    type: secondary
-    file_as:
-    first_name: Hartwig
-    last_name: Fischer
-    title: "Director"
-    affiliation: "British Museum"
-  - id: hfrowe
-    type: secondary
-    file_as:
-    first_name: Helen
-    last_name: Frowe
-    affiliation_as_it_appears: |
-      Professor of Practical Philosophy<br />
-      Wallenberg Academy Fellow, Stockholm University<br />
-      Director, Stockholm Centre for the Ethics of War and Peace, Stockholm University<br />
-  - id: bisakhan
-    type: secondary
-    file_as:
-    first_name: Benjamin
-    last_name: Isakhan
-    title: "Associate Professor of Politics and Policy Studies"
-    affiliation: "Deakin University"
-  - id: eluck
-    type: secondary
-    file_as:
-    first_name: Edward C.
-    last_name: Luck
-    title: "Arnold A. Salzman Professor of Professional Practice in International and Public Affairs"
-    affiliation: "Columbia University"
-  - id: dmatravers
-    type: secondary
-    file_as:
-    first_name: Derek
-    last_name: Matravers
-    affiliation_as_it_appears: |
-      Professor of Philosophy<br />
-      The Open University<br />
-      Senior Member, Darwin College, Cambridge
-  - id: lmeskell
-    type: secondary
-    file_as:
-    first_name: Lynn
-    last_name: Meskell
-    title: "Shirley and Leonard Ely Professor of Humanities and Sciences, Department of Anthropology"
-    affiliation: "Stanford University"
-  - id: mmiller
-    type: secondary
-    file_as:
-    first_name: Mary
-    last_name: Miller
-    title: "Director"
-    affiliation: "Getty Research Institute"
-  - id: lmonreal
-    type: secondary
-    file_as:
-    first_name: Luis
-    last_name: Monreal
-    title: "Director-General"
-    affiliation: "Aga Khan Trust for Culture"
-  - id: tpotts
-    type: secondary
-    file_as:
-    first_name: Timothy
-    last_name: Potts
-    title: "Director"
-    affiliation: "J. Paul Getty Museum"
-  - id: ssagan
-    type: secondary
-    file_as:
-    first_name: Scott
-    last_name: Sagan
-    affiliation_as_it_appears: |
-      Caroline S. G. Munro Professor of Political Science<br />
-      Mimi and Peter Haas University Fellow in Undergraduate Education<br />
-      Senior Fellow, Center for International Security and Cooperation<br />
-      Freeman-Spogli Institute for International Studies<br />
-      Stanford University<br />
-  - id: iserageldin
-    type: secondary
-    file_as:
-    first_name: Ismail
-    last_name: Serageldin
-    affiliation_as_it_appears: |
-      Emeritus Librarian of Alexandria, Library of Alexandria<br />
-      Adviser to the Egyptian prime minister in matters concerning culture, science, and museums
-  - id: ksingh
-    type: secondary
-    file_as:
-    first_name: Kavita
-    last_name: Singh
-    title: "Professor"
-    affiliation: "Jawaharlal Nehru University"
-  - id: jwelsh
-    type: secondary
-    file_as:
-    first_name: Jennifer
-    last_name: Welsh
-    affiliation_as_it_appears: |
-      Canada 150 Research Chair in Global Governance and Security<br />
-      Director, Centre for International Peace and Security Studies<br />
-      McGill University
-  - id: pwise
-    type: secondary
-    file_as:
-    first_name: Paul H.
-    last_name: Wise
-    affiliation_as_it_appears: |
-      Richard F. Behrman Professor of Child Health and Safety<br />
-      Professor of Pediatrics and Health Policy<br />
-      Senior Fellow, Center on Democracy, Development, and the Rule of Law, and the Center for International Security and Cooperation<br />
-      Freeman-Spogli Institute for International Studies<br />
-      Stanford University
+    bio: |
+      Born in Sofia, Bulgaria, Irina Bokova was the director-general of UNESCO for two terms, from 2009 to 2017. She is the first woman to lead the organization. As director-general, Bokova was actively engaged in the UN efforts to adopt Agenda 2030 for Sustainable Development, focusing on quality education, gender equality, the role of culture in sustainable development, and the protection of the world’s cultural heritage. She has been particularly active in the defense of cultural heritage against its deliberate destruction by extremists, which led to the 2017 adoption of the landmark United Nations Security Council Resolution 2347.
+
+      After graduating from the Moscow State Institute of International Relations, Bokova was a fellow at the University of Maryland, Washington, and participated in an executive program at the John F. Kennedy School of Government at Harvard University.
+
+      Before being elected director-general of UNESCO, from 2005 to 2009 Bokova was ambassador of Bulgaria to France, Monaco, and UNESCO, and personal representative of the President of the Republic of Bulgaria to the Organisation Internationale de la Francophonie (OIF).
+
+      Currently, Bokova is a member of the board of the Ban Ki Moon Centre for Global Citizens; member of the Concordia Leadership Council; member of the Strategic Committee of the Paris School of International Affairs (PSIA, SciencePo); lecturer on cultural diplomacy, Honorary Dean of the Humanitas College and Miwon Scholar of Peace Studies at Kyung-Hee University, Seoul; visiting lecturer at the University of Geneva; and member of the board of L’Institut de relations internationales et stratégiques (IRIS), Paris, among other activities.
+
+      For her leadership and service, Irina Bokova has received state distinctions from countries across the world and has been awarded an *honoris causa* degree from more than forty universities. She was also on the Forbes list of the world’s most influential women for 2016. In 2020 she was elected international honorary member of the American Academy of Arts and Sciences.
 
 # ------------------------------------------------------------------------------
 # Copright & License
 # ------------------------------------------------------------------------------
 
-copyright: © 2020 J. Paul Getty Trust
+copyright: © 2021 J. Paul Getty Trust
 
 license:
   name: Creative Commons Attribution-NonCommercial 4.0 International Public License
@@ -223,17 +99,17 @@ resource_link:
     name: PDF
     media_type: application/pdf
     link_relation: alternate
-    url: /downloads/CunoWeiss_CulturalHeritageUnderSiege.pdf
+    url: /downloads/output.pdf
   - type: other-format
     name: EPUB
     media_type: application/epub+zip
     link_relation: alternate
-    url: /downloads/CunoWeiss_CulturalHeritageUnderSiege.epub
+    url: /downloads/output.epub
   - type: other-format
     name: Kindle/MOBI
     media_type: vnd.amazon.mobi8-ebook
     link_relation: alternate
-    url: /downloads/CunoWeiss_CulturalHeritageUnderSiege.mobi
+    url: /downloads/output.mobi
   - type: footer-link
     name: About
     link_relation: about
@@ -264,7 +140,7 @@ revision_history:
   - date:
     summary:
 
-repository_url: https://github.com/thegetty/occasional-papers-4/
+repository_url: https://github.com/thegetty/occasional-papers-5/
 
 # ------------------------------------------------------------------------------
 # Promo Image

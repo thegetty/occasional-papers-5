@@ -6,9 +6,9 @@ epub: false
 search: false
 ---
 
-In 2016, in response to recent attacks on cultural heritage sites in Syria, Iraq, and Timbuktu, the J.&#160;Paul Getty Trust convened a meeting at the British Academy in London to discuss the need for an international framework to protect cultural heritage in zones of armed conflict. To further explore these questions, the Trust subsequently launched the *J.&#160;Paul Getty Trust Occasional Papers in Cultural Heritage Policy*.
+In 2016, in response to recent attacks on cultural heritage sites in Syria, Iraq, and Timbuktu, the J. Paul Getty Trust convened a meeting at the British Academy in London to discuss the need for an international framework to protect cultural heritage in zones of armed conflict. To further explore these questions, the Trust subsequently launched the *J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy*.
 
-The fourth issue of the *J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy* is the result of a multiday convening on the issue of cultural heritage under siege. It features an edited collection of presentations and discussions by nineteen scholars and practitioners of diverse specialties related to the field of cultural heritage.
+The fifth issue of this series, written by Irina Bokova, former director-general of UNESCO, focuses on the value that UNESCO can bring to the fight to protect cultural heritage. During her two terms at UNESCO, Bokova worked to promote international peace and cooperation by raising awareness of the value of cultural heritage and partnering with local communities to rebuild and revitalize their damaged heritage—and themselves. One of Bokova’s most successful campaigns, #Unite4Heritage, has created a global social network of people who are sharing stories, knowledge, and personal experiences about their heritage in an effort to challenge the hate-filled narratives put forward by extremists and keep threatened cultures alive and vital.
 
 <div class="backmatter">
 
@@ -24,29 +24,27 @@ The fourth issue of the *J. Paul Getty Trust Occasional Papers in Cultural Herit
 
 ### Permanent URL
 
-https://www.getty.edu/publications/occasional-papers-4/
+https://www.getty.edu/publications/occasional-papers-5/
 
 ## Revision History
 
-Any revisions or corrections made to this publication after the first edition date will be listed here and in the project repository at [github.com/thegetty/occasional-papers-4/](https://github.com/thegetty/occasional-papers-4/), where a more detailed version history is available. The revisions branch of the project repository, when present, will also show any changes currently under consideration but not yet published here.
+Any revisions or corrections made to this publication after the first edition date will be listed here and in the project repository at [github.com/thegetty/occasional-papers-5/](https://github.com/thegetty/occasional-papers-5/), where a more detailed version history is available. The revisions branch of the project repository, when present, will also show any changes currently under consideration but not yet published here.
 
-### September 8, 2020
+### TK (Date Month Day, Year)
 
   - First edition
 
-## Other Formats
+## Other Formats (TK)
 
-  - [PDF](/downloads/CunoWeiss_CulturalHeritageUnderSiege.pdf)
-  - [EPUB](/downloads/CunoWeiss_CulturalHeritageUnderSiege.epub)
-  - [Kindle/MOBI](/downloads/CunoWeiss_CulturalHeritageUnderSiege.mobi)
+  - [PDF](/downloads/output.pdf)
+  - [EPUB](/downloads/output.epub)
+  - [Kindle/MOBI](/downloads/output.mobi)
 
 ## Copyright
 
-This publication was created using Quire™, a multiformat publishing tool from Getty.
+This publication was created using Quire™, a multiformat publishing tool owned by the J. Paul Getty Trust.
 
-This publication has been funded by the President’s International Council, J. Paul Getty Trust.
-
-© 2020 J. Paul Getty Trust
+© 2021 J. Paul Getty Trust
 
 {{< q-class "cc-icon" >}}
 <svg class="quire-copyright__icon">
@@ -73,28 +71,37 @@ This text of this work is licensed under a [Creative Commons Attribution-NonComm
 **Published by Getty Publications, Los Angeles**<br />
 1200 Getty Center Drive, Suite 500<br />
 Los Angeles, California 90049-1682<br />
-[getty.edu/publications](http://www.getty.edu/publications)
+[getty.edu/publications](https://getty.edu/publications)
 
-ISBN 978-1-60606-681-2 (online)<br />
-ISBN 978-1-60606-682-9 (e-book)
+Rachel Barth, *Project Editor*<br />
+Martin Burke, *Manuscript Editor*<br />
+Greg Albers, *Digital Manager*<br />
+Jeffrey Cohen, *Cover Designer*<br />
+Molly McGeehan, *Production*<br />
+Leslie Rollins, *Image and Rights Acquisition*<br />
+Audrey Warne, *Digital Assistant*
 
-Also in the series:
+ISBN 978-1-60606-750-5 (online)<br />
+ISBN 978-1-60606-751-2 (e-book)
 
-[“Cultural Cleansing and Mass Atrocities: Protecting Cultural Heritage in Armed Conflict Zones”](https://www.getty.edu/publications/occasional-papers-1/) <br />Thomas G. Weiss and Nina Connelly
+Also in this series:
 
-[“Cultural Genocide and the Protection of Cultural Heritage”](https://www.getty.edu/publications/occasional-papers-2/) <br />Edward C. Luck
+[“Cultural Cleansing and Mass Atrocities: Protecting Cultural Heritage in Armed Conflict Zones”](http://getty.edu/publications/pdfs/CulturalCleansing_Weiss_Connelly.pdf)<br />
+Thomas G. Weiss and Nina Connelly
 
-[“Conflict and Cultural Heritage: A Moral Analysis of the Challenges of Heritage Protection”](https://www.getty.edu/publications/occasional-papers-3/) <br />Helen Frowe and Derek Matravers
+[“Cultural Genocide and the Protection of Cultural Heritage”](http://getty.edu/publications/pdfs/CulturalGenocide_Luck.pdf)<br />
+Edward C. Luck
+
+[“Conflict and Cultural Heritage: A Moral Analysis of the Challenges of Heritage Protection”](https://occasional-papers-3.netlify.app/)<br />
+Helen Frowe and Derek Matravers
+
+[“Cultural Heritage under Siege: Laying the Foundation for a Legal and Political Framework to Protect Cultural Heritage at Risk in Zones of Armed Conflict”](https://www.getty.edu/publications/occasional-papers-4/)<br />
+Edited by James Cuno and Thomas G. Weiss
 
 
 ---
 
-Cover: Engineers from the National Authority for the Conservation of Historic Towns at work on the reconstruction of buildings destroyed by an air strike in the old quarter of Yemen's capital, Sanaa, November 7, 2015. Photo: REUTERS / Mohamed al-Sayaghi
+Cover: *Title*, date, full caption and credit
 
-{{< q-class "awn-logo" >}}
-
-![This book is part of 'Ancient Worlds Now: A Future for the Past', a multifaceted Getty initiative to promote a greater understanding of the world’s cultural heritage and its value to global society](/img/awn-logo-and-line--2F2B0F.png)
-
-{{< /q-class >}}
 
 </div>
