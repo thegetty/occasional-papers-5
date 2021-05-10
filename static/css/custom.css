@@ -641,6 +641,83 @@ strong {
 /* SPECIFIC FOR OCCASIONAL PAPERS #4
 ============================================================================= */
 
+/* Custom cover to put block of solid color under layout */
+.quire-page--side-image.quire-page--type-left .quire-cover__hero-body.hero-body,
+.quire-page--side-image.quire-page--type-right .quire-cover__hero-body.hero-body {
+  width: 50%;
+  padding: 1.5rem 5%;
+  margin: 0;
+  background-color: #1d4382;
+}
+.quire-page--side-image.quire-page--type-right .quire-cover__hero-body.hero-body {
+  margin-left: 50%;
+}
+.quire-page--side-image .hero.is-fullheight .hero-body {
+  height: calc(95vh - 3rem);
+}
+.quire-page--side-image .quire-cover__overlay {
+  background-position-x:
+}
+.quire-page--side-image.quire-page--type-left .quire-cover__hero-side-img,
+.quire-page--side-image.quire-page--type-right .quire-cover__hero-side-img {
+  width: 50%;
+  height: calc(95vh - 3rem);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.quire-page--side-image.quire-page--type-left .quire-cover__hero-side-img {
+  float: right;
+}
+.quire-page--side-image.quire-page--type-right .quire-cover__hero-side-img {
+  float: left;
+}
+@media screen and (max-width: 769px) {
+  .quire-page--side-image.quire-page--type-left .quire-cover__hero-body.hero-body,
+  .quire-page--side-image.quire-page--type-right .quire-cover__hero-body.hero-body {
+    width: 100%;
+    height: calc((95vh - 4rem) * .5);
+  }
+  .quire-page--side-image.quire-page--type-left .quire-cover__hero-side-img,
+  .quire-page--side-image.quire-page--type-right .quire-cover__hero-side-img {
+    width: 100%;
+    height: calc((95vh - 4rem) * .5);
+    float: none;
+  }
+  .quire-page--side-image.quire-page--type-right .quire-cover__hero-body.hero-body {
+    margin-left: 0;
+  }
+  .quire-page--side-image .quire-cover__hero .series-info {
+    width: 100%;
+  }
+  .quire-page--side-image .quire-cover__hero .series-info .series-name {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .quire-page--side-image .quire-cover__overlay {
+    position: inherit;
+  }
+  .quire-page--side-image.quire-page--type-left .quire-cover__hero-body.hero-body,
+  .quire-page--side-image.quire-page--type-right .quire-cover__hero-body.hero-body {
+    height: auto;
+    position: initial;
+  }
+  .quire-page--side-image .quire-cover__hero .series-info,
+  .quire-page--side-image .quire-cover__hero .title {
+    margin-bottom: 2rem !important;
+  }
+  .quire-page--side-image .quire-cover__hero .series-info .series-name {
+    width: 100%;
+  }
+  .quire-page--side-image .quire-cover__more {
+    display: none;
+  }
+  .quire-page--side-image.quire-cover .quire-page__content .container.is-fluid .content {
+    margin-top: 0;
+  }
+}
+
 .quire-contributor__details p {
   margin-bottom: 0 !important;
 }
