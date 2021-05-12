@@ -69,7 +69,7 @@ notes_list:
 
   - id: "14"
     location: "1"
-    note: "Kareem Shaheen and Ian Black, “Beheaded Syrian Scholar Refused to Lead Isis to Hidden Palmyra Antiquities,” *The Guardian*, August 18, 2015, <https://www.theguardian.com/world/2015/aug/18/isis-beheads-archaeologist-syria>."
+    note: "Kareem Shaheen and Ian Black, “Beheaded Syrian Scholar Refused to Lead Isis to Hidden Palmyra Antiquities,” *The Guardian*, August 19, 2015, <https://www.theguardian.com/world/2015/aug/18/isis-beheads-archaeologist-syria>."
     popup_version:
 
   - id: "15"
@@ -99,7 +99,7 @@ notes_list:
 
   - id: "20"
     location: "2"
-    note: "French National Assembly, “autorisant l’adhésion de la France au deuxième protocole relatif à la convention de La Haye de 1954 pour la protection des biens culturels en cas de conflit armé,” (authorizing France’s accession to the Second Protocol to the 1954 Hague Convention for the Protection of Cultural Property in the Event of Armed Conflict), doc. no. 4263, November 30, 2016, <http://www.assemblee-nationale.fr/14/projets/pl4263.asp>."
+    note: "French National Assembly, “Autorisant l’adhésion de la France au deuxième protocole relatif à la convention de La Haye de 1954 pour la protection des biens culturels en cas de conflit armé” (Authorizing France’s accession to the Second Protocol to the 1954 Hague Convention for the Protection of Cultural Property in the Event of Armed Conflict), doc. no. 4263, November 30, 2016, <http://www.assemblee-nationale.fr/14/projets/pl4263.asp>."
     popup_version:
 
   - id: "21"
@@ -109,7 +109,7 @@ notes_list:
 
   - id: "22"
     location: "2"
-    note: "ICRC, “Agreement between the ICRC and UNESCO on the Protection of cultural property—Q&A,” March 8, 2016, <https://www.icrc.org/en/document/cultural-property-protected-in-armed-conflict>."
+    note: "ICRC, “Agreement between the ICRC and UNESCO on the Protection of Cultural Property—Q&A,” March 8, 2016, <https://www.icrc.org/en/document/cultural-property-protected-in-armed-conflict>."
     popup_version:
 
   - id: "23"
@@ -139,7 +139,7 @@ notes_list:
 
   - id: "28"
     location: "2"
-    note: "UNESCO, “Syria’s Six World Heritage Sites.”"
+    note: "UNESCO, “Syria’s Six World Heritage Sites,” https://en.unesco.org/news/syria’s-six-world-heritage-sites-placed-list-world-heritage-danger."
     popup_version:
 
   - id: "29"
@@ -194,7 +194,7 @@ notes_list:
 
   - id: "39"
     location: "2"
-    note: "UNOSAT is a UN program providing satellite imagery through the UN Institute for training and Research (UNITAR). See UNITAR, <https://www.unitar.org/sustainable-development-goals/satellite-analysis-and-applied-research>."
+    note: "UNOSAT is a UN program providing satellite imagery through the UN Institute for Training and Research (UNITAR). See UNITAR, <https://www.unitar.org/sustainable-development-goals/satellite-analysis-and-applied-research>."
     popup_version:
 
   - id: "40"
@@ -204,7 +204,7 @@ notes_list:
 
   - id: "41"
     location: "2"
-    note: "ICC, “Case Information Sheet: The Prosecutor v. Ahmad Al Faqi Al Mahdi,” doc. no. ICC-PIDS-CIS-MAL-01-08/16_Eng, updated March 20, 2018, <https://www.icc-cpi.int/CaseInformationSheets/Al-MahdiEng.pdf>."
+    note: "ICC, “Case Information Sheet: Situation in the Republic of Mali — *The Prosecutor v. Ahmad Al Faqi Al Mahdi*,” doc. no. ICC-PIDS-CIS-MAL-01-08/16_Eng, updated March 20, 2018, <https://www.icc-cpi.int/CaseInformationSheets/Al-MahdiEng.pdf>."
     popup_version:
 
   - id: "42"
@@ -234,7 +234,7 @@ notes_list:
 
   - id: "47"
     location: "2"
-    note: "Italian Government and UNESCO, “Memorandum of Understanding between the Government of the Italian Republic and the United Nations Educational, Scientific and Cultural Organization (‘UNESCO’) on the Italian National ‘Task Force in the Framework of UNESCO’s Global Coalition Unite4Heritage” for Initiatives in Favour of Countries Facing Emergencies That May Affect the Protection and Safeguarding of Culture and the Promotion of Cultural Pluralism,” Rome, February 16, 2016, <https://www.beniculturali.it/mibac/multimedia/MiBAC/documents/1455616287505_2._Memorandum_of_Understanding___11_II_2016_DRAFT_Finale_UNESCO_versione_Italia.pdf>."
+    note: "Italian Government and UNESCO, “Memorandum of Understanding between the Government of the Italian Republic and the United Nations Educational, Scientific and Cultural Organization (‘UNESCO’) on the Italian National ‘Task Force in the Framework of UNESCO’s Global Coalition Unite4Heritage’ for Initiatives in Favor of Countries Facing Emergencies That May Affect the Protection and Safeguarding of Culture and the Promotion of Cultural Pluralism,” Rome, February 16, 2016, <https://www.beniculturali.it/mibac/multimedia/MiBAC/documents/1455616287505_2._Memorandum_of_Understanding___11_II_2016_DRAFT_Finale_UNESCO_versione_Italia.pdf>."
     popup_version:
 
   - id: "48"
@@ -244,12 +244,12 @@ notes_list:
 
   - id: "49"
     location: "2"
-    note: "For the text of the resolution see <https://www.securitycouncilreport.org/atf/cf/%7B65BFCF9B-6D27-4E9C-8CD3-CF6E4FF96FF9%7D/s_res_2347.pdf>."
+    note: "For the text of the resolution, see <https://www.securitycouncilreport.org/atf/cf/%7B65BFCF9B-6D27-4E9C-8CD3-CF6E4FF96FF9%7D/s_res_2347.pdf>."
     popup_version:
 
   - id: "50"
     location: "3"
-    note: "For the text of the November 2, 2001 declaration, see <http://portal.unesco.org/en/ev.php-URL_ID=13179&URL_DO=DO_TOPIC&URL_SECTION=201.html>."
+    note: "For the text of the November 2, 2001, declaration, see <http://portal.unesco.org/en/ev.php-URL_ID=13179&URL_DO=DO_TOPIC&URL_SECTION=201.html>."
     popup_version:
 
   - id: "51"
