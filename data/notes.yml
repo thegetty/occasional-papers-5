@@ -139,7 +139,7 @@ notes_list:
 
   - id: "28"
     location: "2"
-    note: "UNESCO, “Syria’s Six World Heritage Sites,” https://en.unesco.org/news/syria’s-six-world-heritage-sites-placed-list-world-heritage-danger."
+    note: "UNESCO, “Syria’s Six World Heritage Sites,” [https://en.unesco.org/news/syria’s-six-world-heritage-sites-placed-list-world-heritage-danger](https://en.unesco.org/news/syria%E2%80%99s-six-world-heritage-sites-placed-list-world-heritage-danger)."
     popup_version:
 
   - id: "29"
