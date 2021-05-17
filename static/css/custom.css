@@ -1,22 +1,22 @@
 :root {
 
   /* Palette:
-    https://coolors.co/2f2b0f-5d561d-7c7127-9b8d31-f5f5f5
+    https://coolors.co/gradient-palette/1f4889-040404?number=9
   */
 
-  --color-dark: #3E3E3E;
-  --color-dark-rgb: 62,62,62;
+  --color-dark: #0B1525;
+  --color-dark-rgb: 31,72,137;
   /* --color-dark should be the same value as $off-black in
   themes/quire-starter-theme/source/css/colors.scss */
   /* --color-dark-rgb is the RGB version used for shading
   under the cover type when specified in cover.md with the
   .with-shading class */
 
-  --color-mid-dark: #5B5B5B;
+  --color-mid-dark: #122647;
 
-  --color-mid-light: #767575;
+  --color-mid-light: #183768;
 
-  --color-light: #939393;
+  --color-light: #1F4889;
   /* --color-light should be the same value as $accent-color in
    themes/quire-starter-theme/source/css/variables.scss */
 
@@ -647,7 +647,7 @@ strong {
   width: 50%;
   padding: 1.5rem 5%;
   margin: 0;
-  background-color: #1d4382;
+  background-color: #1F4889;
 }
 .quire-page--side-image.quire-page--type-right .quire-cover__hero-body.hero-body {
   margin-left: 50%;
