@@ -69,7 +69,7 @@ notes_list:
 
   - id: "14"
     location: "1"
-    note: "Kareem Shaheen and Ian Black, “Beheaded Syrian Scholar Refused to Lead Isis to Hidden Palmyra Antiquities,” *The Guardian*, August 18, 2015, <https://www.theguardian.com/world/2015/aug/18/isis-beheads-archaeologist-syria>."
+    note: "Kareem Shaheen and Ian Black, “Beheaded Syrian Scholar Refused to Lead Isis to Hidden Palmyra Antiquities,” *The Guardian*, August 19, 2015, <https://www.theguardian.com/world/2015/aug/18/isis-beheads-archaeologist-syria>."
     popup_version:
 
   - id: "15"
@@ -99,7 +99,7 @@ notes_list:
 
   - id: "20"
     location: "2"
-    note: "French National Assembly, “autorisant l’adhésion de la France au deuxième protocole relatif à la convention de La Haye de 1954 pour la protection des biens culturels en cas de conflit armé,” (authorizing France’s accession to the Second Protocol to the 1954 Hague Convention for the Protection of Cultural Property in the Event of Armed Conflict), doc. no. 4263, November 30, 2016, <http://www.assemblee-nationale.fr/14/projets/pl4263.asp>."
+    note: "French National Assembly, “Autorisant l’adhésion de la France au deuxième protocole relatif à la convention de La Haye de 1954 pour la protection des biens culturels en cas de conflit armé” (Authorizing France’s accession to the Second Protocol to the 1954 Hague Convention for the Protection of Cultural Property in the Event of Armed Conflict), doc. no. 4263, November 30, 2016, <http://www.assemblee-nationale.fr/14/projets/pl4263.asp>."
     popup_version:
 
   - id: "21"
@@ -109,7 +109,7 @@ notes_list:
 
   - id: "22"
     location: "2"
-    note: "ICRC, “Agreement between the ICRC and UNESCO on the Protection of cultural property—Q&A,” March 8, 2016, <https://www.icrc.org/en/document/cultural-property-protected-in-armed-conflict>."
+    note: "ICRC, “Agreement between the ICRC and UNESCO on the Protection of Cultural Property—Q&A,” March 8, 2016, <https://www.icrc.org/en/document/cultural-property-protected-in-armed-conflict>."
     popup_version:
 
   - id: "23"
@@ -139,7 +139,7 @@ notes_list:
 
   - id: "28"
     location: "2"
-    note: "UNESCO, “Syria’s Six World Heritage Sites.”"
+    note: "UNESCO, “Syria’s Six World Heritage Sites,” [https://en.unesco.org/news/syria’s-six-world-heritage-sites-placed-list-world-heritage-danger](https://en.unesco.org/news/syria%E2%80%99s-six-world-heritage-sites-placed-list-world-heritage-danger)."
     popup_version:
 
   - id: "29"
@@ -194,75 +194,80 @@ notes_list:
 
   - id: "39"
     location: "2"
-    note: "UNOSAT is a UN program providing satellite imagery through the UN Institute for training and Research (UNITAR). See UNITAR, <https://www.unitar.org/sustainable-development-goals/satellite-analysis-and-applied-research>."
+    note: "UNOSAT is a UN program providing satellite imagery through the UN Institute for Training and Research (UNITAR). See UNITAR, <https://www.unitar.org/sustainable-development-goals/satellite-analysis-and-applied-research>."
     popup_version:
 
   - id: "40"
     location: "2"
-    note: "Mark Kersten, “Prosecuting Crimes against Cultural Property in Northern Mali: Why It Matters,” Justice in Conflict, August 21, 2012, <https://justiceinconflict.org/2012/08/21/prosecuting-crimes-against-cultural-property-in-northern-mali-why-it-matters/>."
+    note: "For the text of the resolution, see United Nations Security Council Resolution 2199 (2015), UN doc. S/RES/2199 (2015), February 12, 2015, <https://daccess-ods.un.org/TMP/3096605.5393219.html>."
     popup_version:
 
   - id: "41"
     location: "2"
-    note: "ICC, “Case Information Sheet: The Prosecutor v. Ahmad Al Faqi Al Mahdi,” doc. no. ICC-PIDS-CIS-MAL-01-08/16_Eng, updated March 20, 2018, <https://www.icc-cpi.int/CaseInformationSheets/Al-MahdiEng.pdf>."
+    note: "Mark Kersten, “Prosecuting Crimes against Cultural Property in Northern Mali: Why It Matters,” Justice in Conflict, August 21, 2012, <https://justiceinconflict.org/2012/08/21/prosecuting-crimes-against-cultural-property-in-northern-mali-why-it-matters/>."
     popup_version:
 
   - id: "42"
     location: "2"
-    note: "See Rome Statute of the International Criminal Court, July 17, 1998, article 8.2.b.ix."
+    note: "ICC, “Case Information Sheet: Situation in the Republic of Mali — *The Prosecutor v. Ahmad Al Faqi Al Mahdi*,” doc. no. ICC-PIDS-CIS-MAL-01-08/16_Eng, updated March 20, 2018, <https://www.icc-cpi.int/CaseInformationSheets/Al-MahdiEng.pdf>."
     popup_version:
 
   - id: "43"
     location: "2"
-    note: "ICC, “The ICC Office of the Prosecutor and UNESCO Sign Letter of Intent to Strengthen Cooperation on the Protection of Cultural Heritage,” press release, November 6, 2017, <https://www.icc-cpi.int/Pages/item.aspx?name=171106_OTP_Unesco>."
+    note: "See Rome Statute of the International Criminal Court, July 17, 1998, article 8.2.b.ix, https://www.icc-cpi.int/resource-library/documents/rs-eng.pdf."
     popup_version:
 
   - id: "44"
     location: "2"
-    note: "UNESCO, “The Bonn Declaration on World Heritage,” <https://whc.unesco.org/document/147735>."
+    note: "ICC, “The ICC Office of the Prosecutor and UNESCO Sign Letter of Intent to Strengthen Cooperation on the Protection of Cultural Heritage,” press release, November 6, 2017, <https://www.icc-cpi.int/Pages/item.aspx?name=171106_OTP_Unesco>."
     popup_version:
 
   - id: "45"
     location: "2"
-    note: "Vatican News, “Document on Human Fraternity for World Peace and Living Together: Full Text,” <https://www.vaticannews.va/en/pope/news/2019-02/pope-francis-uae-declaration-with-al-azhar-grand-imam.html>."
+    note: "UNESCO, “The Bonn Declaration on World Heritage,” <https://whc.unesco.org/document/147735>."
     popup_version:
 
   - id: "46"
     location: "2"
-    note: "UNESCO, “Standing with President Hollande, Vice-President Biden, to Defend Cultural Heritage,” September 21, 2016, [http://www.unesco.org/new/en/media-services/single view/news/standing_with_president_hollande_vice_president_biden_to_d/](http://www.unesco.org/new/en/media-services/single%20view/news/standing_with_president_hollande_vice_president_biden_to_d/)."
+    note: "Vatican News, “Document on Human Fraternity for World Peace and Living Together: Full Text,” <https://www.vaticannews.va/en/pope/news/2019-02/pope-francis-uae-declaration-with-al-azhar-grand-imam.html>."
     popup_version:
 
   - id: "47"
     location: "2"
-    note: "Italian Government and UNESCO, “Memorandum of Understanding between the Government of the Italian Republic and the United Nations Educational, Scientific and Cultural Organization (‘UNESCO’) on the Italian National ‘Task Force in the Framework of UNESCO’s Global Coalition Unite4Heritage” for Initiatives in Favour of Countries Facing Emergencies That May Affect the Protection and Safeguarding of Culture and the Promotion of Cultural Pluralism,” Rome, February 16, 2016, <https://www.beniculturali.it/mibac/multimedia/MiBAC/documents/1455616287505_2._Memorandum_of_Understanding___11_II_2016_DRAFT_Finale_UNESCO_versione_Italia.pdf>."
+    note: "UNESCO, “Standing with President Hollande, Vice-President Biden, to Defend Cultural Heritage,” September 21, 2016, [http://www.unesco.org/new/en/media-services/single view/news/standing_with_president_hollande_vice_president_biden_to_d/](http://www.unesco.org/new/en/media-services/single%20view/news/standing_with_president_hollande_vice_president_biden_to_d/)."
     popup_version:
 
   - id: "48"
     location: "2"
-    note: "Bouclier Bleu, “La Directrice générale de l’UNESCO en visite au Mali avec le président français François Hollande,” March 2013, <http://www.bouclier-bleu.fr/blog/2013/02/03/la-directrice-generale-de-lunesco-en-visite-au-mali-avec-le-president-francais-francois-hollande/>."
+    note: "Italian Government and UNESCO, “Memorandum of Understanding between the Government of the Italian Republic and the United Nations Educational, Scientific and Cultural Organization (‘UNESCO’) on the Italian National ‘Task Force in the Framework of UNESCO’s Global Coalition Unite4Heritage’ for Initiatives in Favor of Countries Facing Emergencies That May Affect the Protection and Safeguarding of Culture and the Promotion of Cultural Pluralism,” Rome, February 16, 2016, <https://www.beniculturali.it/mibac/multimedia/MiBAC/documents/1455616287505_2._Memorandum_of_Understanding___11_II_2016_DRAFT_Finale_UNESCO_versione_Italia.pdf>."
     popup_version:
 
   - id: "49"
     location: "2"
-    note: "For the text of the resolution see <https://www.securitycouncilreport.org/atf/cf/%7B65BFCF9B-6D27-4E9C-8CD3-CF6E4FF96FF9%7D/s_res_2347.pdf>."
+    note: "ONU Info, “Au Mali, Bokova réaffirme l'engagement de l'UNESCO à restaurer le patrimoine culturel du pays,” February 3, 2013, <https://news.un.org/fr/story/2013/02/260882-au-mali-bokova-reaffirme-lengagement-de-lunesco-restaurer-le-patrimoine>."
     popup_version:
 
   - id: "50"
-    location: "3"
-    note: "For the text of the November 2, 2001 declaration, see <http://portal.unesco.org/en/ev.php-URL_ID=13179&URL_DO=DO_TOPIC&URL_SECTION=201.html>."
+    location: "2"
+    note: "For the text of the resolution, see <https://www.securitycouncilreport.org/atf/cf/%7B65BFCF9B-6D27-4E9C-8CD3-CF6E4FF96FF9%7D/s_res_2347.pdf>."
     popup_version:
 
   - id: "51"
     location: "3"
-    note: "CISAC, “CISAC Unveils First Global Map of Cultural and Creative Industries at UNESCO,” December 4, 2015, <https://www.cisac.org/Newsroom/articles/cisac-unveils-first-global-map-cultural-and-creative-industries-unesco>."
+    note: "For the text of the November 2, 2001, declaration, see <http://portal.unesco.org/en/ev.php-URL_ID=13179&URL_DO=DO_TOPIC&URL_SECTION=201.html>."
     popup_version:
 
   - id: "52"
     location: "3"
-    note: "For the text of the document, see <https://whc.unesco.org/uploads/activities/documents/activity-638-98.pdf>."
+    note: "CISAC, “CISAC Unveils First Global Map of Cultural and Creative Industries at UNESCO,” December 4, 2015, <https://www.cisac.org/Newsroom/articles/cisac-unveils-first-global-map-cultural-and-creative-industries-unesco>."
     popup_version:
 
   - id: "53"
+    location: "3"
+    note: "For the text of the document, see <https://whc.unesco.org/uploads/activities/documents/activity-638-98.pdf>."
+    popup_version:
+
+  - id: "54"
     location: "3"
     note: "UNESCO, “2015 Recommendation Concerning the Protection and Promotion of Museums and Collections,” <http://www.unesco.org/new/en/culture/themes/museums/recommendation-on-the-protection-and-promotion-of-museums-and-collections/>."
     popup_version:
