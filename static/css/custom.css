@@ -1,22 +1,22 @@
 :root {
 
   /* Palette:
-    https://coolors.co/gradient-palette/1f4889-040404?number=9
+    https://coolors.co/0b1a32-173464-1f4889-2d68c8-f5f5f5
   */
 
-  --color-dark: #0B1525;
-  --color-dark-rgb: 31,72,137;
+  --color-dark: #0b1a32;
+  --color-dark-rgb: 11,26,50;
   /* --color-dark should be the same value as $off-black in
   themes/quire-starter-theme/source/css/colors.scss */
   /* --color-dark-rgb is the RGB version used for shading
   under the cover type when specified in cover.md with the
   .with-shading class */
 
-  --color-mid-dark: #122647;
+  --color-mid-dark: #173464;
 
-  --color-mid-light: #183768;
+  --color-mid-light: #1f4889;
 
-  --color-light: #1F4889;
+  --color-light: #2d68c8;
   /* --color-light should be the same value as $accent-color in
    themes/quire-starter-theme/source/css/variables.scss */
 
@@ -647,7 +647,7 @@ strong {
   width: 50%;
   padding: 1.5rem 5%;
   margin: 0;
-  background-color: #1F4889;
+  background-color: var(--color-mid-light);
 }
 .quire-page--side-image.quire-page--type-right .quire-cover__hero-body.hero-body {
   margin-left: 50%;
@@ -726,11 +726,9 @@ strong {
     margin-top: 0;
   }
 }
-
 .quire-cover__hero {
-  background-color: var(--color-light);
+  background-color: var(--color-mid-light);
 }
-
 @media screen and (min-width: 900px) {
   .quire-cover__hero .title {
     font-size: 4.675vw; /* 15% reduction */
@@ -738,6 +736,13 @@ strong {
   .quire-cover__hero .subtitle {
     font-size: 2.465vw; /* 15% reduction */
   }
+}
+
+.quire__primary:not(#cover) .quire-progress-bar {
+  background-color: var(--color-mid-light);
+}
+.quire__primary:not(#cover) .quire-progress-bar div {
+  background-color: var(--color-light);
 }
 
 .column-break {
