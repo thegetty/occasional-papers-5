@@ -35,6 +35,8 @@ Molly McGeehan, *Production*<br />
 Leslie Rollins, *Image and Rights Acquisition*<br />
 Audrey Warne, *Digital Assistant*
 
+<div class="column-break"></div>
+
 ISBN 978-1-60606-750-5 (online)<br />
 ISBN 978-1-60606-751-2 (e-book)
 
@@ -54,6 +56,6 @@ Edited by James Cuno and Thomas G. Weiss
 
 ---
 
-Cover:
+Cover: General view showing the remains of the Temple of Bel in Palmyra in March 13, 2016, contrasted with the inset photograph taken by the photographer two years earlier. Islamic State (IS) group jihadists destroyed the historic temple in September 2015. Photo: Joseph Eid/AFP via Getty Images
 
 {{< /q-class >}}

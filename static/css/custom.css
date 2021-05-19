@@ -641,6 +641,10 @@ strong {
 /* SPECIFIC FOR OCCASIONAL PAPERS #4
 ============================================================================= */
 
+.column-break {
+  column-break-after: always;
+}
+
 .quire-contributor__details p {
   margin-bottom: 0 !important;
 }

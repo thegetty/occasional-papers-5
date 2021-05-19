@@ -101,7 +101,6 @@ Edited by James Cuno and Thomas G. Weiss
 
 ---
 
-Cover: *Title*, date, full caption and credit
-
+Cover: General view showing the remains of the Temple of Bel in Palmyra in March 13, 2016, contrasted with the inset photograph taken by the photographer two years earlier. Islamic State (IS) group jihadists destroyed the historic temple in September 2015. Photo: Joseph Eid/AFP via Getty Images
 
 </div>
