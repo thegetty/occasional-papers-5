@@ -3,6 +3,9 @@
   THIS OVERRIDE FILE CHANGES THE LAYOUT OF THE COVER TO MATCH THE
   SERIES DESIGN USED FOR THE FIRST TWO OCCASIONAL PAPERS.
 
+  ALSO ADDS AN OPTION TO KEEP THE TEXT IN IT’S OWN BLOCK BY USING
+  `class: side-image` IN THE COVER.MD FILE. (THIS WAS ADDED FOR OP5)
+
 
   Cover page layout. This controls the home page of the publication.
 */}}
@@ -29,9 +32,13 @@
   {{- if .Params.image -}}
   {{- $imgPath := printf "%s/%s" ($.Scratch.Get "imageDir") .Params.image -}}
     <section class="quire-cover__hero hero is-fullheight">
-      <div class="quire-cover__overlay" style="background-image: url('{{ $imgPath }}');">
+      <div class="quire-cover__overlay"{{ if in .Params.class "side-image" -}}{{ else }} style="background-image: url('{{ $imgPath }}');"{{ end }}>
 
         <div class="quire-cover__hero-shading"></div>
+
+        {{ if in .Params.class "side-image" -}}
+        <div class="quire-cover__hero-side-img" style="background-image: url('{{ $imgPath }}');"></div>
+        {{- end }}
 
         <div class="quire-cover__hero-body hero-body">
 
