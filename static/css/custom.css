@@ -716,6 +716,9 @@ strong {
   .quire-page--side-image.quire-cover .quire-page__content .container.is-fluid .content {
     margin-top: 0;
   }
+
+.column-break {
+  column-break-after: always;
 }
 
 .quire-contributor__details p {
