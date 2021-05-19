@@ -638,7 +638,7 @@ strong {
 }
 
 
-/* SPECIFIC FOR OCCASIONAL PAPERS #4
+/* SPECIFIC FOR OCCASIONAL PAPERS #5
 ============================================================================= */
 
 /* Custom cover to put block of solid color under layout */
@@ -764,4 +764,9 @@ strong {
   #copyright .quire-page__content .container .content hr {
     width: 100%;
   }
+
+  #foreword .quire-page {
+    page-break-before: right;
+  }
+
 }
