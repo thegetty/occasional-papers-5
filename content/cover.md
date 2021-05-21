@@ -4,10 +4,10 @@ weight: 1
 menu: false
 epub: false
 type: cover
-class: type-left
+class: type-left side-image
 slug: .
 toc: false
-image: placeholder.jpg
+image: cover/op5--getty--518421242.jpg
 ---
 
 In 2016, in response to recent attacks on cultural heritage sites in Syria, Iraq, and Timbuktu, the J. Paul Getty Trust convened a meeting at the British Academy in London to discuss the need for an international framework to protect cultural heritage in zones of armed conflict. To further explore these questions, the Trust subsequently launched the *J. Paul Getty Trust Occasional Papers in Cultural Heritage Policy*.

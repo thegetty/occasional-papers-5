@@ -1,22 +1,22 @@
 :root {
 
   /* Palette:
-    https://coolors.co/2f2b0f-5d561d-7c7127-9b8d31-f5f5f5
+    https://coolors.co/0b1a32-173464-1f4889-2d68c8-f5f5f5
   */
 
-  --color-dark: #3E3E3E;
-  --color-dark-rgb: 62,62,62;
+  --color-dark: #0b1a32;
+  --color-dark-rgb: 11,26,50;
   /* --color-dark should be the same value as $off-black in
   themes/quire-starter-theme/source/css/colors.scss */
   /* --color-dark-rgb is the RGB version used for shading
   under the cover type when specified in cover.md with the
   .with-shading class */
 
-  --color-mid-dark: #5B5B5B;
+  --color-mid-dark: #173464;
 
-  --color-mid-light: #767575;
+  --color-mid-light: #1f4889;
 
-  --color-light: #939393;
+  --color-light: #2d68c8;
   /* --color-light should be the same value as $accent-color in
    themes/quire-starter-theme/source/css/variables.scss */
 
@@ -638,8 +638,116 @@ strong {
 }
 
 
-/* SPECIFIC FOR OCCASIONAL PAPERS #4
+/* SPECIFIC FOR OCCASIONAL PAPERS #5
 ============================================================================= */
+
+/* Custom cover to put block of solid color under layout */
+.quire-page--side-image.quire-page--type-left .quire-cover__hero-body.hero-body,
+.quire-page--side-image.quire-page--type-right .quire-cover__hero-body.hero-body {
+  width: 50%;
+  padding: 1.5rem 5%;
+  margin: 0;
+  background-color: var(--color-mid-light);
+}
+.quire-page--side-image.quire-page--type-right .quire-cover__hero-body.hero-body {
+  margin-left: 50%;
+}
+.quire-page--side-image .hero.is-fullheight .hero-body {
+  height: calc(95vh - 4rem);
+}
+.quire-page--side-image .quire-cover__overlay {
+  background-position-x:
+}
+.quire-page--side-image.quire-page--type-left .quire-cover__hero-side-img,
+.quire-page--side-image.quire-page--type-right .quire-cover__hero-side-img {
+  width: 50%;
+  height: calc(95vh - 4rem);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.quire-page--side-image.quire-page--type-left .quire-cover__hero-side-img {
+  float: right;
+}
+.quire-page--side-image.quire-page--type-right .quire-cover__hero-side-img {
+  float: left;
+}
+@media screen and (max-width: 769px) {
+  .quire-page--side-image.quire-page--type-left .quire-cover__hero-body.hero-body,
+  .quire-page--side-image.quire-page--type-right .quire-cover__hero-body.hero-body {
+    width: 100%;
+    height: calc((95vh - 4rem) * .5);
+  }
+  .quire-page--side-image.quire-page--type-left .quire-cover__hero-side-img,
+  .quire-page--side-image.quire-page--type-right .quire-cover__hero-side-img {
+    width: 100%;
+    height: calc((95vh - 4rem) * .5);
+    float: none;
+  }
+  .quire-page--side-image.quire-page--type-right .quire-cover__hero-body.hero-body {
+    margin-left: 0;
+  }
+  .quire-page--side-image .quire-cover__hero .series-info {
+    width: 100%;
+  }
+  .quire-page--side-image .quire-cover__hero .series-info .series-name {
+    width: 40%;
+  }
+  .quire-page--side-image .quire-cover__hero .series-info .series-number-and-date {
+    text-align: right;
+  }
+  .quire-page--side-image .quire-cover__hero .title {
+    max-width: 600px;
+  }
+  .hero.is-fullheight .hero-body {
+    align-items: inherit;
+  }
+}
+@media screen and (max-width: 400px) {
+  .quire-page--side-image .quire-cover__overlay {
+    position: inherit;
+  }
+  .quire-page--side-image.quire-page--type-left .quire-cover__hero-body.hero-body,
+  .quire-page--side-image.quire-page--type-right .quire-cover__hero-body.hero-body {
+    height: auto;
+    position: initial;
+  }
+  .quire-page--side-image .quire-cover__hero .series-info,
+  .quire-page--side-image .quire-cover__hero .title {
+    margin-bottom: 2rem !important;
+  }
+  .quire-page--side-image .quire-cover__hero .series-info .series-name {
+    width: 100%;
+  }
+  .quire-page--side-image .quire-cover__more {
+    display: none;
+  }
+  .quire-page--side-image.quire-cover .quire-page__content .container.is-fluid .content {
+    margin-top: 0;
+  }
+}
+.quire-cover__hero {
+  background-color: var(--color-mid-light);
+}
+@media screen and (min-width: 900px) {
+  .quire-cover__hero .title {
+    font-size: 4.675vw; /* 15% reduction */
+  }
+  .quire-cover__hero .subtitle {
+    font-size: 2.465vw; /* 15% reduction */
+  }
+}
+
+.quire__primary:not(#cover) .quire-progress-bar {
+  background-color: var(--color-mid-light);
+}
+.quire__primary:not(#cover) .quire-progress-bar div {
+  background-color: var(--color-light);
+}
+
+.column-break {
+  column-break-after: always;
+}
 
 .quire-contributor__details p {
   margin-bottom: 0 !important;
@@ -656,4 +764,9 @@ strong {
   #copyright .quire-page__content .container .content hr {
     width: 100%;
   }
+
+  #foreword .quire-page {
+    page-break-before: right;
+  }
+
 }
