@@ -17,7 +17,7 @@ The free online edition of this publication is available at [getty.edu/publicati
 
 ![cc-by-nc](/img/cc-by-nc.png)
 
-The text of this work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of this license, visit [creativecommons.org/licenses/by-nc/4.0/](http://creativecommons.org/licenses/by-nc/4.0/). The cover image is reproduced with the permission of the rights holder acknowledged in the caption and is expressly excluded from the CC BY-NC license covering the rest of this publication. The image may not be reproduced, copied, transmitted, or manipulated without consent from the owner, who reserves all rights.
+The text of this work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of this license, visit [creativecommons.org/licenses/by-nc/4.0/](http://creativecommons.org/licenses/by-nc/4.0/). The cover image is reproduced with the permission of the rights holder acknowledged in the caption and is expressly excluded from the CC&nbsp;BY‑NC license covering the rest of this publication. The image may not be reproduced, copied, transmitted, or manipulated without consent from the owner, who reserves all rights.
 
 First edition, 2021<br />
 [github.com/thegetty/occasional-papers-5/](https://github.com/thegetty/occasional-papers-5/)
