@@ -30,7 +30,7 @@ https://www.getty.edu/publications/occasional-papers-5/
 
 Any revisions or corrections made to this publication after the first edition date will be listed here and in the project repository at [github.com/thegetty/occasional-papers-5/](https://github.com/thegetty/occasional-papers-5/), where a more detailed version history is available. The revisions branch of the project repository, when present, will also show any changes currently under consideration but not yet published here.
 
-### TK (Date Month Day, Year)
+### June 24, 2021
 
   - First edition
 
