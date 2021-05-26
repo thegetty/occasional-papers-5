@@ -42,13 +42,13 @@ ISBN 978-1-60606-751-2 (e-book)
 
 Also in this series:
 
-[“Cultural Cleansing and Mass Atrocities: Protecting Cultural Heritage in Armed Conflict Zones”](http://getty.edu/publications/pdfs/CulturalCleansing_Weiss_Connelly.pdf)<br />
+[“Cultural Cleansing and Mass Atrocities: Protecting Cultural Heritage in Armed Conflict Zones”](https://www.getty.edu/publications/occasional-papers-1/)<br />
 Thomas G. Weiss and Nina Connelly
 
-[“Cultural Genocide and the Protection of Cultural Heritage”](http://getty.edu/publications/pdfs/CulturalGenocide_Luck.pdf)<br />
+[“Cultural Genocide and the Protection of Cultural Heritage”](https://www.getty.edu/publications/occasional-papers-2/)<br />
 Edward C. Luck
 
-[“Conflict and Cultural Heritage: A Moral Analysis of the Challenges of Heritage Protection”](https://occasional-papers-3.netlify.app/)<br />
+[“Conflict and Cultural Heritage: A Moral Analysis of the Challenges of Heritage Protection”](https://www.getty.edu/publications/occasional-papers-3/)<br />
 Helen Frowe and Derek Matravers
 
 [“Cultural Heritage under Siege: Laying the Foundation for a Legal and Political Framework to Protect Cultural Heritage at Risk in Zones of Armed Conflict”](https://www.getty.edu/publications/occasional-papers-4/)<br />
