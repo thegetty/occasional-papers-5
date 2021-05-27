@@ -36,9 +36,10 @@
 
   {{- else -}}
 
+    {{- $noteLink := printf "%s%s" "notes/#fnref:" $noteNumber | relURL -}}
     {{- $noteText := $.Scratch.Get "noteText" -}}
-    <sup class="quire-citation expandable" id="fnref:{{ $noteNumber }}"><span class="quire-citation__button" role="button" tabindex="0" aria-expanded="false">{{ $noteNumber }}</span>
-    <span hidden class="quire-citation__content"><span class="visually-hidden">Citation: </span>{{- markdownify $noteText -}}</span> </sup>
+    <sup class="quire-citation expandable" id="fnref:{{ $noteNumber }}">{{ if eq $.Site.Params.epub true }}<a href="{{ $noteLink }}">{{ $noteNumber }}</a>{{ else }}<span class="quire-citation__button" role="button" tabindex="0" aria-expanded="false">{{ $noteNumber }}</span>
+    <span hidden class="quire-citation__content"><span class="visually-hidden">Citation: </span>{{- markdownify $noteText -}}</span>{{ end }}</sup>
 
   {{- end -}}
 
