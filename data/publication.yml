@@ -128,9 +128,14 @@ resource_link:
 # ------------------------------------------------------------------------------
 
 subject:
-  - type:
-    name:
-    identifer:
+  - type: bisac
+    name: POLITICAL SCIENCE / Public Policy / Cultural Policy
+    identifer: POL038000
+  - type: bisac
+    name: ART / Conservation & Preservation
+    identifer: ART056000
+  - type: keyword
+    name: "cultural heritage, preservation, world heritage, extremism, Unite4Heritage"
 
 # ------------------------------------------------------------------------------
 # Revision History
