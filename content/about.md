@@ -34,11 +34,11 @@ Any revisions or corrections made to this publication after the first edition da
 
   - First edition
 
-## Other Formats (TK)
+## Other Formats
 
-  - [PDF](/downloads/output.pdf)
-  - [EPUB](/downloads/output.epub)
-  - [Kindle/MOBI](/downloads/output.mobi)
+  - [PDF](/downloads/Bokova_UNESCOsResponse.pdf)
+  - [EPUB](/downloads/Bokova_UNESCOsResponse.epub)
+  - [Kindle/MOBI](/downloads/Bokova_UNESCOsResponse.mobi)
 
 ## Copyright
 
