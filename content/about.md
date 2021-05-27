@@ -30,15 +30,15 @@ https://www.getty.edu/publications/occasional-papers-5/
 
 Any revisions or corrections made to this publication after the first edition date will be listed here and in the project repository at [github.com/thegetty/occasional-papers-5/](https://github.com/thegetty/occasional-papers-5/), where a more detailed version history is available. The revisions branch of the project repository, when present, will also show any changes currently under consideration but not yet published here.
 
-### TK (Date Month Day, Year)
+### June 24, 2021
 
   - First edition
 
-## Other Formats (TK)
+## Other Formats
 
-  - [PDF](/downloads/output.pdf)
-  - [EPUB](/downloads/output.epub)
-  - [Kindle/MOBI](/downloads/output.mobi)
+  - [PDF](/downloads/Bokova_UNESCOsResponse.pdf)
+  - [EPUB](/downloads/Bokova_UNESCOsResponse.epub)
+  - [Kindle/MOBI](/downloads/Bokova_UNESCOsResponse.mobi)
 
 ## Copyright
 
@@ -66,7 +66,7 @@ This publication was created using Quire™, a multiformat publishing tool owned
 </svg>
 {{< /q-class >}}
 
-This text of this work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). The cover image is reproduced with the permission of the rights holder acknowledged in the caption and is expressly excluded from the CC BY-NC license covering the rest of this publication. The image may not be reproduced, copied, transmitted, or manipulated without consent from the owner, who reserves all rights.
+This text of this work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/). The cover image is reproduced with the permission of the rights holder acknowledged in the caption and is expressly excluded from the CC&nbsp;BY‑NC license covering the rest of this publication. The image may not be reproduced, copied, transmitted, or manipulated without consent from the owner, who reserves all rights.
 
 **Published by Getty Publications, Los Angeles**<br />
 1200 Getty Center Drive, Suite 500<br />
@@ -86,13 +86,13 @@ ISBN 978-1-60606-751-2 (e-book)
 
 Also in this series:
 
-[“Cultural Cleansing and Mass Atrocities: Protecting Cultural Heritage in Armed Conflict Zones”](http://getty.edu/publications/pdfs/CulturalCleansing_Weiss_Connelly.pdf)<br />
+[“Cultural Cleansing and Mass Atrocities: Protecting Cultural Heritage in Armed Conflict Zones”](https://www.getty.edu/publications/occasional-papers-1/)<br />
 Thomas G. Weiss and Nina Connelly
 
-[“Cultural Genocide and the Protection of Cultural Heritage”](http://getty.edu/publications/pdfs/CulturalGenocide_Luck.pdf)<br />
+[“Cultural Genocide and the Protection of Cultural Heritage”](https://www.getty.edu/publications/occasional-papers-2/)<br />
 Edward C. Luck
 
-[“Conflict and Cultural Heritage: A Moral Analysis of the Challenges of Heritage Protection”](https://occasional-papers-3.netlify.app/)<br />
+[“Conflict and Cultural Heritage: A Moral Analysis of the Challenges of Heritage Protection”](https://www.getty.edu/publications/occasional-papers-3/)<br />
 Helen Frowe and Derek Matravers
 
 [“Cultural Heritage under Siege: Laying the Foundation for a Legal and Political Framework to Protect Cultural Heritage at Risk in Zones of Armed Conflict”](https://www.getty.edu/publications/occasional-papers-4/)<br />
@@ -101,6 +101,6 @@ Edited by James Cuno and Thomas G. Weiss
 
 ---
 
-Cover: General view showing the remains of the Temple of Bel in Palmyra in March 13, 2016, contrasted with the inset photograph taken by the photographer two years earlier. Islamic State (IS) group jihadists destroyed the historic temple in September 2015. Photo: Joseph Eid/AFP via Getty Images
+Cover: The Temple of Bel in Palmyra, March 13, 2016, contrasted with a photograph of the same site taken two years earlier. Photo: Joseph Eid/AFP via Getty Images
 
 </div>

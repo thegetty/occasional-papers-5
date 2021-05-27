@@ -693,9 +693,6 @@ strong {
   .quire-page--side-image .quire-cover__hero .series-info .series-name {
     width: 40%;
   }
-  .quire-page--side-image .quire-cover__hero .series-info .series-number-and-date {
-    text-align: right;
-  }
   .quire-page--side-image .quire-cover__hero .title {
     max-width: 600px;
   }
